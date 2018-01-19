@@ -714,7 +714,7 @@ success_homogeneous:
                     keypoints.reserve(nExpectedCorners);
                 }
             }
-            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 1.0f));
+            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 7.0f));
             total++;
             goto homogeneous;
 success_structured:
@@ -731,7 +731,7 @@ success_structured:
                     keypoints.reserve(nExpectedCorners);
                 }
             }
-            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 1.0f));
+            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 7.0f));
             total++;
             goto structured;
         }
@@ -2916,7 +2916,7 @@ success_homogeneous:
                     keypoints.reserve(nExpectedCorners);
                 }
             }
-            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 1.0f));
+            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 7.0f));
             total++;
             goto homogeneous;
 success_structured:
@@ -2933,7 +2933,7 @@ success_structured:
                     keypoints.reserve(nExpectedCorners);
                 }
             }
-            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 1.0f));
+            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 7.0f));
             total++;
             goto structured;
         }
@@ -4781,7 +4781,7 @@ success_homogeneous:
                     keypoints.reserve(nExpectedCorners);
                 }
             }
-            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 1.0f));
+            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 7.0f));
             total++;
             goto homogeneous;
 success_structured:
@@ -4798,7 +4798,7 @@ success_structured:
                     keypoints.reserve(nExpectedCorners);
                 }
             }
-            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 1.0f));
+            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 7.0f));
             total++;
             goto structured;
         }
@@ -6771,7 +6771,7 @@ static void OAST_9_16(InputArray _img, std::vector<KeyPoint>& keypoints, int thr
                     keypoints.reserve(nExpectedCorners);
                 }
             }
-            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 1.0f));
+            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 7.0f));
             total++;
         }
     }
@@ -7224,7 +7224,7 @@ success_homogeneous:
                     keypoints.reserve(nExpectedCorners);
                 }
             }
-            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 1.0f));
+            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 7.0f));
             total++;
             goto homogeneous;
 success_structured:
@@ -7241,7 +7241,7 @@ success_structured:
                     keypoints.reserve(nExpectedCorners);
                 }
             }
-            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 1.0f));
+            keypoints.push_back(KeyPoint(Point2f((float)x, (float)y), 7.0f));
             total++;
             goto structured;
         }
