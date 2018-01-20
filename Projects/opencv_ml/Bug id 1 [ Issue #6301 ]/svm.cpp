@@ -2186,6 +2186,54 @@ public:
         SvmParams _params;
 
         // check for old naming
+        String svm_type_str = (String)(fn["svm_type"].empty() ? fn["svmType"] : fn["svm_type"]);
+        int svmType =
+            svm_type_str == "C_SVC" ? C_SVC :
+            svm_type_str == "NU_SVC" ? NU_SVC :
+            svm_type_str == "ONE_CLASS" ? ONE_CLASS :
+            svm_type_str == "EPS_SVR" ? EPS_SVR :
+            svm_type_str == "NU_SVR" ? NU_SVR : -1;
+
+        if( svmType < 0 )
+            CV_Error( CV_StsParseError, "Missing or invalid SVM type" );
+
+        FileNode kernel_node = fn["kernel"];
+        if( kernel_node.empty() )
+            CV_Error( CV_StsParseError, "SVM kernel tag is not found" );
+
+        String kernel_type_str = (String)kernel_node["type"];
+        int kernelType =
+            kernel_type_str == "LINEAR" ? LINEAR :
+            kernel_type_str == "POLY" ? POLY :
+            kernel_type_str == "RBF" ? RBF :
+            kernel_type_str == "SIGMOID" ? SIGMOID :
+            kernel_type_str == "CHI2" ? CHI2 :
+            kernel_type_str == "INTER" ? INTER : CUSTOM;
+
+        if( kernelType == CUSTOM )
+            CV_Error( CV_StsParseError, "Invalid SVM kernel type (or custom kernel)" );
+
+        _params.svmType = svmType;
+        _params.kernelType = kernelType;
+        _params.degree = (double)kernel_node["degree"];
+        _params.gamma = (double)kernel_node["gamma"];
+        _params.coef0 = (double)kernel_node["coef0"];
+
+        _params.C = (double)fn["C"];
+        _params.nu = (double)fn["nu"];
+        _params.p = (double)fn["p"];
+        _params.classWeights = Mat();
+
+        FileNode tcnode = fn["term_criteria"];
+        if( !tcnode.empty() )
+        {
+            _params.termCrit.epsilon = (double)tcnode["epsilon"];
+            _params.termCrit.maxCount = (int)tcnode["iterations"];
+            _params.termCrit.type = (_params.termCrit.epsilon > 0 ? TermCriteria::EPS : 0) +
+                                   (_params.termCrit.maxCount > 0 ? TermCriteria::COUNT : 0);
+        }
+        else
+            _params.termCrit = TermCriteria( TermCriteria::EPS + TermCriteria::COUNT, 1000, FLT_EPSILON );
 
         setParams( _params );
     }
