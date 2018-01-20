@@ -1281,6 +1281,7 @@ public:
         @param results Array where the result of the calculation will be written.
         @param flags Flags for defining the type of RTrees.
     */
+    CV_WRAP void getVotes(InputArray samples, OutputArray results, int flags) const;
 
     /** Creates the empty model.
     Use StatModel::train to train the model, StatModel::train to create and train the model,

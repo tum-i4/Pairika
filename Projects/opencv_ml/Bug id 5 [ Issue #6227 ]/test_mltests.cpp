@@ -214,6 +214,7 @@ TEST(ML_RTrees, getVotes)
     Mat test(1, 4, CV_32F);
     Mat result;
     randu(test, 0, 10);
+    rt->getVotes(test, result, 0);
 
     //count vote amount and find highest vote
     count = 0;
