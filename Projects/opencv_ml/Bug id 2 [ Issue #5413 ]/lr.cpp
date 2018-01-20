@@ -429,6 +429,28 @@ struct LogisticRegressionImpl_ComputeDradient_Impl : ParallelLoopBody
     }
 };
 
+void LogisticRegressionImpl::compute_gradient(const Mat& _data, const Mat& _labels, const Mat &_theta, const double _lambda, Mat & _gradient )
+{
+    CV_TRACE_FUNCTION();
+    const int m = _data.rows;
+    Mat pcal_a, pcal_b, pcal_ab;
+
+    const Mat z = _data * _theta;
+
+    CV_Assert( _gradient.rows == _theta.rows && _gradient.cols == _theta.cols );
+
+    pcal_a = calc_sigmoid(z) - _labels;
+    pcal_b = _data(Range::all(), Range(0,1));
+    multiply(pcal_a, pcal_b, pcal_ab, 1);
+
+    _gradient.row(0) = ((float)1/m) * sum(pcal_ab)[0];
+
+    //cout<<"for each training data entry"<<endl;
+    LogisticRegressionImpl_ComputeDradient_Impl invoker(_data, _theta, pcal_a, _lambda, _gradient);
+    cv::parallel_for_(cv::Range(1, _gradient.rows), invoker);
+}
+
+
 Mat LogisticRegressionImpl::batch_gradient_descent(const Mat& _data, const Mat& _labels, const Mat& _init_theta)
 {
     CV_TRACE_FUNCTION();
@@ -458,6 +480,8 @@ Mat LogisticRegressionImpl::batch_gradient_descent(const Mat& _data, const Mat& 
     {
         // this seems to only be called to ensure that cost is not NaN
         compute_cost(_data, _labels, theta_p);
+
+        compute_gradient( _data, _labels, theta_p, llambda, gradient );
 
         theta_p = theta_p - ( static_cast<double>(this->params.alpha)/m)*gradient;
     }
@@ -509,6 +533,8 @@ Mat LogisticRegressionImpl::mini_batch_gradient_descent(const Mat& _data, const 
 
         // this seems to only be called to ensure that cost is not NaN
         compute_cost(data_d, labels_l, theta_p);
+
+        compute_gradient(data_d, labels_l, theta_p, lambda_l, gradient);
 
         theta_p = theta_p - ( static_cast<double>(this->params.alpha)/m)*gradient;
 
