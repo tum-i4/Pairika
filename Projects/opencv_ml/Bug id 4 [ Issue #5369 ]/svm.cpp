@@ -1703,10 +1703,10 @@ public:
                     if( !svm->do_train( temp_train_samples, temp_train_responses ))
                         continue;
 
-                    for (int i = 0; i < train_sample_count; i++)
+                    for( int i = 0; i < test_sample_count; i++ )
                     {
                         int j = sidx[(i+start+train_sample_count) % sample_count];
-                        memcpy(temp_train_samples.ptr(i), samples.ptr(j), sample_size);
+                        memcpy(temp_test_samples.ptr(i), samples.ptr(j), sample_size);
                     }
 
                     svm->predict(temp_test_samples, temp_test_responses, 0);
