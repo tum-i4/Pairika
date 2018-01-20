@@ -25,7 +25,7 @@ public:
     PaddingLayerImpl(const LayerParams &params)
     {
         setParamsFrom(params);
-        paddingValue = abs(params.get<int>("padding"));
+        paddingValue = params.get<float>("value", 0);
         inputDims = params.get<int>("input_dims", -1);
         paddingType = params.get<String>("type", "constant");
 
