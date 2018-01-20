@@ -192,7 +192,7 @@ public:
         }
         else
         {
-            getConvPoolOutParams(Size(inpH, inpW), kernel, stride, padMode, dilation, out);
+            getConvPoolOutParams(Size(inpW, inpH), kernel, stride, padMode, dilation, out);
         }
 
         int ngroups = inpCn / blobs[0].size[1];
