@@ -1420,6 +1420,22 @@ void TFImporter::populateNet(Net dstNet)
             connect(layer_id, dstNet, parsePin(layer.input(1)), id, 0);
             data_layouts[name] = DATA_LAYOUT_UNKNOWN;
         }
+        else if (type == "ResizeNearestNeighbor")
+        {
+            Mat outSize = getTensorContent(getConstBlob(layer, value_id, 1));
+            CV_Assert(outSize.type() == CV_32SC1, outSize.total() == 2);
+
+            layerParams.set("height", outSize.at<int>(0, 0));
+            layerParams.set("width", outSize.at<int>(0, 1));
+
+            if (hasLayerAttr(layer, "align_corners"))
+                layerParams.set("align_corners", getLayerAttr(layer, "align_corners").b());
+
+            int id = dstNet.addLayer(name, "ResizeNearestNeighbor", layerParams);
+            layer_id[name] = id;
+
+            connect(layer_id, dstNet, parsePin(layer.input(0)), id, 0);
+        }
         else if (type == "PriorBox")
         {
             if (hasLayerAttr(layer, "min_size"))
