@@ -1304,6 +1304,12 @@ _Tp* Mat::ptr(const int* idx)
     int i, d = dims;
     uchar* p = data;
 
+    CV_DbgAssert( d >= 1 && p );
+    for( i = 0; i < d; i++ )
+    {
+        CV_DbgAssert( (unsigned)idx[i] < (unsigned)size.p[i] );
+        p += idx[i] * step.p[i];
+    }
     return (_Tp*)p;
 }
 
@@ -1313,6 +1319,12 @@ const _Tp* Mat::ptr(const int* idx) const
     int i, d = dims;
     uchar* p = data;
 
+    CV_DbgAssert( d >= 1 && p );
+    for( i = 0; i < d; i++ )
+    {
+        CV_DbgAssert( (unsigned)idx[i] < (unsigned)size.p[i] );
+        p += idx[i] * step.p[i];
+    }
     return (const _Tp*)p;
 }
 
