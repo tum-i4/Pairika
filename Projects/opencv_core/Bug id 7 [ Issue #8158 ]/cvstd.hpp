@@ -784,7 +784,7 @@ const char* String::begin() const
 inline
 const char* String::end() const
 {
-    return len_ ? cstr_ + 1 : 0;
+    return len_ ? cstr_ + len_ : NULL;
 }
 
 inline
