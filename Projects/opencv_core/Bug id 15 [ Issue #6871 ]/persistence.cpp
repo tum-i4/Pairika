@@ -3414,6 +3414,261 @@ static char* icvJSONParseKey( CvFileStorage* fs, char* ptr, CvFileNode* map, CvF
     return ptr;
 }
 
+static char* icvJSONParseValue( CvFileStorage* fs, char* ptr, CvFileNode* node )
+{
+    ptr = icvJSONSkipSpaces( fs, ptr );
+    if ( ptr == 0 || fs->dummy_eof )
+        CV_PARSE_ERROR( "Unexpected End-Of-File" );
+
+    memset( node, 0, sizeof(*node) );
+
+    if ( *ptr == '"' )
+    {   /* must be string or Base64 string */
+        ptr++;
+        char * beg = ptr;
+        size_t len = 0u;
+        for ( ; (cv_isalnum(*ptr) || *ptr == '$' ) && len <= 9u; ptr++ )
+            len++;
+
+        if ( len >= 8u && memcmp( beg, "$base64$", 8u ) == 0 )
+        {   /**************** Base64 string ****************/
+            ptr = beg += 8;
+
+            std::string base64_buffer;
+            base64_buffer.reserve( PARSER_BASE64_BUFFER_SIZE );
+
+            bool is_matching = false;
+            while ( !is_matching )
+            {
+                switch ( *ptr )
+                {
+                case '\0':
+                {
+                    base64_buffer.append( beg, ptr );
+
+                    ptr = icvGets( fs, fs->buffer_start, static_cast<int>(fs->buffer_end - fs->buffer_start) );
+                    if ( !ptr )
+                        CV_PARSE_ERROR( "'\"' - right-quote of string is missing" );
+
+                    beg = ptr;
+                    break;
+                }
+                case '\"':
+                {
+                    base64_buffer.append( beg, ptr );
+                    beg = ptr;
+                    is_matching = true;
+                    break;
+                }
+                case '\n':
+                case '\r':
+                {
+                    CV_PARSE_ERROR( "'\"' - right-quote of string is missing" );
+                    break;
+                }
+                default:
+                {
+                    ptr++;
+                    break;
+                }
+                }
+            }
+
+            if ( *ptr != '\"' )
+                CV_PARSE_ERROR( "'\"' - right-quote of string is missing" );
+            else
+                ptr++;
+
+            if ( base64_buffer.size() >= base64::ENCODED_HEADER_SIZE )
+            {
+                const char * base64_beg = base64_buffer.data();
+                const char * base64_end = base64_beg + base64_buffer.size();
+
+                /* get dt from header */
+                std::string dt;
+                {
+                    std::vector<char> header(base64::HEADER_SIZE + 1, ' ');
+                    base64::base64_decode(base64_beg, header.data(), 0U, base64::ENCODED_HEADER_SIZE);
+                    if ( !base64::read_base64_header(header, dt) || dt.empty() )
+                        CV_PARSE_ERROR("Invalid `dt` in Base64 header");
+                }
+
+                /* set base64_beg to beginning of base64 data */
+                base64_beg = &base64_buffer.at( base64::ENCODED_HEADER_SIZE );
+
+                if ( base64_buffer.size() > base64::ENCODED_HEADER_SIZE )
+                {
+                    if ( !base64::base64_valid( base64_beg, 0U, base64_end - base64_beg ) )
+                        CV_PARSE_ERROR( "Invalid Base64 data." );
+
+                    /* buffer for decoded data(exclude header) */
+                    std::vector<uchar> binary_buffer( base64::base64_decode_buffer_size(base64_end - base64_beg) );
+                    int total_byte_size = static_cast<int>(
+                        base64::base64_decode_buffer_size( base64_end - base64_beg, base64_beg, false )
+                        );
+                    {
+                        base64::Base64ContextParser parser(binary_buffer.data(), binary_buffer.size() );
+                        const uchar * binary_beg = reinterpret_cast<const uchar *>( base64_beg );
+                        const uchar * binary_end = binary_beg + (base64_end - base64_beg);
+                        parser.read( binary_beg, binary_end );
+                        parser.flush();
+                    }
+
+                    /* save as CvSeq */
+                    int elem_size = ::icvCalcStructSize(dt.c_str(), 0);
+                    if (total_byte_size % elem_size != 0)
+                        CV_PARSE_ERROR("Byte size not match elememt size");
+                    int elem_cnt = total_byte_size / elem_size;
+
+                    /* after icvFSCreateCollection, node->tag == struct_flags */
+                    icvFSCreateCollection(fs, CV_NODE_FLOW | CV_NODE_SEQ, node);
+                    base64::make_seq(binary_buffer.data(), elem_cnt, dt.c_str(), *node->data.seq);
+                }
+                else
+                {
+                    /* empty */
+                    icvFSCreateCollection(fs, CV_NODE_FLOW | CV_NODE_SEQ, node);
+                }
+            }
+            else if ( base64_buffer.empty() )
+            {
+                /* empty */
+                icvFSCreateCollection(fs, CV_NODE_FLOW | CV_NODE_SEQ, node);
+            }
+            else
+            {
+                CV_PARSE_ERROR("Unrecognized Base64 header");
+            }
+        }
+        else
+        {   /**************** normal string ****************/
+            std::string string_buffer;
+            string_buffer.reserve( PARSER_BASE64_BUFFER_SIZE );
+
+            ptr = beg;
+            bool is_matching = false;
+            while ( !is_matching )
+            {
+                switch ( *ptr )
+                {
+                case '\\':
+                {
+                    string_buffer.append( beg, ptr );
+                    ptr++;
+                    switch ( *ptr )
+                    {
+                    case '\\':
+                    case '\"':
+                    case '\'': { string_buffer.append( 1u, *ptr ); break; }
+                    case 'n' : { string_buffer.append( 1u, '\n' ); break; }
+                    case 'r' : { string_buffer.append( 1u, '\r' ); break; }
+                    case 't' : { string_buffer.append( 1u, '\t' ); break; }
+                    case 'b' : { string_buffer.append( 1u, '\b' ); break; }
+                    case 'f' : { string_buffer.append( 1u, '\f' ); break; }
+                    case 'u' : { CV_PARSE_ERROR( "'\\uXXXX' currently not supported" ); }
+                    default  : { CV_PARSE_ERROR( "Invalid escape character" ); }
+                        break;
+                    }
+                    ptr++;
+                    beg = ptr;
+                    break;
+                }
+                case '\0':
+                {
+                    string_buffer.append( beg, ptr );
+
+                    ptr = icvGets( fs, fs->buffer_start, static_cast<int>(fs->buffer_end - fs->buffer_start) );
+                    if ( !ptr )
+                        CV_PARSE_ERROR( "'\"' - right-quote of string is missing" );
+
+                    beg = ptr;
+                    break;
+                }
+                case '\"':
+                {
+                    string_buffer.append( beg, ptr );
+                    beg = ptr;
+                    is_matching = true;
+                    break;
+                }
+                case '\n':
+                case '\r':
+                {
+                    CV_PARSE_ERROR( "'\"' - right-quote of string is missing" );
+                    break;
+                }
+                default:
+                {
+                    ptr++;
+                    break;
+                }
+                }
+            }
+
+            if ( *ptr != '\"' )
+                CV_PARSE_ERROR( "'\"' - right-quote of string is missing" );
+            else
+                ptr++;
+
+            node->data.str = cvMemStorageAllocString
+            (
+                fs->memstorage,
+                string_buffer.c_str(),
+                static_cast<int>(string_buffer.size())
+            );
+            node->tag = CV_NODE_STRING;
+        }
+    }
+    else if ( cv_isdigit(*ptr) || *ptr == '-' || *ptr == '+' || *ptr == '.' )
+    {    /**************** number ****************/
+        char * beg = ptr;
+        if ( *ptr == '+' || *ptr == '-' )
+            ptr++;
+        while( cv_isdigit(*ptr) )
+            ptr++;
+        if (*ptr == '.' || *ptr == 'e')
+        {
+            node->data.f = icv_strtod( fs, beg, &ptr );
+            node->tag = CV_NODE_REAL;
+        }
+        else
+        {
+            node->data.i = static_cast<int>(strtol( beg, &ptr, 0 ));
+            node->tag = CV_NODE_INT;
+        }
+
+        if ( beg >= ptr )
+            CV_PARSE_ERROR( "Invalid numeric value (inconsistent explicit type specification?)" );
+    }
+    else
+    {    /**************** other data ****************/
+        const char * beg = ptr;
+        size_t len = 0u;
+        for ( ; cv_isalpha(*ptr) && len <= 6u; ptr++ )
+            len++;
+
+        if ( len >= 4u && memcmp( beg, "null", 4u ) == 0 )
+        {
+            CV_PARSE_ERROR( "Value 'null' is not supported by this parser" );
+        }
+        else if ( len >= 4u && memcmp( beg, "true", 4u ) == 0 )
+        {
+            node->data.i = 1;
+            node->tag = CV_NODE_INT;
+        }
+        else if ( len >= 5u && memcmp( beg, "false", 5u ) == 0 )
+        {
+            node->data.i = 0;
+            node->tag = CV_NODE_INT;
+        }
+        else
+        {
+            CV_PARSE_ERROR( "Unrecognized value" );
+        }
+    }
+
+    return ptr;
+}
 
 static char* icvJSONParseSeq( CvFileStorage* fs, char* ptr, CvFileNode* node );
 static char* icvJSONParseMap( CvFileStorage* fs, char* ptr, CvFileNode* node );
@@ -3445,6 +3700,8 @@ static char* icvJSONParseSeq( CvFileStorage* fs, char* ptr, CvFileNode* node )
                 ptr = icvJSONParseSeq( fs, ptr, child );
             else if ( *ptr == '{' )
                 ptr = icvJSONParseMap( fs, ptr, child );
+            else
+                ptr = icvJSONParseValue( fs, ptr, child );
         }
 
         ptr = icvJSONSkipSpaces( fs, ptr );
@@ -3502,6 +3759,7 @@ static char* icvJSONParseMap( CvFileStorage* fs, char* ptr, CvFileNode* node )
             if ( child == 0 )
             {   /* type_id */
                 CvFileNode tmp;
+                ptr = icvJSONParseValue( fs, ptr, &tmp );
                 if ( CV_NODE_IS_STRING(tmp.tag) )
                 {
                     node->info = cvFindType( tmp.data.str.ptr );
@@ -3520,7 +3778,8 @@ static char* icvJSONParseMap( CvFileStorage* fs, char* ptr, CvFileNode* node )
                     ptr = icvJSONParseSeq( fs, ptr, child );
                 else if ( *ptr == '{' )
                     ptr = icvJSONParseMap( fs, ptr, child );
-
+                else
+                    ptr = icvJSONParseValue( fs, ptr, child );
                 child->tag |= CV_NODE_NAMED;
             }
         }
