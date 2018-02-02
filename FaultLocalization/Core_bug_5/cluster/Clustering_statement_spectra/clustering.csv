@@ -1,0 +1,7 @@
+Testcase,Cluster,Link
+Core_Pow.accuracy,1,=HYPERLINK("ClusterHitSpectra\Cluster_1HitSpectra.csv")
+Core_sortIdx.regression_8941,1,=HYPERLINK("ClusterHitSpectra\Cluster_1HitSpectra.csv")
+For Cluster 1 Available 2 representative test(s) is/are: 
+	1) Core_Pow.accuracy
+	2) Core_sortIdx.regression_8941
+

@@ -1,0 +1,7 @@
+Testcase,Cluster,Link
+Photo_MergeRobertson.regression,1,=HYPERLINK("ClusterHitSpectra\Cluster_1HitSpectra.csv")
+Photo_CalibrateRobertson.regression,1,=HYPERLINK("ClusterHitSpectra\Cluster_1HitSpectra.csv")
+For Cluster 1 Available 2 representative test(s) is/are: 
+	1) Photo_MergeRobertson.regression
+	2) Photo_CalibrateRobertson.regression
+

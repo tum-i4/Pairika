@@ -1,0 +1,321 @@
+Rank,Block_name,Suspiciousness Value(Dstar4)
+1,seamless_cloning.cpp_seamlessClone_51,2147483647
+1,seamless_cloning_impl.cpp_normalClone_341,2147483647
+2,seamless_cloning_impl.cpp_evaluate_327,27
+2,seamless_cloning_impl.cpp_poisson_305,27
+2,seamless_cloning_impl.cpp_computeGradientX_49,27
+2,seamless_cloning_impl.cpp_computeGradientY_70,27
+2,seamless_cloning_impl.cpp_computeLaplacianX_91,27
+2,seamless_cloning_impl.cpp_computeLaplacianY_99,27
+2,seamless_cloning_impl.cpp_dst_107,27
+2,seamless_cloning_impl.cpp_poissonSolver_220,27
+2,seamless_cloning_impl.cpp_initVariables_242,27
+2,seamless_cloning_impl.cpp_computeDerivatives_264,27
+2,seamless_cloning_impl.cpp_arrayProduct_291,27
+3,seamless_cloning_impl.cpp_solve_160,16,2
+4,denoising.cpp_cvtColor_426,7,36363636363636
+5,test_inpaint.cpp_TEST_119,2,7
+6,tonemap.cpp_for_325,0
+6,test_hdr.cpp_loadImage_48,0
+6,tonemap.cpp_createTonemapMantiuk_551,0
+6,tonemap.cpp_calculateProduct_543,0
+6,tonemap.cpp_calculateSum_527,0
+6,tonemap.cpp_for_519,0
+6,tonemap.cpp_getContrast_512,0
+6,tonemap.cpp_if_506,0
+6,tonemap.cpp_getGradient_501,0
+6,tonemap.cpp_mapContrast_493,0
+6,tonemap.cpp_signedPow_484,0
+6,tonemap.cpp_if_441,0
+6,tonemap.cpp_for_411,0
+6,tonemap.cpp_process_393,0
+6,tonemap.cpp_saturation_389,0
+6,tonemap.cpp_createTonemapReinhard_377,0
+6,tonemap.cpp_bias_118,0
+6,tonemap.cpp_process_296,0
+6,tonemap.cpp_setGamma_84,0
+6,denoising.cpp_fastNlMeansDenoisingMulti_441,0
+6,hdr_common.cpp_mapLuminance_90,0
+6,hdr_common.cpp_for_93,0
+6,tonemap.cpp_gamma_60,0
+6,tonemap.cpp_process_64,0
+6,tonemap.cpp_if_74,0
+6,tonemap.cpp_createTonemap_106,0
+6,tonemap.cpp_color_adapt_292,0
+6,test_hdr.cpp_TEST_90,0
+6,tonemap.cpp_process_122,0
+6,tonemap.cpp_createTonemapDrago_191,0
+6,tonemap.cpp_sigma_space_205,0
+6,tonemap.cpp_process_209,0
+6,tonemap.cpp_createTonemapDurand_279,0
+6,test_hdr.cpp_checkEqual_54,0
+6,align.cpp_computeBitmaps_213,0
+6,align.cpp_cut_58,0
+6,align.cpp_calculateShift_120,0
+6,hdr_common.cpp_checkImageDimensions_50,0
+6,hdr_common.cpp_for_56,0
+6,merge.cpp_wexp_150,0
+6,merge.cpp_process_161,0
+6,merge.cpp_for_176,0
+6,merge.cpp_if_181,0
+6,merge.cpp_cvtColor_183,0
+6,merge.cpp_for_192,0
+6,merge.cpp_for_198,0
+6,merge.cpp_for_206,0
+6,merge.cpp_if_219,0
+6,merge.cpp_for_228,0
+6,merge.cpp_for_237,0
+6,merge.cpp_for_242,0
+6,merge.cpp_for_245,0
+6,test_hdr.cpp_for_146,0
+6,test_hdr.cpp_TEST_129,0
+6,align.cpp_createAlignMTB_277,0
+6,align.cpp_downsample_231,0
+6,align.cpp_for_137,0
+6,align.cpp_for_146,0
+6,align.cpp_for_147,0
+6,align.cpp_if_156,0
+6,align.cpp_shiftMat_168,0
+6,denoising.cpp_fastNlMeansDenoisingColoredMulti_391,0
+6,align.cpp_for_237,0
+6,align.cpp_while_268,0
+6,align.cpp_for_239,0
+6,align.cpp_buildPyr_249,0
+6,align.cpp_for_252,0
+6,align.cpp_getMedian_258,0
+6,align.cpp_getMedian_262,0
+6,align.cpp_getMedian_263,0
+6,denoising.cpp_CV_Error_413,0
+6,denoising.cpp_switch _345,0
+6,test_denoising.cpp_for _112,0
+6,fast_nlmeans_multi_denoising_invoker.hpp_calcDistSumsForElementInFirstRow_324,0
+6,contrast_preserve.hpp_product_124,0
+6,contrast_preserve.hpp_singleChannelGradx_138,0
+6,contrast_preserve.hpp_singleChannelGrady_148,0
+6,contrast_preserve.hpp_gradvector_158,0
+6,contrast_preserve.hpp_colorGrad_182,0
+6,contrast_preserve.hpp_add_vector_212,0
+6,contrast_preserve.hpp_add_to_vector_poly_221,0
+6,contrast_preserve.hpp_weak_order_229,0
+6,contrast_preserve.hpp_grad_system_304,0
+6,contrast_preserve.hpp_wei_update_matrix_344,0
+6,contrast_preserve.hpp_wei_inti_367,0
+6,contrast_preserve.hpp_grayImContruct_394,0
+6,test_decolor.cpp_TEST_51,0
+6,denoise_tvl1.cpp_denoise_TVL1_61,0
+6,denoise_tvl1.cpp_for_71,0
+6,contrast_preserve.hpp_init_112,0
+6,contrast_preserve.hpp_energyCalcu_85,0
+6,contrast_preserve.cpp_decolor_54,0
+6,seamless_cloning_impl.cpp_scalarProduct_281,0
+6,seamless_cloning_impl.cpp_for_124,0
+6,seamless_cloning_impl.cpp_float>_143,0
+6,test_cloning.cpp_TEST_62,0
+6,test_cloning.cpp_TEST_93,0
+6,test_cloning.cpp_TEST_125,0
+6,seamless_cloning.cpp_colorChange_124,0
+6,seamless_cloning_impl.cpp_localColorChange_410,0
+6,test_cloning.cpp_TEST_207,0
+6,test_cloning.cpp_TEST_157,0
+6,seamless_cloning.cpp_illuminationChange_152,0
+6,seamless_cloning_impl.cpp_illuminationChange_422,0
+6,test_cloning.cpp_TEST_183,0
+6,seamless_cloning.cpp_textureFlattening_181,0
+6,seamless_cloning_impl.cpp_textureFlatten_455,0
+6,denoise_tvl1.cpp_for_78,0
+6,denoise_tvl1.cpp_for_110,0
+6,denoise_tvl1.cpp_for_128,0
+6,denoising.cpp_fastNlMeansDenoisingMulti__253,0
+6,denoising.cpp_ab_202,0
+6,denoising.cpp_fastNlMeansDenoising_208,0
+6,test_denoising.cpp_for _82,0
+6,test_denoising.cpp_for _97,0
+6,arrays.hpp_ _166,0
+6,denoising.cpp_fastNlMeansDenoisingMultiCheckPreconditions_219,0
+6,denoising.cpp_fastNlMeansDenoisingMulti_317,0
+6,denoising.cpp_fastNlMeansDenoisingColored_176,0
+6,denoising.cpp_fastNlMeansDenoisingMulti_328,0
+6,npr.hpp_find_magnitude_135,0
+6,denoising.cpp_switch _347,0
+6,fast_nlmeans_multi_denoising_invoker.hpp_extended_srcs__107,0
+6,fast_nlmeans_multi_denoising_invoker.hpp_ _161,0
+6,fast_nlmeans_multi_denoising_invoker.hpp_calcDistSumsForFirstElementInRow_282,0
+6,denoising.cpp_ab_201,0
+6,test_denoising.cpp_if _62,0
+6,denoise_tvl1.cpp_for_139,0
+6,denoising.cpp_fastNlMeansDenoising_106,0
+6,test_denoise_tvl1.cpp_make_noisy_44,0
+6,test_denoise_tvl1.cpp_validate_pixel_71,0
+6,test_denoise_tvl1.cpp_TEST_78,0
+6,arrays.hpp_ _119,0
+6,denoising.cpp_fastNlMeansDenoising__51,0
+6,denoising.cpp_switch _55,0
+6,denoising.cpp_fastNlMeansDenoising_115,0
+6,test_denoising.cpp_if _61,0
+6,denoising.cpp_switch _132,0
+6,denoising.cpp_switch _139,0
+6,fast_nlmeans_denoising_invoker.hpp_dst__109,0
+6,fast_nlmeans_denoising_invoker.hpp_ _150,0
+6,fast_nlmeans_denoising_invoker.hpp_calcDistSumsForFirstElementInRow_262,0
+6,fast_nlmeans_denoising_invoker.hpp_calcDistSumsForElementInFirstRow_296,0
+6,merge.cpp_if_249,0
+6,test_npr.cpp_TEST_127,0
+6,merge.cpp_createMergeMertens_298,0
+6,inpaint.cpp_float)_378,0
+6,inpaint.cpp_if _363,0
+6,inpaint.cpp_float)_365,0
+6,inpaint.cpp_if _369,0
+6,inpaint.cpp_if _370,0
+6,inpaint.cpp_float)_372,0
+6,inpaint.cpp_float)_375,0
+6,inpaint.cpp_if _376,0
+6,inpaint.cpp_icvNSInpaintFMM_518,0
+6,inpaint.cpp_float)_359,0
+6,inpaint.cpp_if _522,0
+6,inpaint.cpp_while _524,0
+6,inpaint.cpp_for_527,0
+6,inpaint.cpp_ _528,0
+6,inpaint.cpp_if_529,0
+6,inpaint.cpp_if_530,0
+6,inpaint.cpp_if_531,0
+6,inpaint.cpp_float)_362,0
+6,inpaint.cpp_if _356,0
+6,inpaint.cpp_for _541,0
+6,inpaint.cpp_float)_322,0
+6,inpaint.cpp_if_299,0
+6,inpaint.cpp_if _302,0
+6,inpaint.cpp_for _309,0
+6,inpaint.cpp_if _313,0
+6,inpaint.cpp_float)_316,0
+6,inpaint.cpp_float)_319,0
+6,inpaint.cpp_if _320,0
+6,inpaint.cpp_if _326,0
+6,inpaint.cpp_if _343,0
+6,inpaint.cpp_if _327,0
+6,inpaint.cpp_float)_329,0
+6,inpaint.cpp_float)_332,0
+6,inpaint.cpp_if _333,0
+6,inpaint.cpp_float)_335,0
+6,inpaint.cpp_for _339,0
+6,inpaint.cpp_for _341,0
+6,inpaint.cpp_if _534,0
+6,inpaint.cpp_for _545,0
+6,inpaint.cpp_if_297,0
+6,npr.hpp_compute_boxfilter_217,0
+6,npr.cpp_edgePreservingFilter_53,0
+6,npr.hpp_diffx_74,0
+6,npr.hpp_diffy_89,0
+6,npr.hpp_compute_Rfilter_173,0
+6,npr.hpp_init_398,0
+6,npr.hpp_filter_479,0
+6,test_npr.cpp_TEST_53,0
+6,npr.hpp_compute_NCfilter_308,0
+6,inpaint.cpp_inpaint_844,0
+6,test_npr.cpp_TEST_71,0
+6,npr.cpp_detailEnhance_77,0
+6,test_npr.cpp_TEST_89,0
+6,npr.cpp_pencilSketch_124,0
+6,npr.hpp_pencil_sketch_534,0
+6,test_npr.cpp_TEST_106,0
+6,npr.cpp_stylization_150,0
+6,test_inpaint.cpp_run_64,0
+6,inpaint.cpp_CV_Error_837,0
+6,inpaint.cpp_for _547,0
+6,inpaint.cpp_if _571,0
+6,inpaint.cpp_if _549,0
+6,inpaint.cpp_if _557,0
+6,inpaint.cpp_if _558,0
+6,inpaint.cpp_float)_561,0
+6,inpaint.cpp_float)_564,0
+6,inpaint.cpp_if _565,0
+6,inpaint.cpp_float)_567,0
+6,inpaint.cpp_if _572,0
+6,inpaint.cpp_if _822,0
+6,inpaint.cpp_float)_575,0
+6,inpaint.cpp_float)_578,0
+6,inpaint.cpp_if _579,0
+6,inpaint.cpp_float)_581,0
+6,inpaint.cpp_if _589,0
+6,inpaint.cpp_if _591,0
+6,inpaint.cpp_cvInpaint_734,0
+6,inpaint.cpp_if_298,0
+6,inpaint.cpp_ _296,0
+6,test_hdr.cpp_loadExposureSeq_62,0
+6,calibrate.cpp_w_60,0
+6,merge.cpp_weight_308,0
+6,merge.cpp_process_312,0
+6,merge.cpp_if_330,0
+6,merge.cpp_for_339,0
+6,merge.cpp_process_351,0
+6,merge.cpp_createMergeRobertson_363,0
+6,test_hdr.cpp_TEST_206,0
+6,calibrate.cpp_process_64,0
+6,hdr_common.cpp_linearResponse_102,0
+6,calibrate.cpp_if_89,0
+6,calibrate.cpp_for_100,0
+6,calibrate.cpp_for_101,0
+6,calibrate.cpp_if_102,0
+6,calibrate.cpp_for_117,0
+6,calibrate.cpp_for_125,0
+6,calibrate.cpp_for_126,0
+6,hdr_common.cpp_for_104,0
+6,hdr_common.cpp_for_81,0
+6,calibrate.cpp_createCalibrateDebevec_198,0
+6,merge.cpp_for_98,0
+6,test_hdr.cpp_while_67,0
+6,test_hdr.cpp_TEST_157,0
+6,hdr_common.cpp_triangleWeights_63,0
+6,hdr_common.cpp_for_67,0
+6,merge.cpp_weights_56,0
+6,merge.cpp_process_60,0
+6,merge.cpp_if_80,0
+6,merge.cpp_for_103,0
+6,hdr_common.cpp_RobertsonWeights_74,0
+6,merge.cpp_for_112,0
+6,merge.cpp_for_118,0
+6,merge.cpp_createMergeDebevec_138,0
+6,test_hdr.cpp_loadResponseCSV_77,0
+6,test_hdr.cpp_for_80,0
+6,test_hdr.cpp_for_81,0
+6,test_hdr.cpp_TEST_183,0
+6,calibrate.cpp_for_142,0
+6,test_hdr.cpp_TEST_226,0
+6,inpaint.cpp_for_295,0
+6,inpaint.cpp_if_257,0
+6,inpaint.cpp_FastMarching_solve_217,0
+6,inpaint.cpp_icvCalcFMM_243,0
+6,inpaint.cpp_while _247,0
+6,inpaint.cpp_for _252,0
+6,inpaint.cpp_ _254,0
+6,inpaint.cpp_if_255,0
+6,inpaint.cpp_if_256,0
+6,inpaint.cpp_if _260,0
+6,inpaint.cpp_if _127,0
+6,inpaint.cpp_if _272,0
+6,inpaint.cpp_for _273,0
+6,inpaint.cpp_for_274,0
+6,inpaint.cpp_if _275,0
+6,inpaint.cpp_icvTeleaInpaintFMM_286,0
+6,inpaint.cpp_if _290,0
+6,inpaint.cpp_while _292,0
+6,inpaint.cpp_Push_135,0
+6,inpaint.cpp_for _126,0
+6,calibrate.cpp_weight_210,0
+6,calibrate.cpp_for_255,0
+6,calibrate.cpp_process_214,0
+6,calibrate.cpp_for_234,0
+6,calibrate.cpp_for_236,0
+6,calibrate.cpp_for_237,0
+6,calibrate.cpp_for_245,0
+6,calibrate.cpp_for_251,0
+6,calibrate.cpp_for_254,0
+6,calibrate.cpp_for_261,0
+6,inpaint.cpp_for _125,0
+6,calibrate.cpp_for_263,0
+6,calibrate.cpp_if_269,0
+6,calibrate.cpp_createCalibrateRobertson_307,0
+6,test_hdr.cpp_TEST_245,0
+6,inpaint.cpp_Init_92,0
+6,inpaint.cpp_for _109,0
+6,inpaint.cpp_Add_123,0
+6,merge.cpp_for_256,0

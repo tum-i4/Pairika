@@ -1,0 +1,9 @@
+Testcase,Cluster,Link
+Photo_SeamlessClone_normal.regression,1,=HYPERLINK("ClusterHitSpectra\Cluster_1HitSpectra.csv")
+Photo_SeamlessClone_mixed.regression,1,=HYPERLINK("ClusterHitSpectra\Cluster_1HitSpectra.csv")
+Photo_SeamlessClone_featureExchange.regression,1,=HYPERLINK("ClusterHitSpectra\Cluster_1HitSpectra.csv")
+For Cluster 1 3 representative test(s) is/are: 
+	1) Photo_SeamlessClone_normal.regression
+	2) Photo_SeamlessClone_featureExchange.regression
+	3) Photo_SeamlessClone_mixed.regression
+
