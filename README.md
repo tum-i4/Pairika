@@ -3,6 +3,8 @@ Pairika is a failure diagnosis benchmark for C++ programs which contains 40 bugs
 
 ## Table of Contents
   - [Pairika Wiki](https://github.com/tum-i22/Pairika/wiki/Pairika-WiKi)
+    - [Build OpenCV using CMake](https://github.com/tum-i22/Pairika/wiki/Pairika-WiKi#build-opencv-using-cmake-on-windows)
+    - [Failure Diagnosis In a Nutshell](https://github.com/tum-i22/Pairika/wiki/Pairika-WiKi#failure-diagnosis-in-a-nutshell)
   - [OpenCV Reproduceable Bugs](#opencv-reproduceable-bugs)
     - [Machine Learning](#machine-learning-ml-module)
     - [The Core Functionality](#the-core-functionality-core-module)
