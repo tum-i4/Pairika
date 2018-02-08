@@ -1,5 +1,7 @@
 # Bug classification in OpenCV
 
+Pirika Wiki page can be found in [here](https://github.com/tum-i22/Pairika/wiki/Pairika-WiKi).
+
 ## Machine Learning (ml module)
   Bug id |Issue No | Buggy | Fixed | Diff | Version | Failed Tests <br> Number  | Type | Issue <br> Registered | Issue <br> Resolved | 
  :-------:|:-------:|:-----:|:-----:|:----:|:-------:|:------------------------:|:----:|:---------------------:|:-------------------:|
