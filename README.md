@@ -1,8 +1,24 @@
-# Bug classification in OpenCV
+# A Failure Diagnosis Benchmark for C++
+Pairika is a failure diagnosis benchmark for C++ programs which contains 40 bugs extracted from 7 out of 52 modules of OpenCV project with more than 490K Lines of Codes and 11129 tests. Each bug is accompanied by at least one failing test. We publish Pairika to facilitate and stimulate further research on automated failure diagnosis techniques.
 
-Pirika Wiki page can be found in [here](https://github.com/tum-i22/Pairika/wiki/Pairika-WiKi).
+## Table of Contents
+  - [Pairika Wiki](https://github.com/tum-i22/Pairika/wiki/Pairika-WiKi)
+  - [OpenCV Reproduceable Bugs](#opencv-reproduceable-bugs)
+    - [Machine Learning](#machine-learning-ml-module)
+    - [The Core Functionality](#the-core-functionality-core-module)
+    - [Deep Neural Networks](#deep-neural-networks-dnn-module)
+    - [Computational Photography](#computational-photography-photo-module)
+    - [Camera Calibration and 3D Reconstruction](camera-calibration-and-3d-reconstruction-calib3d-module)
+    - [2D Features Framework](#2d-features-framework-feature2d-module)
+    - [Video Analysis](#video-analysis-video-module)
+  - [OpenCV Bug Complexity](#opencv-bug-complexity)
 
-## Machine Learning (ml module)
+## OpenCV Reproduceable Bugs
+OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library. The library is written in C and C++ and runs under Linux, Windows and Mac OS X. It has 52 modules and more than 2500 optimized algorithms. Opencv has an [issue traking](https://github.com/opencv/opencv/issues) system. We reviewed the closed issues from 7 modules that were labeled as [*Bug*](https://github.com/opencv/opencv/issues?q=is%3Aissue+label%3Abug+is%3Aclosed) or [*Feature*](https://github.com/opencv/opencv/issues?q=is%3Aissue+label%3Afeature+is%3Aclosed). Among the reviewed issues we could extract 40 reproducible bugs that each yields at least one failing test.
+
+[*Read more about OpenCV modules*](https://docs.opencv.org/3.4.0/).
+
+### Machine Learning (ml module)
   Bug id |Issue No | Buggy | Fixed | Diff | Version | Failed Tests <br> Number  | Type | Issue <br> Registered | Issue <br> Resolved | 
  :-------:|:-------:|:-----:|:-----:|:----:|:-------:|:------------------------:|:----:|:---------------------:|:-------------------:|
 1 | [#6301](https://github.com/opencv/opencv/issues/6301) | [Buggy](https://github.com/tum-i22/CBugPP/blob/c15d2336f4a501e6d46dbb53b980e588b96a6149/Projects/opencv_ml/Bug%20id%201%20%5B%20Issue%20%236301%20%5D/svm.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_ml/Bug%20id%201%20%5B%20Issue%20%236301%20%5D/svm.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/cb621d1ebd3f724b9a885858b46371902ccb33ca) | [3.3.1](https://github.com/opencv/opencv/tree/3.3.1) | 2 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_ml/Bug_id_1_%5B%236301%5D_tear-down.png)] | Feature | Mar 19, 2016 | May 22, 2016 |
@@ -11,7 +27,7 @@ Pirika Wiki page can be found in [here](https://github.com/tum-i22/Pairika/wiki/
 4 | [#5369](https://github.com/opencv/opencv/issues/5369) | [Buggy](https://github.com/tum-i22/CBugPP/blob/a91ef25eb1aebb997e2bcf19d90bd45cd9e688a8/Projects/opencv_ml/Bug%20id%204%20%5B%20Issue%20%235369%20%5D/svm.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_ml/Bug%20id%204%20%5B%20Issue%20%235369%20%5D/svm.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/ebc0058589f5f8fa754b648ff159daf9cd32a596) | [3.3.1](https://github.com/opencv/opencv/tree/3.3.1) | 1 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_ml/Bug_id_4_%5B%235369%5D_tear-down.png)] | Bug | Sep 19, 2015 | Dec 9, 2015 |
 5 | [#6227](https://github.com/opencv/opencv/issues/6227) | [Buggy](https://github.com/tum-i22/CBugPP/tree/988ebe66d831d230a131a0b8d288813a2dcc3134/Projects/opencv_ml/Bug%20id%205%20%5B%20Issue%20%236227%20%5D) | [Fixed](https://github.com/tum-i22/CBugPP/tree/master/Projects/opencv_ml/Bug%20id%205%20%5B%20Issue%20%236227%20%5D) | [Diff](https://github.com/tum-i22/CBugPP/commit/f6384457554d2a58cbdea1c287b35706c3ecc550) | [3.3.1](https://github.com/opencv/opencv/tree/3.3.1) | 1 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_ml/Bug_id_5_%5B%236227%5D_tear-down.png)] | Feature | Mar 9, 2016 | Mar 2, 2017 |
 
-## The Core Functionality (core module)
+### The Core Functionality (core module)
   Bug id |Issue No | Buggy | Fixed | Diff | Version | Failed Tests <br> Number  | Type | Issue <br> Registered | Issue <br> Resolved | 
  :-------:|:-------:|:-----:|:-----:|:----:|:-------:|:------------------------:|:----:|:---------------------:|:-------------------:|
 1 | [#6871](https://github.com/opencv/opencv/issues/6871) | [Buggy](https://github.com/tum-i22/CBugPP/blob/12cc993462b79e21f91850b4e3820d5276c06df4/Projects/opencv_core/Bug%20id%201%20%5B%20Issue%20%236871%20%5D/persistence.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_core/Bug%20id%201%20%5B%20Issue%20%236871%20%5D/persistence.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/6fb09490cde861de9357a2acd592fb2ea023f9a5) | [3.4.0](https://github.com/opencv/opencv/tree/3.4.0) | 21 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_core/Bug_id_1_%5B%236871%5D_tear-down.png)] | Feature | Jul 9, 2016 | Nov 21, 2016 |
@@ -31,7 +47,7 @@ Pirika Wiki page can be found in [here](https://github.com/tum-i22/Pairika/wiki/
 15 | [#6871](https://github.com/opencv/opencv/issues/6871) | [Buggy](https://github.com/tum-i22/CBugPP/blob/16bf86f780727f274e95091ef82c3478694ad59b/Projects/opencv_core/Bug%20id%2015%20%5B%20Issue%20%236871%20%5D/persistence.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_core/Bug%20id%2015%20%5B%20Issue%20%236871%20%5D/persistence.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/66ba37c6f19e88ee4d400eb95329c9efb3dd39ae) |[3.4.0](https://github.com/opencv/opencv/tree/3.4.0) | 8 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_core/Bug_id_15_%5B%236871%5D_tear-down.png)] | Feature | Jul 9, 2016 | Nov 21, 2016 |
 
 
-## Deep Neural Networks (dnn module)
+### Deep Neural Networks (dnn module)
   Bug id |Issue No | Buggy | Fixed | Diff | Version | Failed Tests <br> Number  | Type | Issue <br> Registered | Issue <br> Resolved | 
  :-------:|:-------:|:-----:|:-----:|:----:|:-------:|:------------------------:|:----:|:---------------------:|:-------------------:|
 1 | [#10065](https://github.com/opencv/opencv/issues/10065) | [Buggy](https://github.com/tum-i22/CBugPP/blob/ef90d77fb5278c584a5397219fc9a9b338ad0809/Projects/opencv_dnn/Bug%20id%201%20%5B%20Issue%20%2310065%20%5D/tf_importer.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_dnn/Bug%20id%201%20%5B%20Issue%20%2310065%20%5D/tf_importer.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/fd0fd112b602bce715def80fc492df0c3231e11d#diff-d9712208ab700676957dc2e95f6b3d79) | [3.4.0](https://github.com/opencv/opencv/tree/3.4.0) | 1 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_dnn/Bug_id_1_%5B%2310065%5D_tear-down.png)] | Bug | Nov 10, 2017 | Dec 22, 2017 |
@@ -48,8 +64,7 @@ Pirika Wiki page can be found in [here](https://github.com/tum-i22/Pairika/wiki/
 12 | [#9353](https://github.com/opencv/opencv/issues/9353) | [Buggy](https://github.com/tum-i22/CBugPP/blob/924598378d192a09b441dfe00e9b4aa78cc97cd2/Projects/opencv_dnn/Bug%20id%2012%20%5B%20Issue%20%239353%20%5D/tf_importer.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_dnn/Bug%20id%2012%20%5B%20Issue%20%239353%20%5D/tf_importer.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/51bd261bc28a3bebc4b2aa25bb4a5e4564a87e02) | [3.4.0](https://github.com/opencv/opencv/tree/3.4.0) | 1 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_dnn/Bug_id_12_%5B%239353%5D_tear-down.png)] | Feature | Aug 12, 2017 | Oct 6, 2017 |
 13 | [#9137](https://github.com/opencv/opencv/issues/9137) | [Buggy](https://github.com/tum-i22/CBugPP/blob/b4155adffe321a652f40cbac9de2d6642dbacaec/Projects/opencv_dnn/Bug%20id%2013%20%5B%20Issue%20%239137%20%5D/tf_importer.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_dnn/Bug%20id%2013%20%5B%20Issue%20%239137%20%5D/tf_importer.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/4dabceeab99e8197f0db20b3ca8ece72844a7c03) | [3.3.1](https://github.com/opencv/opencv/tree/3.3.1) | 11 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_dnn/Bug_id_13_%5B%239137%5D_tear-down.png)] | Bug |  Jul 11, 2017 | Sep 5, 2017 |
 
-
-## Computational photography (photo module)
+### Computational Photography (photo module)
   Bug id |Issue No | Buggy | Fixed | Diff | Version | Failed Tests <br> Number  | Type | Issue <br> Registered | Issue <br> Resolved | 
  :-------:|:-------:|:-----:|:-----:|:----:|:-------:|:------------------------:|:----:|:---------------------:|:-------------------:|
  1 | [#8706](https://github.com/opencv/opencv/issues/8706) | [Buggy](https://github.com/tum-i22/CBugPP/blob/cc5570a8403ce9bda2101bc29f9cc36c917f90d6/Projects/opencv_photo/Bug%20id%201%20%5B%20Issue%20%238706%20%5D/hdr_common.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_photo/Bug%20id%201%20%5B%20Issue%20%238706%20%5D/hdr_common.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/4fa31387912fe0c54a159a04ddb26b5c42eb22ff) | [3.3.1](https://github.com/opencv/opencv/tree/3.3.1) | 2 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_photo/Bug_id_1_%5B%238706%5D_tear-down.png)] | Bug |  May 9, 2017 | May 24, 2017 |
@@ -57,18 +72,75 @@ Pirika Wiki page can be found in [here](https://github.com/tum-i22/Pairika/wiki/
   3 | [#4542](https://github.com/opencv/opencv/issues/4542) | [Buggy](https://github.com/tum-i22/CBugPP/blob/d03ac805ee79778aa4f3a06478abe55cd9ba4161/Projects/opencv_photo/Bug%20id%203%20%5B%20Issue%20%234542%20%5D/inpaint.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_photo/Bug%20id%203%20%5B%20Issue%20%234542%20%5D/inpaint.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/1d2ceb63ec928f9dd7cd9a98365ddab6e5302ded) | [3.3.1](https://github.com/opencv/opencv/tree/3.3.1) | 2 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_photo/Bug_id_3_%5B%234542%5D_tear-down.png)] | Feature |  Jul 27, 2015 | May 24, 2017 |
 
 
-## Camera calibration and 3D reconstruction (calib3d module)
+### Camera Calibration and 3D Reconstruction (calib3d module)
   Bug id |Issue No | Buggy | Fixed | Diff | Version | Failed Tests <br> Number  | Type | Issue <br> Registered | Issue <br> Resolved | 
  :-------:|:-------:|:-----:|:-----:|:----:|:-------:|:------------------------:|:----:|:---------------------:|:-------------------:|
  1 | [#6388](https://github.com/opencv/opencv/issues/6388) | [Buggy](https://github.com/tum-i22/CBugPP/blob/5739610eb291f0a706500351d6484d56b6936baa/Projects/opencv_calib3d/Bug%20id%201%20%5B%20Issue%20%236388%20%5D/fisheye.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_calib3d/Bug%20id%201%20%5B%20Issue%20%236388%20%5D/fisheye.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/2e5e20abf62286361abf458f1226d5b06ad91baa) | [3.3.1](https://github.com/opencv/opencv/tree/3.3.1) | 1 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/e9ff73dd7deef099e4ee66b919c381e11143b797/Assets/opencv_calib3d/Bug_id_1_%5B%236388%5D_tear-down.png)] | Feature |  Apr 12, 2016 | Aug 2, 2016 |
  2 | [#10184](https://github.com/opencv/opencv/issues/10184) | [Buggy](https://github.com/tum-i22/CBugPP/blob/00c1984121ffe20c726246e987258f201a0e2810/Projects/opencv_calib3d/Bug%20id%202%20%5B%20Issue%20%2310184%20%5D/solvepnp.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_calib3d/Bug%20id%202%20%5B%20Issue%20%2310184%20%5D/solvepnp.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/5252d3dec96f5653d46fb076c3ee4d7da2781488) | [3.4.0](https://github.com/opencv/opencv/tree/3.4.0) | 1 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_calib3d/Bug_id_2_%5B%2310184%5D_tear-down.png)] | Feature |  Nov 29, 2017 | Nov 29, 2017 |
  
- ## 2D Features framework (feature2d module)
+ ### 2D Features Framework (feature2d module)
    Bug id |Issue No | Buggy | Fixed | Diff | Version | Failed Tests <br> Number  | Type | Issue <br> Registered | Issue <br> Resolved | 
  :-------:|:-------:|:-----:|:-----:|:----:|:-------:|:------------------------:|:----:|:---------------------:|:-------------------:|
  1 | [#6240](https://github.com/opencv/opencv/issues/6240) | [Buggy](https://github.com/tum-i22/CBugPP/blob/f2cf18bbdfa25257d941ed9ba4fbb395ac3b695b/Projects/opencv_feature2d/Bug%20id%201%20%5B%20Issue%20%236240%20%5D/agast.cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_feature2d/Bug%20id%201%20%5B%20Issue%20%236240%20%5D/agast.cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/e4b02842d25d7e1b37da080ebcdd40937963e40d) | [3.4.0](https://github.com/opencv/opencv/tree/3.4.0) | 2 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_features2d/Bug_id_1_%5B%236240%5D_tear-down.PNG)] | Feature |  Mar 12, 2016 | Mar 12, 2016 |
  
- ## Video analysis (video module)
+ ### Video Analysis (video module)
   Bug id |Issue No | Buggy | Fixed | Diff | Version | Failed Tests <br> Number  | Type | Issue <br> Registered | Issue <br> Resolved | 
 :-------:|:-------:|:-----:|:-----:|:----:|:-------:|:------------------------:|:----:|:---------------------:|:-------------------:|
 1 | [#8608](https://github.com/opencv/opencv/issues/8608) | [Buggy](https://github.com/tum-i22/CBugPP/blob/198c3d55b3e281509631ba77ac2c1fab6803a803/Projects/opencv_video/Bug%20id%201%20%5B%20Issue%20%238608%20%5D/lkpyramid..cpp) | [Fixed](https://github.com/tum-i22/CBugPP/blob/master/Projects/opencv_video/Bug%20id%201%20%5B%20Issue%20%238608%20%5D/lkpyramid..cpp) | [Diff](https://github.com/tum-i22/CBugPP/commit/dd3f2f79bbb55c07c205a801ae67d50edb954981) | [3.3.1](https://github.com/opencv/opencv/tree/3.3.1) | 2 [[Details](https://raw.githubusercontent.com/tum-i22/CBugPP/master/Assets/opencv_video/Bug_id_1_%5B%238608%5D_tear-down.png)] | Bug |  Apr 19, 2017 | May 4, 2017 |
+
+## OpenCV Bug Complexity
+The following metrics are defined to measure the complexity of a fix:
+  - Changed Functions of code (CFuoC)
+  - Changed Lines of Code (CLoC)
+  - Changed Files of Code (CFioC)
+  - Bug Fixing Life Span (BFLS)
+  - Number of Participants (NoP)
+  - Number of Failing Tests (NoFT)
+
+We measured the aforementioned metrics for all the bugs we found in 7 modules.
+
+  Bug id | CFuoC | CLoC | CFioC | BFLS | NoP | NoFT |
+  :-----:|:-----:|:----:|:----:|:----:|:---:|:----:|
+  ml1 | 0 | 48 | 1 | 64 | 3 | 2 |
+  ml2 | 2 | 26 | 1 | 86 | 5 | 2 |
+  ml3 | 1 | 1 | 1 | 4 | 2 | 1 |
+  ml4 | 1 | 2 | 1 | 81 | 3 | 1|
+  ml5 | 4 | 3 | 3 | 358 | 4 | 1 |
+  core1 | 2 | 654 | 1 | 135 | 2 | 21 |
+  core2 | 1 | 1 | 1 | 24 | 2 | 1 |
+  core3 | 1 | 12 | 1 | 26 | 2 | 2 |
+  core4 | 1 | 17 | 1 | 1 | 2 | 2 |
+  core5 | 2 | 6 | 1 | 3 | 2 | 2 |
+  core6 | 2 | 14 | 2 | 6 | 2 | 2 |
+  core7 | 1 | 1 | 1 | 0 | 2 | 1 |
+  core8 | 1 | 20 | 1 | 22 | 2 | 1 |
+  core9 | 1 | 1 | 1 | 169 | 2 | 1 |
+  core10 | 1 | 6 | 1 | 7 | 3 | 1 |
+  core11 | 1 | 7 | 1 | 11 | 4 | 1 |
+  core12 | 1 | 1 | 1 | 6 | 3 | 1 |
+  core13 | 2 | 24 | 1 | 244 | 4 | 1 |
+  core14 | 1 | 1 | 1 | 1 | 2 | 1 |
+  core15 | 3 | 260 | 1 | 135 | 2 | 8 |
+  dnn1 | 2 | 138 | 1 | 42 | 4 | 1 |
+  dnn2 | 1 | 14 | 1 | 19 | 5 | 1 |
+  dnn3 | 1 | 4 | 1 | 1 | 2 | 1 |
+  dnn4 | 1 | 2 | 1 | 3 | 3 | 1 |
+  dnn5 | 1 | 1 | 1 | 56 | 4 | 7 |
+  dnn6 | 0 | 64 | 1 | 35 | 5 | 4 |
+  dnn7 | 1 | 1 | 1 | 20 | 4 | 1 |
+  dnn8 | 1 | 1 | 1 | 56 | 4 | 2 |
+  dnn9 | 0 | 83 | 3 | 24 | 5 | 2 |
+  dnn10 | 1 | 105 | 1 | 35 | 5 | 2 |
+  dnn11 | 0 | 55 | 3 | 9 | 3 | 3 |
+  dnn12 | 1 | 16 | 1 | 55 | 4 | 1 |
+  dnn13 | 1 | 139 | 1 | 56 | 4 | 11 |
+  photo1 | 1 | 4 | 1 | 15 | 2 | 2 |
+  photo2 | 1 | 16 | 1 | 54 | 4 | 3 |
+  photo3 | 2 | 50 | 1 | 647 | 2 | 2 |
+  calib3d1 | 1 | 9 | 1 | 112 | 3 | 1 |
+  calib3d2 | 1 | 2 | 1 | 1 | 4 | 1 |
+  2dfeatures1 | 4 | 9 | 1 | 1 | 2 | 2 |
+  video1 | 1 | 3 | 1 | 15 | 3 | 2 |
+  
+  
+  
