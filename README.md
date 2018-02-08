@@ -8,7 +8,7 @@ Pairika is a failure diagnosis benchmark for C++ programs which contains 40 bugs
     - [The Core Functionality](#the-core-functionality-core-module)
     - [Deep Neural Networks](#deep-neural-networks-dnn-module)
     - [Computational Photography](#computational-photography-photo-module)
-    - [Camera Calibration and 3D Reconstruction](camera-calibration-and-3d-reconstruction-calib3d-module)
+    - [Camera Calibration and 3D Reconstruction](#camera-calibration-and-3d-reconstruction-calib3d-module)
     - [2D Features Framework](#2d-features-framework-feature2d-module)
     - [Video Analysis](#video-analysis-video-module)
   - [OpenCV Bug Complexity](#opencv-bug-complexity)
