@@ -1,0 +1,2676 @@
+Rank,Block_name,Suspiciousness Value(Ochiai)
+1,test_utils.cpp_TEST_256,NaN
+1,test_dxt.cpp_get_success_error_level_650,NaN
+1,dxt.cpp_dct_4246,NaN
+1,dxt.cpp_idct_4270,NaN
+1,matrix.cpp_cvMatToMat_662,0.138675049056307
+1,matrix.cpp_transposeI__3443,NaN
+1,parallel.cpp_)_244,NaN
+1,persistence.cpp_icvIsMat_5226,NaN
+1,persistence.cpp_icvIsMatND_5316,NaN
+1,persistence.cpp_icvIsImage_5589,NaN
+1,trace.cpp_TraceManagerThreadLocal_700,NaN
+1,test_dxt.cpp_DCT_2D_213,NaN
+1,test_dxt.cpp_temp_dst_528,NaN
+1,test_dxt.cpp_get_test_array_types_and_sizes_545,NaN
+1,test_dxt.cpp_prepare_test_case_656,NaN
+1,test_ds.cpp_run_983,NaN
+1,test_dxt.cpp_run_func_759,NaN
+1,test_dxt.cpp_prepare_to_validation_771,NaN
+1,test_dxt.cpp_run_927,NaN
+1,utility.hpp_allocate_995,NaN
+1,dxt.cpp_)_386,NaN
+1,dxt.cpp_DFT_32f_1507,NaN
+1,dxt.cpp_DFT_64f_1512,NaN
+1,dxt.cpp_RealDFT_32f_1518,NaN
+1,dxt.cpp_RealDFT_64f_1523,NaN
+1,dxt.cpp_CCSIDFT_32f_1528,NaN
+1,dxt.cpp_CCSIDFT_64f_1533,NaN
+1,dxt.cpp_)_1566,NaN
+1,dxt.cpp_create_4226,NaN
+1,dxt.cpp_init_4079,NaN
+1,dxt.cpp_DctIPPLoop_3959,NaN
+1,dxt.cpp_if_3826,NaN
+1,test_ds.cpp_icvCmpSeqElems2_1063,NaN
+1,test_ds.cpp_run_1069,NaN
+1,test_ds.cpp_clear_1233,NaN
+1,test_ds.cpp_run_1378,NaN
+1,test_ds.cpp_clear_1449,NaN
+1,test_ds.cpp_if_1597,NaN
+1,test_ds.cpp_if_1692,NaN
+1,test_ds.cpp_run_1806,NaN
+1,mat.inl_step_564,NaN
+1,test_ds.cpp_clear_381,NaN
+1,test_ds.cpp_run_1922,NaN
+1,test_ds.cpp_if_1956,NaN
+1,stat.cpp_ _3129,NaN
+1,mat.inl_row_726,NaN
+1,ptr.inl_stored_122,NaN
+1,trace.private_parallel_for_stack_size_275,NaN
+1,array.cpp_cvCreateMatHeader_115,0.14142135623731
+2,array.cpp_cvCreateData_795,0.138675049056307
+2,array.cpp_cvGetSubRect_1255,NaN
+2,array.cpp_cvCreateImage_2901,NaN
+2,array.cpp_cvReleaseImage_2994,NaN
+2,array.cpp_cvSetImageROI_3011,NaN
+2,dxt.cpp_DCT_64f_3784,NaN
+2,dxt.cpp_IDCT_64f_3790,NaN
+2,dxt.cpp_)_3821,NaN
+2,dxt.cpp_)_1574,NaN
+2,dxt.cpp_)_1647,NaN
+2,dxt.cpp_)_1655,NaN
+2,dxt.cpp_mulSpectrums_3539,NaN
+2,test_dxt.cpp_get_success_error_level_799,NaN
+2,test_dxt.cpp_run_func_813,NaN
+2,test_dxt.cpp_prepare_to_validation_831,NaN
+2,lapack.cpp_JacobiImpl__107,NaN
+2,matmul.cpp_GEMMSingleMul_140,NaN
+2,matmul.cpp_GEMMSingleMul_32f_584,NaN
+2,matmul.cpp_MulTransposedL_2805,NaN
+2,matop.cpp_ _824,NaN
+2,matop.cpp_assign_1510,NaN
+2,matop.cpp_makeExpr_1578,NaN
+2,test_eigen.cpp_run_144,NaN
+2,test_eigen.cpp_check_pair_count_186,NaN
+2,matmul.cpp_GEMMSingleMul_64f_596,NaN
+2,test_eigen.cpp_run_154,NaN
+2,test_eigen.cpp_run_163,NaN
+2,test_eigen.cpp_run_164,NaN
+2,mat.inl_)_1904,NaN
+2,lda.cpp_for _336,NaN
+2,lda.cpp_if _337,NaN
+2,lda.cpp_for _341,NaN
+2,lda.cpp_while _348,NaN
+2,lda.cpp_while _352,NaN
+2,lda.cpp_if _354,NaN
+2,system.cpp_cv_snprintf_908,0.235702260395516
+2,lda.cpp_if _357,NaN
+2,test_dxt.cpp_mulComplex_423,NaN
+2,dxt.cpp_mulSpectrums_Impl__3519,NaN
+2,dxt.cpp_CV_INSTRUMENT_REGION_IPP_1820,NaN
+2,dxt.cpp_mulSpectrums_processRows_3501,NaN
+2,dxt.cpp_init_2668,NaN
+2,dxt.cpp_apply_2791,NaN
+2,dxt.cpp_init_3068,NaN
+2,dxt.cpp_apply_3206,NaN
+2,dxt.cpp_create_3276,NaN
+2,dxt.cpp_create_3297,NaN
+2,dxt.cpp_dft_3324,NaN
+2,dxt.cpp_idft_3374,NaN
+2,test_dxt.cpp_DFT_2D_106,NaN
+2,test_dxt.cpp_run_func_694,NaN
+2,test_dxt.cpp_prepare_to_validation_706,NaN
+2,dxt.cpp_complementComplex_2495,NaN
+2,matop.cpp_zeros_1701,NaN
+2,merge.cpp_merge32s_401,NaN
+2,merge.cpp_merge64s_407,NaN
+2,rand.cpp_randu_776,NaN
+2,test_dxt.cpp_run_865,NaN
+2,base.hpp_normInf_550,NaN
+2,stat.cpp_normInf__2793,NaN
+2,test_dxt.cpp_TEST_894,NaN
+2,dxt.cpp_mulSpectrums_processCol_noinplace_3437,NaN
+2,dxt.cpp_mulSpectrums_processCol_inplaceA_3443,NaN
+2,dxt.cpp_mulSpectrums_processCols_3459,NaN
+2,dxt.cpp_mulSpectrums_processRow_noinplace_3480,NaN
+2,dxt.cpp_mulSpectrums_processRow_inplaceA_3485,NaN
+2,test_ds.cpp_icvCmpSeqElems_1057,NaN
+2,core_c.h_cvDecRefData_299,0.138675049056307
+3,dxt.cpp_CV_INSTRUMENT_REGION_IPP_1764,0.0693375245281536
+4,test_ds.cpp_test_seq_ops_735,0
+4,test_dxt.cpp_convertFromCCS_247,0
+4,dxt.cpp_OcvDftBasicImpl_3064,0
+4,downhill_simplex.cpp_calc_f_413,0
+4,downhill_simplex.cpp_innerDownhillSimplex_273,0
+4,downhill_simplex.cpp_createInitialSimplex_236,0
+4,downhill_simplex.cpp_updateCoordSum_215,0
+4,downhill_simplex.cpp_minimize_179,NaN
+4,downhill_simplex.cpp_setTermCriteria_171,NaN
+4,test_dxt.cpp_initDFTWave_10,0
+4,test_dxt.cpp_DFT_1D_35,0
+4,downhill_simplex.cpp_setFunction_166,NaN
+4,downhill_simplex.cpp_setInitStep_154,0
+4,dxt.cpp_rowDft_2870,0
+4,downhill_simplex.cpp_getInitStep_152,0
+4,convert.cpp_ipp_merge_274,0
+4,convert.cpp_merge_325,0
+4,downhill_simplex.cpp_DownhillSolverImpl_147,NaN
+4,mat.inl_ _3005,NaN
+4,merge.cpp_merge__269,0
+4,mat.inl_end_1230,NaN
+4,test_countnonzero.cpp_run_186,NaN
+4,test_countnonzero.cpp_get_count_non_zero_146,0
+4,test_countnonzero.cpp_generate_src_stat_data_131,0
+4,test_dxt.cpp_all_877,0
+4,dxt.cpp_colDft_2924,0
+4,downhill_simplex.cpp_tryNewPoint_420,0
+4,test_countnonzero.cpp_if _121,NaN
+4,downhill_simplex.cpp_replacePoint_437,0
+4,datastructs.cpp_icvInitMemStorage_90,0
+4,array.cpp_)_3212,NaN
+4,ptr.inl_reset_185,NaN
+4,dxt.cpp_CopyColumn_1339,0
+4,dxt.cpp_CopyFrom2Columns_1376,0
+4,dxt.cpp_CopyTo2Columns_1422,0
+4,dxt.cpp_ExpandCCS_1466,0
+4,ptr.inl_release_176,NaN
+4,test_downhill_simplex.cpp_calc_78,NaN
+4,test_downhill_simplex.cpp_getDims_77,NaN
+4,test_downhill_simplex.cpp_calc_72,NaN
+4,test_downhill_simplex.cpp_getDims_71,NaN
+4,test_downhill_simplex.cpp_mytest_47,NaN
+4,matrix.cpp_transpose_3615,0
+4,matrix.cpp_ _3596,NaN
+4,matrix.cpp_ipp_transpose_3546,0
+4,matrix.cpp_transpose__3369,NaN
+4,dxt.cpp_Dft_C_IPPLoop_1715,0
+4,dxt.cpp_Dft_R_IPPLoop_1723,0
+4,dxt.cpp_ippi_DFT_C_32F_1754,0
+4,dxt.cpp_ippi_DFT_R_32F_1810,0
+4,downhill_simplex.cpp_create_457,NaN
+4,dxt.cpp_OcvDftImpl_2648,0
+4,test_countnonzero.cpp_if _122,NaN
+4,test_countnonzero.cpp_if _120,NaN
+4,datastructs.cpp_icvDestroyMemStorage_133,0
+4,test_eigen.cpp_check_full_374,0
+4,matrix.cpp_completeSymm_3663,0
+4,rand.cpp_randnScale_16s_487,NaN
+4,test_eigen.cpp_check_pair_count_172,0
+4,rand.cpp_randnScale_16u_483,NaN
+4,test_ds.cpp_clear_515,0.0698430295769578
+5,test_eigen.cpp_check_orthogonality_228,0
+5,test_eigen.cpp_check_pairs_order_251,0
+5,test_eigen.cpp_test_pairs_291,0
+5,test_eigen.cpp_test_values_345,0
+5,rand.cpp_randnScale_8s_479,NaN
+5,rand.cpp_randnScale_8u_475,NaN
+5,rand.cpp_randnScale__441,0
+5,rand.cpp_randn_0_1_32f_357,0
+5,mat.inl_clone_762,0
+5,matop.cpp_zeros_1710,0
+5,lda.cpp_alloc_2d_281,0
+5,lda.cpp_hqr2_317,0
+5,operations.hpp_randu_362,0
+5,test_conjugate_gradient.cpp_getGradient_79,NaN
+5,test_conjugate_gradient.cpp_calc_76,NaN
+5,test_conjugate_gradient.cpp_calc_64,0
+5,test_conjugate_gradient.cpp_getDims_63,0
+5,test_conjugate_gradient.cpp_mytest_45,0
+5,stat.cpp_CV_Assert_3282,NaN
+5,matrix.cpp_setIdentity_3284,0
+5,matrix.cpp_needed_2921,0
+5,matop.cpp_eye_1755,0
+5,rand.cpp_randnScale_32s_491,NaN
+5,test_countnonzero.cpp_if _119,NaN
+5,test_countnonzero.cpp_if _118,NaN
+5,test_countnonzero.cpp_if _117,NaN
+5,test_countnonzero.cpp_if _116,NaN
+5,test_countnonzero.cpp_generate_src_data_105,NaN
+5,test_countnonzero.cpp_float>_99,NaN
+5,test_countnonzero.cpp_int>_98,NaN
+5,test_countnonzero.cpp_short>_97,NaN
+5,test_countnonzero.cpp_ushort>_96,NaN
+5,test_countnonzero.cpp_uchar>_95,NaN
+5,test_countnonzero.cpp_uchar>_94,NaN
+5,test_countnonzero.cpp_switch _93,NaN
+5,test_countnonzero.cpp_generate_src_data_86,0
+5,lapack.cpp_eigen_1388,0
+5,stat.cpp_countNonZero32s_599,NaN
+5,stat.cpp_countNonZero16u_548,NaN
+5,matmul.cpp_gemmImpl_898,0
+5,matmul.cpp_callGemmImpl_1446,0
+5,matmul.cpp_gemm_1542,0
+5,stat.cpp_countNonZero8u_494,NaN
+5,matmul.cpp_mulTransposed_2881,0
+5,rand.cpp_randnScale_64f_499,NaN
+5,rand.cpp_randnScale_32f_495,NaN
+5,datastructs.cpp_cvCreateMemStorage_109,0
+5,datastructs.cpp_cvReleaseMemStorage_181,0
+5,test_ds.cpp_test_get_seq_reading_647,0
+5,datastructs.cpp_cvGraphVtxDegreeByPtr_2917,0
+5,test_ds.cpp_cvTsReleaseSimpleGraph_202,0
+5,test_ds.cpp_cvTsSimpleGraphRemoveVertex_218,0
+5,test_ds.cpp_cvTsSimpleGraphAddEdge_233,0
+5,test_ds.cpp_cvTsSimpleGraphVertexDegree_288,0
+5,test_ds.cpp_read_params_387,NaN
+5,test_ds.cpp_test_graph_ops_1457,0
+5,test_ds.cpp_Core_DynStructBaseTest_365,NaN
+5,test_ds.cpp_Core_DynStructBaseTest_350,NaN
+5,test_ds.cpp_cvTsSimpleSeqShiftAndCopy_46,0
+5,persistence.cpp_cvGetFileNodeByName_852,0
+5,datastructs.cpp_cvCreateChildMemStorage_119,0
+5,datastructs.cpp_icvSeqElemsClearFlags_2969,0
+5,datastructs.cpp_icvSeqFindNextElem_2997,0
+5,datastructs.cpp_cvCreateGraphScanner_3049,0
+5,datastructs.cpp_cvReleaseGraphScanner_3083,0
+5,datastructs.cpp_cvNextGraphItem_3098,0
+5,datastructs.cpp_cvSeqInsertSlice_1753,0
+5,test_ds.cpp_create_random_graph_1888,0
+5,datastructs.cpp_cvSeqRemoveSlice_1679,0
+5,datastructs.cpp_cvSeqSlice_1603,0
+5,datastructs.cpp_cvClearSeq_1594,0
+5,datastructs.cpp_cvSeqPopMulti_1524,0
+5,datastructs.cpp_cvSeqPushMulti_1455,0
+5,datastructs.cpp_cvGraphVtxDegree_2937,0
+5,datastructs.cpp_cvGraphRemoveEdge_2900,0
+5,datastructs.cpp_cvSeqRemove_1369,0
+5,datastructs.cpp_cvGraphRemoveEdgeByPtr_2841,0
+5,datastructs.cpp_cvCvtSeqToArray_545,0
+5,datastructs.cpp_cvSeqSort_1907,0
+5,datastructs.cpp_cvSeqSearch_2188,0
+5,datastructs.cpp_cvSeqInvert_2293,0
+5,test_ds.cpp_test_get_seq_elem_603,0
+5,test_ds.cpp_test_multi_create_523,0
+5,datastructs.cpp_cvCreateSet_2484,0
+5,datastructs.cpp_cvSetAdd_2502,0
+5,datastructs.cpp_cvSetRemove_2549,0
+5,datastructs.cpp_cvClearSet_2562,0
+5,test_ds.cpp_cvTsCreateSimpleSet_107,0
+5,test_ds.cpp_test_seq_block_consistence_451,0
+5,test_ds.cpp_test_set_ops_1241,0
+5,test_ds.cpp_update_progressbar_424,0
+5,datastructs.cpp_cvCreateGraph_2577,0
+5,datastructs.cpp_cvClearGraph_2603,0
+5,datastructs.cpp_cvGraphAddVtx_2615,0
+5,datastructs.cpp_cvGraphRemoveVtxByPtr_2641,0
+5,datastructs.cpp_cvGraphRemoveVtx_2668,0
+5,datastructs.cpp_cvFindGraphEdgeByPtr_2701,0
+5,datastructs.cpp_cvFindGraphEdge_2733,0
+5,datastructs.cpp_cvGraphAddEdgeByPtr_2756,0
+5,datastructs.cpp_cvGraphAddEdge_2824,0
+5,utility.hpp_deleteDataInstance_714,0
+5,trace.private_getCurrentRegion_346,0
+5,datastructs.cpp_cvClearMemStorage_198,0
+5,dxt.cpp_ippi_DCT_32f_3951,0
+5,datastructs.cpp_cvFlushSeqWriter_848,0
+5,dxt.cpp_apply_4112,0
+5,datastructs.cpp_cvStartWriteSeq_836,0
+5,datastructs.cpp_cvStartAppendToSeq_818,0
+5,datastructs.cpp_icvFreeSeqBlock_758,0
+5,datastructs.cpp_icvGrowSeq_633,0
+5,matrix.cpp_iplImageToMat_694,0
+5,matrix.cpp_cvarrToMat_953,0
+5,datastructs.cpp_cvMakeSeqHeaderForArray_586,0
+5,parallel.cpp_ParallelLoopBody_132,0
+5,datastructs.cpp_cvSeqElemIdx_482,0
+5,parallel.cpp_parallel_for__373,0
+5,parallel.cpp_parallel_for_impl_413,0
+5,datastructs.cpp_cvGetSeqElem_443,0
+5,datastructs.cpp_cvSetSeqBlockSize_410,0
+5,datastructs.cpp_cvCreateSeq_373,0
+5,persistence.cpp_cvRelease_6664,0
+5,datastructs.cpp_cvMemStorageAlloc_324,0
+5,test_dxt.cpp_initDCTWave_138,0
+5,test_dxt.cpp_DCT_1D_159,0
+5,datastructs.cpp_cvRestoreMemStoragePos_286,0
+5,datastructs.cpp_cvSaveMemStoragePos_274,0
+5,datastructs.cpp_icvGoNextMemBlock_216,0
+5,datastructs.cpp_cvEndWriteSeq_879,0
+5,dxt.cpp_DctIPPLoop_3944,0
+5,array.cpp_cvCreateMat_98,0
+5,datastructs.cpp_cvCreateSeqBlock_910,NaN
+5,datastructs.cpp_cvSeqInsert_1251,0
+5,array.cpp_cvReleaseMat_188,0
+5,datastructs.cpp_cvSeqPopFront_1226,0
+5,array.cpp_cvReleaseData_979,0
+5,array.cpp_cvGetElemType_1084,0
+5,datastructs.cpp_cvSeqPushFront_1192,0
+5,array.cpp_cvCreateImageHeader_2873,0
+5,datastructs.cpp_cvSeqPop_1164,0
+5,array.cpp_cvInitImageHeader_2914,0
+5,array.cpp_cvReleaseImageHeader_2970,0
+5,datastructs.cpp_cvSeqPush_1133,0
+5,datastructs.cpp_cvSetSeqReaderPos_1040,0
+5,dxt.cpp_DFTFactorize_133,0
+5,dxt.cpp_DFTInit_177,0
+5,dxt.cpp_DFT_575,0
+5,dxt.cpp_RealDFT_1025,0
+5,dxt.cpp_CCSIDFT_1162,0
+5,dxt.cpp_DCT_3608,0
+5,dxt.cpp_IDCT_3651,0
+5,dxt.cpp_DCTInit_3690,0
+5,datastructs.cpp_cvGetSeqReaderPos_1015,0
+5,datastructs.cpp_cvChangeSeqBlock_991,0
+5,datastructs.cpp_cvStartReadSeq_933,0
+5,lda.cpp_if _366,NaN
+5,lda.cpp_if _386,NaN
+5,lda.cpp_if _387,NaN
+5,persistence.cpp_icvYMLParseKey_1426,0
+5,persistence.cpp_icvYMLWriteInt_2105,NaN
+5,persistence.cpp_icvYMLEndWriteStruct_2053,NaN
+5,persistence.cpp_if_2022,NaN
+5,persistence.cpp_icvYMLStartWriteStruct_2000,NaN
+5,persistence.cpp_max_4764,0.0851256530758749
+6,persistence.cpp_cvFindType_6633,0.0698430295769578
+7,persistence.cpp_icvYMLWrite_1891,0
+7,persistence.cpp_icvYMLParse_1817,0
+7,persistence.cpp_icvYMLParseValue_1459,0
+7,persistence.cpp_icvYMLSkipSpaces_1282,0
+7,persistence.cpp_cvReleaseFileStorage_698,0
+7,persistence.cpp_check_if_write_struct_is_delayed_1201,0
+7,persistence.cpp_switch_to_Base64_state_1138,0
+7,persistence.cpp_analyze_file_name_1098,0
+7,persistence.cpp_icv_strtod_1076,0
+7,persistence.cpp_icvFloatToString_1010,0
+7,persistence.cpp_icvDoubleToString_970,0
+7,persistence.cpp_cvGetFileNode_779,0
+7,persistence.cpp_icvYMLWriteReal_2113,NaN
+7,persistence.cpp_icvYMLWriteString_2122,NaN
+7,persistence.cpp_icvYMLWriteComment_2183,NaN
+7,persistence.cpp_icvXMLSkipSpaces_2238,0
+7,persistence.cpp_switch _3562,NaN
+7,persistence.cpp_icvJSONParseValue_3418,0
+7,persistence.cpp_icvJSONParseKey_3377,0
+7,persistence.cpp_if _3348,NaN
+7,persistence.cpp_icvJSONSkipSpaces_3271,0
+7,persistence.cpp_icvXMLWriteComment_3198,NaN
+7,persistence.cpp_icvXMLWriteString_3116,NaN
+7,persistence.cpp_icvXMLWriteReal_3107,NaN
+7,persistence.cpp_icvXMLWriteInt_3098,NaN
+7,persistence.cpp_icvXMLWriteScalar_3052,0
+7,persistence.cpp_icvXMLEndWriteStruct_3013,NaN
+7,persistence.cpp_icvXMLStartWriteStruct_2966,NaN
+7,persistence.cpp_icvXMLWriteTag_2878,0
+7,persistence.cpp_icvXMLParse_2815,0
+7,persistence.cpp_icvXMLParseTag_2670,0
+7,persistence.cpp_icvXMLParseValue_2497,NaN
+7,persistence.cpp_icvXMLParseValue_2412,0
+7,persistence.cpp_cvGetHashedKey_728,0
+7,persistence.cpp_icvClose_662,0
+7,persistence.cpp_if _3701,NaN
+7,array.cpp_)_3209,NaN
+7,array.cpp_cvGetMat_2385,0
+7,array.cpp_cvPtrND_1885,0
+7,array.cpp_cvGetSize_1220,0
+7,array.cpp_cvGetDims_1103,0
+7,array.cpp_icvGetNodePtr_644,0
+7,array.cpp_cvInitSparseMatIterator_615,0
+7,array.cpp_cvCloneSparseMat_603,NaN
+7,array.cpp_cvReleaseSparseMat_579,0
+7,array.cpp_cvCreateSparseMat_529,0
+7,array.cpp_cvNextNArraySlice_497,0
+7,array.cpp_cvInitNArrayIterator_387,0
+7,array.cpp_cvCreateMatNDHeader_284,0
+7,array.cpp_cvCreateMatND_273,0
+7,array.cpp_cvInitMatNDHeader_233,0
+7,arithm.cpp_mul32f_2894,NaN
+7,types_c.h_CvMat_528,0
+7,persistence.hpp_ _1237,NaN
+7,array.cpp_cvReshape_2713,0
+7,array.cpp_)_3215,NaN
+7,persistence.cpp_icvFSFlush_634,0
+7,copy.cpp_cvCopy_1242,0
+7,persistence.cpp_icvFSCreateCollection_552,0
+7,persistence.cpp_cvAttrValue_501,0
+7,persistence.cpp_icvGets_409,0
+7,persistence.cpp_icvPuts_395,0
+7,persistence.cpp_cv_strcasecmp_123,0
+7,matrix.cpp_copyToSparseMat_6058,0
+7,matrix.cpp_cvCreateSparseMat_6039,NaN
+7,matrix.cpp_CvMatND_6023,NaN
+7,matrix.cpp_newNode_5695,0
+7,matrix.cpp_resizeHashTab_5667,0
+7,matrix.cpp_ptr_5578,NaN
+7,matrix.cpp_create_5356,NaN
+7,matrix.cpp_Hdr_5296,0
+7,matrix.cpp_copyElem_5275,0
+7,matrix.cpp_cvMatNDToMat_631,0
+7,datastructs.cpp_cvCloneGraph_3252,0
+7,datastructs.cpp_cvMemStorageAllocString_353,0
+7,persistence.cpp_icvJSONParseSeq_3677,0
+7,persistence.cpp_icvJSONParseMap_3731,0
+7,mat.inl_SparseMat_2074,0
+7,persistence.cpp_icvReadMatND_5356,NaN
+7,persistence.cpp_FileStorage_6891,NaN
+7,persistence.cpp_FileStorage_6877,NaN
+7,persistence.cpp_cvWrite_6728,0
+7,persistence.cpp_cvRead_6706,0
+7,persistence.cpp_cvClone_6685,0
+7,persistence.cpp_icvReadGraph_6297,NaN
+7,persistence.cpp_icvWriteGraph_6161,NaN
+7,persistence.cpp_icvCloneGraph_6153,NaN
+7,persistence.cpp_icvIsGraph_6136,NaN
+7,persistence.cpp_icvWriteSeqTree_5894,NaN
+7,persistence.cpp_icvWriteSeq_5847,0
+7,persistence.cpp_icvGetFormat_5808,0
+7,persistence.cpp_icvWriteHeaderData_5745,0
+7,persistence.cpp_icvIsSeq_5720,NaN
+7,persistence.cpp_icvReadSparseMat_5510,NaN
+7,persistence.cpp_icvWriteSparseMat_5441,NaN
+7,persistence.cpp_icvSortIdxCmpFunc_5422,NaN
+7,persistence.cpp_open_6900,0
+7,persistence.cpp_isOpened_6912,0
+7,persistence.cpp_release_6917,NaN
+7,persistence.cpp_]_7059,NaN
+7,persistence.cpp_+_7147,NaN
+7,persistence.cpp_+_7131,NaN
+7,persistence.cpp_FileNodeIterator_7123,NaN
+7,persistence.cpp_FileNodeIterator_7094,NaN
+7,persistence.cpp_FileNodeIterator_7085,NaN
+7,persistence.cpp_readObj_7076,0
+7,persistence.cpp_]_7064,NaN
+7,persistence.cpp_]_7049,NaN
+7,persistence.cpp_releaseAndGetString_6924,0
+7,persistence.cpp_writeObj_7017,0
+7,persistence.cpp_writeRaw_7006,0
+7,persistence.cpp_String_6993,NaN
+7,persistence.cpp_if_6979,NaN
+7,persistence.cpp_if_6962,NaN
+7,persistence.cpp_if_6958,NaN
+7,persistence.cpp_ _6945,NaN
+7,persistence.cpp_icvIsSparseMat_5415,NaN
+7,persistence.cpp_icvWriteMatND_5324,NaN
+7,persistence.cpp_icvJSONParseMap_3735,NaN
+7,persistence.cpp_icvReadMat_5274,NaN
+7,persistence.cpp_icvXMLParse _4521,NaN
+7,persistence.cpp_switch _4520,NaN
+7,persistence.cpp_icvPuts_4419,NaN
+7,persistence.cpp_cvOpenFileStorage_4173,0
+7,persistence.cpp_icvJSONWriteComment_4127,NaN
+7,persistence.cpp_switch _4111,NaN
+7,persistence.cpp_switch _4105,NaN
+7,persistence.cpp_icvJSONWriteString_4080,NaN
+7,persistence.cpp_icvJSONWriteReal_4064,NaN
+7,persistence.cpp_icvJSONWriteInt_4056,NaN
+7,persistence.cpp_icvJSONEndWriteStruct_4004,NaN
+7,persistence.cpp_if _3985,NaN
+7,persistence.cpp_icvJSONStartWriteStruct_3958,NaN
+7,persistence.cpp_icvJSONWrite_3845,0
+7,persistence.cpp_icvJSONParse_3819,NaN
+7,persistence.cpp_icvJSONParse_3813,0
+7,persistence.cpp_CV_PARSE_ERROR_3779,0
+7,persistence.cpp_icvYMLParse _4522,NaN
+7,persistence.cpp_cvStartWriteStruct_4563,0
+7,persistence.cpp_cvEndWriteStruct_4612,0
+7,persistence.cpp_max_4766,NaN
+7,persistence.cpp_icvWriteMat_5233,NaN
+7,persistence.cpp_cvReadRawData_5102,0
+7,persistence.cpp_cvReadRawDataSlice_4950,0
+7,persistence.cpp_cvStartReadRawData_4918,0
+7,persistence.cpp_cvWriteRawData_4795,0
+7,persistence.cpp_icvDecodeSimpleFormat_4779,0
+7,persistence.cpp_max_4768,NaN
+7,persistence.cpp_switch _4762,NaN
+7,persistence.cpp_cvWriteInt_4625,0
+7,persistence.cpp_for _4759,NaN
+7,persistence.cpp_icvCalcStructSize_4756,0
+7,persistence.cpp_icvCalcElemSize_4732,0
+7,persistence.cpp_icvDecodeFormat_4675,0
+7,persistence.cpp_cvWriteComment_4649,0
+7,persistence.cpp_cvWriteString_4641,0
+7,persistence.cpp_cvWriteReal_4633,0
+7,persistence.hpp_ _1192,NaN
+7,cvstd.hpp_operator=_653,NaN
+7,lda.cpp_if _394,NaN
+7,lda.cpp_for _832,NaN
+7,lda.cpp_for _827,NaN
+7,lda.cpp_if _826,NaN
+7,lda.cpp_for _825,NaN
+7,lda.cpp_for _820,NaN
+7,lda.cpp_for _819,NaN
+7,lda.cpp_for _808,NaN
+7,lda.cpp_for _804,NaN
+7,lda.cpp_for _802,NaN
+7,lda.cpp_for _797,NaN
+7,lda.cpp_for _793,NaN
+7,lda.cpp_for _791,NaN
+7,lda.cpp_if _782,NaN
+7,lda.cpp_for _777,NaN
+7,lda.cpp_if _772,NaN
+7,lda.cpp_for _769,NaN
+7,lda.cpp_for _764,NaN
+7,lda.cpp_orthes_756,0
+7,lda.cpp_for _830,NaN
+7,lda.cpp_for _837,NaN
+7,lda.cpp_for _745,NaN
+7,lda.cpp_release_846,NaN
+7,matop.cpp_makeExpr_1503,NaN
+7,matop.cpp_multiply_1485,0
+7,matop.cpp_assign_1475,NaN
+7,matop.cpp_ _866,NaN
+7,matop.cpp_ _852,NaN
+7,matop.cpp_matmul_556,0
+7,matop.cpp_isScaled_213,0
+7,lda.cpp_eigenNonSymmetric_943,NaN
+7,lda.cpp_eigenvectors_939,0
+7,lda.cpp_eigenvalues_937,0
+7,lda.cpp_for _923,NaN
+7,lda.cpp_for _922,NaN
+7,lda.cpp_if_908,NaN
+7,lda.cpp_compute_905,NaN
+7,lda.cpp_for _873,NaN
+7,lda.cpp_compute_860,0
+7,lda.cpp_for _851,NaN
+7,lda.cpp_for _747,NaN
+7,lda.cpp_for _744,NaN
+7,core_c.h_cvReleaseMatND_476,0
+7,lda.cpp_if _543,NaN
+7,lda.cpp_if _539,NaN
+7,lda.cpp_if _535,NaN
+7,lda.cpp_if _529,NaN
+7,lda.cpp_if _524,NaN
+7,lda.cpp_for _522,NaN
+7,lda.cpp_if _515,NaN
+7,lda.cpp_for _513,NaN
+7,lda.cpp_if _502,NaN
+7,lda.cpp_while _491,NaN
+7,lda.cpp_if _470,NaN
+7,lda.cpp_for _460,NaN
+7,lda.cpp_if _458,NaN
+7,lda.cpp_if _451,NaN
+7,lda.cpp_for _444,NaN
+7,lda.cpp_for _425,NaN
+7,lda.cpp_for _417,NaN
+7,lda.cpp_for _409,NaN
+7,lda.cpp_if _542,NaN
+7,lda.cpp_if _545,NaN
+7,lda.cpp_if _735,NaN
+7,lda.cpp_for _557,NaN
+7,lda.cpp_for _734,NaN
+7,lda.cpp_if _654,NaN
+7,lda.cpp_if _646,NaN
+7,lda.cpp_if _624,NaN
+7,lda.cpp_if _622,NaN
+7,lda.cpp_if _621,NaN
+7,lda.cpp_if _616,NaN
+7,lda.cpp_for _613,NaN
+7,lda.cpp_for _610,NaN
+7,lda.cpp_if _607,NaN
+7,lda.cpp_for _601,NaN
+7,lda.cpp_if _597,NaN
+7,lda.cpp_if _583,NaN
+7,lda.cpp_for _581,NaN
+7,lda.cpp_if _571,NaN
+7,lda.cpp_for _569,NaN
+7,lda.cpp_if _559,NaN
+7,matop.cpp_t_1667,NaN
+7,matrix.cpp_create_2466,NaN
+7,matrix.cpp_sortIdx__4401,NaN
+7,test_intrin_utils.hpp_test_dot_prod_519,NaN
+7,test_intrin_utils.hpp_test_shift_474,NaN
+7,test_intrin_utils.hpp_test_mul_expand_435,NaN
+7,test_intrin_utils.hpp_test_mul_405,NaN
+7,test_intrin_utils.hpp_test_abs_455,NaN
+7,test_intrin_utils.hpp_test_rotate_814,NaN
+7,test_intrin_utils.hpp_test_extract_793,NaN
+7,test_intrin_utils.hpp_test_unpack_756,NaN
+7,test_intrin_utils.hpp_test_pack_u_718,NaN
+7,test_intrin_utils.hpp_test_pack_681,NaN
+7,test_intrin_utils.hpp_test_mask_646,NaN
+7,test_intrin_utils.hpp_test_absdiff_597,NaN
+7,test_intrin_utils.hpp_test_popcount_585,NaN
+7,test_intrin_utils.hpp_test_min_max_569,NaN
+7,test_intrin_utils.hpp_test_logic_535,NaN
+7,test_intrin_utils.hpp_test_cmp_493,NaN
+7,test_intrin_utils.hpp_test_addsub_wrap_389,NaN
+7,test_intrin_utils.hpp_test_addsub_373,NaN
+7,test_intrin_utils.hpp_test_reduce_636,NaN
+7,test_intrin_utils.hpp_test_transpose_940,NaN
+7,matrix.cpp_getSortIndexFunc_4456,0.235702260395516
+8,test_intrin_utils.hpp_v_transpose4x4_950,0
+8,test_intrin_utils.hpp_test_float_cvt_fp16_1011,NaN
+8,test_intrin_utils.hpp_test_loadstore_fp16_979,NaN
+8,test_intrin.fp16_test_hal_intrin_float16x4_8,NaN
+8,test_intrin.cpp_TEST_239,NaN
+8,test_intrin_utils.hpp_double>_166,NaN
+8,intrin_sse.hpp_v_invsqrt_750,NaN
+8,test_intrin_utils.hpp_test_reduce_sum4_962,NaN
+8,test_intrin_utils.hpp_test_matmul_910,NaN
+8,test_intrin_utils.hpp_test_float_math_838,NaN
+8,test_intrin_utils.hpp_test_float_absdiff_619,NaN
+8,test_intrin_utils.hpp_test_sqrt_abs_552,NaN
+8,test_intrin_utils.hpp_test_div_420,NaN
+8,test_intrin_utils.hpp_test_interleave_2channel_312,NaN
+8,test_intrin_utils.hpp_float>_161,NaN
+8,intrin_sse.hpp_v_invsqrt_737,0
+8,test_intrin_utils.hpp_test_float_cvt64_886,NaN
+8,test_intrin_utils.hpp_test_float_cvt32_870,NaN
+8,test_intrin_utils.hpp_test_expand_q_361,NaN
+8,test_intrin_utils.hpp_test_expand_338,NaN
+8,test_intrin_utils.hpp_test_interleave_273,NaN
+8,test_intrin_utils.hpp_test_loadstore_189,NaN
+8,mathfuncs.cpp_getMat_677,NaN
+8,mathfuncs.cpp_exp_664,NaN
+8,base.hpp_normInf_630,NaN
+8,test_eigen.cpp_src_514,NaN
+8,test_eigen.cpp_testEigen3x3_506,NaN
+8,lda.cpp_for _647,NaN
+8,lda.cpp_ _630,NaN
+8,test_eigen.cpp_src_496,NaN
+8,test_eigen.cpp_testEigen2x2_492,NaN
+8,lda.cpp_if _389,NaN
+8,test_eigen.cpp_src_480,NaN
+8,test_eigen.cpp_testEigenSymmetric5x5_470,NaN
+8,test_eigen.cpp_src_459,0
+8,test_eigen.cpp_testEigenSymmetric3x3_451,NaN
+8,test_eigen.cpp_testEigen_403,0
+8,matrix.cpp_sortIdx_4557,NaN
+8,matrix.cpp_ipp_sortIdx_4474,0.235702260395516
+9,mathfuncs.cpp_log_697,0
+9,mathfuncs.cpp_getMat_710,NaN
+9,matrix.cpp_depth_2045,0.125
+10,mathfuncs.cpp_pow_1203,0
+10,test_intrin_utils.hpp_]_100,NaN
+10,intrin_sse.hpp_v_store_interleave_1634,0
+10,test_hal_core.cpp_TEST_54,NaN
+10,stat.cpp_CV_Assert_3728,NaN
+10,stat.cpp_ _3459,NaN
+10,stat.cpp_normDiffInf__2859,NaN
+10,matrix.cpp_channels_2050,0.128036879932896
+10,mathfuncs_core.simd_sqrt64f_315,NaN
+10,mathfuncs.cpp_getMat_1242,NaN
+10,mathfuncs_core.simd_sqrt32f_294,NaN
+10,mathfuncs_core.dispatch_log64f_146,NaN
+10,mathfuncs_core.dispatch_log32f_135,NaN
+10,mathfuncs_core.dispatch_exp64f_124,NaN
+10,mathfuncs_core.dispatch_exp32f_113,NaN
+10,mathfuncs_core.dispatch_sqrt64f_103,NaN
+10,mathfuncs_core.dispatch_sqrt32f_92,NaN
+10,stat.cpp_norm_3180,NaN
+10,stat.cpp_if_3064,NaN
+10,persistence.cpp_-_7170,NaN
+10,test_lpsolver.cpp_TEST_44,NaN
+10,test_eigen.cpp_TEST_465,NaN
+10,test_eigen.cpp_TEST_399,NaN
+10,test_eigen.cpp_TEST_398,NaN
+10,test_eigen.cpp_TEST_397,NaN
+10,test_eigen.cpp_TEST_396,NaN
+10,mat.inl_col_732,0.196116135138184
+10,test_dxt.cpp_TEST_988,NaN
+10,test_dxt.cpp_TEST_987,NaN
+10,test_dxt.cpp_TEST_891,NaN
+10,test_dxt.cpp_TEST_856,NaN
+10,test_dxt.cpp_TEST_855,NaN
+10,test_dxt.cpp_TEST_854,NaN
+10,test_ds.cpp_TEST_2132,NaN
+10,test_ds.cpp_TEST_2131,NaN
+10,test_ds.cpp_TEST_2130,NaN
+10,test_eigen.cpp_TEST_466,NaN
+10,test_eigen.cpp_TEST_486,NaN
+10,test_eigen.cpp_TEST_487,NaN
+10,test_intrin.cpp_TEST_119,NaN
+10,test_io.cpp_TEST_388,NaN
+10,test_intrin.cpp_TEST_220,NaN
+10,test_intrin.cpp_TEST_196,NaN
+10,test_intrin.cpp_TEST_183,NaN
+10,test_intrin.cpp_TEST_172,NaN
+10,test_intrin.cpp_TEST_144,NaN
+10,test_intrin.cpp_TEST_90,NaN
+10,test_eigen.cpp_TEST_501,NaN
+10,test_intrin.cpp_TEST_64,NaN
+10,test_intrin.cpp_TEST_40,NaN
+10,test_intrin.cpp_TEST_18,NaN
+10,test_eigen.cpp_TEST_520,NaN
+10,test_eigen.cpp_TEST_519,NaN
+10,test_eigen.cpp_TEST_502,NaN
+10,test_ds.cpp_TEST_2129,NaN
+10,test_ds.cpp_TEST_2128,NaN
+10,test_downhill_simplex.cpp_TEST_83,NaN
+10,system.cpp_gatherData_1507,NaN
+10,system.cpp_getConfigurationParameterSizeT_1624,NaN
+10,system.cpp_getConfigurationParameterBool_1600,NaN
+10,system.cpp_getThreadID_1597,NaN
+10,system.cpp_DllMain_1558,NaN
+10,system.cpp_getData_1531,NaN
+10,system.cpp_release_1512,NaN
+10,system.cpp_TLSDataContainer_1502,NaN
+10,system.cpp_getIppFeatures_2071,NaN
+10,system.cpp_TLSDataContainer_1497,NaN
+10,system.cpp_setData_1455,NaN
+10,system.cpp_tlsSlotsSize_1336,NaN
+10,system.cpp_ThreadData_1321,NaN
+10,system.cpp_TlsAbstraction_1281,NaN
+10,system.cpp_Mutex_1207,NaN
+10,system.cpp_getConfigurationParameterString_1654,NaN
+10,system.cpp_getIppVersion_2125,NaN
+10,test_countnonzero.cpp_TEST _252,NaN
+10,test_arithm.cpp_for _1846,NaN
+10,test_conjugate_gradient.cpp_TEST_85,NaN
+10,test_concatenation.cpp_TEST_147,NaN
+10,test_concatenation.cpp_TEST_146,NaN
+10,test_concatenation.cpp_TEST_145,NaN
+10,test_concatenation.cpp_TEST_143,NaN
+10,test_concatenation.cpp_TEST_142,NaN
+10,test_arithm.cpp_PARAM_TEST_CASE_1620,NaN
+10,system.cpp_useIPP_2138,NaN
+10,test_arithm.cpp_PARAM_TEST_CASE_1479,NaN
+10,test_arithm.cpp_for _1463,NaN
+10,test_arithm.cpp_for _1444,NaN
+10,trace.cpp_TraceManager_843,NaN
+10,trace.cpp_TraceManager_822,NaN
+10,trace.cpp_implFlags_422,NaN
+10,test_io.cpp_TEST_523,NaN
+10,test_lpsolver.cpp_TEST_81,NaN
+10,system.cpp_redirectError_975,NaN
+10,test_lpsolver.cpp_TEST_96,NaN
+10,matrix.cpp_create_2472,NaN
+10,matrix.cpp_fixedType_2382,0.131876094679157
+11,matrix.cpp_isContinuous_2128,0.115856889272698
+11,matrix.cpp_type_1965,NaN
+11,matrix.cpp_size_1593,NaN
+11,matrix.cpp_kind_1578,0.119522860933439
+11,matrix.cpp_scalarToRawData__1161,NaN
+11,matrix.cpp_deallocate_462,NaN
+11,matrix.cpp_create_389,0.127000127000191
+11,matrix.cpp_deallocate_209,NaN
+11,matrix.cpp_allocate_176,NaN
+11,copy.cpp_ _426,NaN
+11,convert.cpp_cvt__3568,NaN
+11,arithm.cpp_sub8u_2263,NaN
+11,arithm.cpp_if_747,NaN
+11,matrix.cpp_init_4838,0.122627867896993
+11,matrix.cpp_+_4937,NaN
+11,ocl.cpp_isOpenCLActivated_895,NaN
+11,mat.inl_s_3352,NaN
+11,matop.cpp_ _1048,NaN
+11,convert.cpp_cpy__3600,NaN
+11,arithm.cpp_cmp8u_2634,NaN
+11,out.cpp_next_128,0.176776695296637
+12,matrix.cpp_seek_5046,0.123091490979333
+12,arithm.cpp_if_1288,NaN
+12,mat.inl_ _1361,NaN
+12,ocl.cpp_isPerformanceCheckBypassed_6495,NaN
+12,mat.inl_create_789,NaN
+12,mat.inl_size_499,NaN
+12,mat.inl_Mat_689,0.122169444356305
+12,umatrix.cpp_UMatData_74,NaN
+12,system.cpp_setIppStatus_2095,NaN
+12,stat.cpp_ _3578,NaN
+12,mat.inl_ _1431,NaN
+12,mat.inl_size_532,NaN
+12,mat.inl_step_480,NaN
+12,test_math.cpp_TEST_2740,NaN
+12,test_math.cpp_TEST_2746,NaN
+12,test_math.cpp_TEST_2745,NaN
+12,test_math.cpp_TEST_2744,NaN
+12,test_math.cpp_TEST_2743,NaN
+12,test_math.cpp_TEST_2742,NaN
+12,test_math.cpp_TEST_2741,NaN
+12,test_math.cpp_TEST_2739,NaN
+12,test_math.cpp_TEST_2748,NaN
+12,test_mat.cpp_TEST_1164,NaN
+12,test_mat.cpp_TEST_1163,NaN
+12,test_mat.cpp_TEST_1161,NaN
+12,test_mat.cpp_TEST_1160,NaN
+12,test_lpsolver.cpp_TEST_126,NaN
+12,test_lpsolver.cpp_TEST_109,NaN
+12,test_math.cpp_TEST_2747,NaN
+12,test_math.cpp_TEST_2749,NaN
+12,mat.inl_getMat_146,0.121716123890037
+12,test_math.cpp_TEST_2902,NaN
+12,test_umat.cpp_TEST_884,NaN
+12,test_rotatedrect.cpp_TEST_107,NaN
+12,test_rand.cpp_TEST_340,NaN
+12,test_rand.cpp_TEST_305,NaN
+12,test_operations.cpp_TEST_1235,NaN
+12,test_operations.cpp_TEST_1146,NaN
+12,test_math.cpp_TEST_2757,NaN
+12,test_math.cpp_TEST_2750,NaN
+12,test_math.cpp_TEST_2756,NaN
+12,test_math.cpp_TEST_2755,NaN
+12,test_math.cpp_TEST_2754,NaN
+12,test_math.cpp_TEST_2753,NaN
+12,test_math.cpp_TEST_2752,NaN
+12,test_math.cpp_TEST_2751,NaN
+12,system.cpp_Mutex_1202,NaN
+12,matrix.cpp_reshape_1073,0.11322770341446
+13,system.cpp_format_798,0.0698430295769578
+13,ocl.cpp_maxMemAllocSize_1526,NaN
+13,stat.cpp_ippiGetDataType_2557,0.1
+14,mat.inl_isVector_157,0.0800640769025436
+15,matrix.cpp_dims_1818,0.0721687836487032
+16,ocl.cpp_available_1400,0.0698430295769578
+16,ocl.cpp_type_1394,NaN
+16,mat.inl_total_901,0.111111111111111
+16,ocl.cpp_version_1370,NaN
+16,ocl.cpp_extensions_1364,NaN
+16,ocl.cpp_name_1361,NaN
+16,ocl.cpp_set_1349,0.0698430295769578
+16,ocl.cpp_Device_1343,NaN
+16,copy.cpp_CV_INSTRUMENT_REGION_429,0.108465228909328
+17,out.cpp_reset_123,0.101015254455221
+18,arithm.cpp_func_1299,0.077151674981046
+19,ocl.cpp_Device_1314,0.0698430295769578
+19,ocl.cpp_getStrProp_1276,0.0698430295769578
+19,ocl.cpp_Impl_1199,0.0698430295769578
+19,ocl.cpp_parseDeviceVersion_1180,0.0698430295769578
+19,ocl.cpp_haveAmdFft_1066,NaN
+19,umatrix.cpp_copyTo_814,0.0753778361444409
+19,ocl.cpp_haveAmdBlas_985,NaN
+19,ocl.cpp_localMemSize_1447,NaN
+19,system.cpp_cv_vsnprintf_917,0.0698430295769578
+19,ocl.cpp_Context_2313,0.0698430295769578
+19,ocl.cpp_getDefault_2356,NaN
+19,ocl.cpp_getDevice_5895,NaN
+19,ocl.cpp_deviceNumber_5890,NaN
+19,ocl.cpp_PlatformInfo_5864,0.0698430295769578
+19,ocl.cpp_getStrProp_5841,NaN
+19,test_arithm.cpp_Near_1597,0.0698430295769578
+19,ocl.cpp_getDevices_5817,NaN
+19,ocl.cpp_Queue_2642,NaN
+19,ocl.cpp_device_2350,NaN
+19,ocl.cpp_preferredVectorWidthLong_1591,NaN
+19,ocl.cpp_setDefault_1952,0.0698430295769578
+19,ocl.cpp_Impl_1947,NaN
+19,ocl.cpp_selectOpenCLDevice_1698,0.0698430295769578
+19,ocl.cpp_char_tolower_1694,NaN
+19,ocl.cpp_getStringInfo_1625,0.0698430295769578
+19,ocl.cpp_getDefault_1614,NaN
+19,logger.cpp_writeLogMessage_63,NaN
+19,ocl.cpp_haveOpenCL_839,0.0698430295769578
+19,command_line_parser.cpp_split_string_520,0.0698430295769578
+19,logger.cpp_getLogLevel_56,NaN
+19,logger.cpp_getLogLevelVariable_43,0.0698430295769578
+19,utility.hpp_createDataInstance_713,0.0698430295769578
+19,utility.hpp_TLSData_698,0.0698430295769578
+19,ptr.inl_makePtr_300,NaN
+19,ptr.inl_Ptr_155,NaN
+19,ptr.inl_deleteSelf_98,NaN
+19,mat.inl_release_802,0.0698430295769578
+19,cvstd.inl_string_119,0.0698430295769578
+19,cvstd.hpp_ _1002,NaN
+19,cvstd.hpp_ _992,NaN
+19,cvstd.hpp_ _960,NaN
+19,arithm.cpp_compare_1230,0.0698430295769578
+19,cvstd.hpp_find_799,0.0698430295769578
+19,cvstd.hpp_substr_779,0.0698430295769578
+19,out.cpp_get_368,0.0698430295769578
+19,cvstd.hpp_len__598,NaN
+19,stat.cpp_CV_Assert_2724,0.0698430295769578
+19,alloc.cpp_cvAlloc_102,0.0698430295769578
+19,alloc.cpp_cvFree__107,NaN
+19,command_line_parser.cpp_String_217,NaN
+19,logger.cpp_parseLogLevelConfiguration_19,0.0698430295769578
+19,ocl.cpp_getPlatforms_5917,0.0698430295769578
+19,ocl.cpp_CV_OCL_DBG_CHECK_RESULT_6377,0.0698430295769578
+19,command_line_parser.cpp_split_range_string_450,0.0698430295769578
+19,command_line_parser.cpp_sort_params_332,0.0698430295769578
+19,command_line_parser.cpp_CommandLineParser_276,NaN
+19,command_line_parser.cpp_CommandLineParser_196,NaN
+19,command_line_parser.cpp_cat_string_11,0.0698430295769578
+19,command_line_parser.cpp_cmp_params_185,NaN
+19,command_line_parser.cpp_if_131,NaN
+19,command_line_parser.cpp_from_str_87,0.0698430295769578
+19,command_line_parser.cpp_parse_bool_78,0.0698430295769578
+19,command_line_parser.cpp_char_tolower_74,NaN
+19,matrix.cpp_empty_2055,0.0698430295769578
+19,ocl.cpp_name_5902,NaN
+19,ocl.cpp_isExtensionSupported_1367,0.0698430295769578
+19,ocl.cpp_getPlatfomsInfo_5932,NaN
+19,system.cpp_getData_1423,0.0698430295769578
+19,system.cpp_getThreadIDTLS_1592,0.0698430295769578
+19,softfloat.cpp_softfloat_roundPackToF32_2961,0.0698430295769578
+19,system.cpp_getCoreTlsData_1544,0.0698430295769578
+19,softfloat.cpp_if _2275,NaN
+19,stl.cpp_allocate_48,0.0698430295769578
+19,system.cpp_getIPPSingleton_2061,0.0698430295769578
+19,system.cpp_initializeNames_281,0.0698430295769578
+19,softfloat.cpp_if _2983,NaN
+19,system.cpp_getTlsStorage_1492,0.0698430295769578
+19,softfloat.cpp_if _2256,NaN
+19,system.cpp_gather_1437,0.0698430295769578
+19,softfloat.cpp_softfloat_roundPackToF64_3027,0.0698430295769578
+19,system.cpp_releaseSlot_1399,0.0698430295769578
+19,system.cpp_unlock_1232,0.0698430295769578
+19,system.cpp_reserveSlot_1378,0.0698430295769578
+20,matrix.cpp_getDefaultAllocator_230,0.0610847221781526
+20,softfloat.cpp_if _2236,NaN
+20,matrix.cpp_getMat__1209,0.0662266178532522
+21,matrix.cpp_unmap_60,0.0617802063215215
+21,softfloat.cpp_if _2244,NaN
+21,system.cpp_SetData_1294,0.0698430295769578
+21,system.cpp_readSettings_577,0.0698430295769578
+21,system.cpp_lock_1231,0.0698430295769578
+22,convert.cpp_CV_INSTRUMENT_FUN_IPP_4116,0.0693375245281536
+23,alloc.cpp_fastFree_85,0.0610847221781526
+24,alloc.cpp_fastMalloc_61,0.0606339062590832
+24,matrix.cpp_updateContinuityFlag_342,0.0606339062590832
+25,umatrix.cpp_UMatData_61,0.0597614304667197
+26,matrix.cpp_finalizeHdr_364,0.0593390829096927
+27,stl.cpp_deallocate_60,0.0562543950463012
+28,command_line_parser.cpp_getByName_117,0
+28,matrix.cpp_scalarToRawData_1170,0
+28,softfloat.cpp_if _2255,NaN
+28,matrix.cpp_setSize_284,0.0593390829096927
+29,matrix.cpp_getStdAllocator_246,0
+29,copy.cpp_getCopyMaskFunc_248,0
+29,matrix.cpp_idx_4833,0
+29,matrix.cpp_sameSize_1784,0
+29,softfloat.cpp_if _3049,NaN
+29,system.cpp_getBuildInformation_790,NaN
+29,system.cpp_getTickCount_682,0
+29,system.cpp_checkHardwareSupport_654,NaN
+29,system.cpp_initializeNames_327,NaN
+29,system.cpp_initializeNames_326,NaN
+29,system.cpp_initialize_315,NaN
+29,stat.cpp_norm_3630,0
+29,stat.cpp_ipp_norm_3410,0
+29,rand.cpp_theRNG_765,0
+29,precomp.hpp_checkScalar_221,0
+29,system.cpp_getInitializationMutex_54,NaN
+29,softfloat.cpp_if _2232,NaN
+29,matrix.cpp_noArray_3140,0
+29,matrix.cpp_createSameSize_2831,0
+29,matop.cpp_assign_1450,0
+29,convert.cpp_getConvertFunc_3819,0
+29,softfloat.cpp_if _2229,NaN
+29,opencl_core.cpp_WinGetProcAddress_120,NaN
+29,softfloat.cpp_if _1433,NaN
+29,softfloat.cpp_if _1417,NaN
+29,softfloat.cpp_if _1409,NaN
+29,softfloat.cpp_f64_div_1378,0.0698430295769578
+29,softfloat.cpp_ _780,NaN
+29,softfloat.cpp_if _766,NaN
+29,softfloat.cpp_if _756,NaN
+29,softfloat.cpp_if _750,NaN
+29,softfloat.cpp_if _742,NaN
+29,softfloat.cpp_f32_div_713,0.0698430295769578
+29,softfloat.cpp_ _271,NaN
+29,softfloat.cpp_ _235,NaN
+29,softfloat.cpp_ _233,NaN
+29,softfloat.cpp_softfloat_227,0.0698430295769578
+29,persistence.cpp_cvUnregisterType_6600,0.0698430295769578
+29,persistence.cpp_cvRegisterType_6550,0.0698430295769578
+29,persistence.cpp_CvType_6520,NaN
+29,persistence.cpp_CvType_6502,NaN
+29,parallel.cpp_currentParallelFramework_704,NaN
+29,opencl_core.cpp_opencl_check_fn_302,NaN
+29,softfloat.cpp_if _1423,NaN
+29,test_arithm.cpp_generateTestData_1499,0.0698430295769578
+29,softfloat.cpp_if _1444,NaN
+29,softfloat.cpp_if _1625,NaN
+29,softfloat.cpp_if _1598,NaN
+29,ocl.cpp_useOpenCL_877,0.0653720450460613
+29,softfloat.cpp_if _1605,NaN
+29,test_arithm.cpp_SetUp_1491,0.0698430295769578
+30,softfloat.cpp_softdouble_247,0
+30,softfloat.cpp_if _1611,NaN
+30,softfloat.cpp_softfloat_addMagsF32_2209,NaN
+30,softfloat.cpp_if _1447,NaN
+30,trace.cpp_getTraceManagerCallOnce_901,0.0698430295769578
+30,test_concatenation.cpp_TEST_141,0.0698430295769578
+31,arithm.cpp_convertAndUnrollScalar_61,0
+31,arithm.cpp_actualScalarDepth_457,0
+31,arithm.cpp_arithm_op_601,0
+31,trace.cpp_getTraceManager_906,0
+31,arithm.cpp_copymask_814,0
+31,ocl.cpp_preferredVectorWidthFloat_1594,0
+31,softfloat.cpp_if _1593,NaN
+31,ocl.cpp_preferredVectorWidthInt_1588,0
+31,softfloat.cpp_f64_mul_1564,0
+31,ocl.cpp_preferredVectorWidthShort_1585,0
+31,ocl.cpp_preferredVectorWidthChar_1582,0
+31,ocl.cpp_maxWorkGroupSize_1541,0
+31,softfloat.cpp_if _1470,NaN
+31,ocl.cpp_maxComputeUnits_1517,0
+31,ocl.cpp_hostUnifiedMemory_1453,0
+31,softfloat.cpp_if _1468,NaN
+31,ocl.cpp_doubleFPConfig_1413,0
+31,arithm.cpp_subtract_931,0
+31,ocl.cpp_addressBits_1397,0
+31,softfloat.cpp_if _1461,NaN
+31,ocl.cpp_driverVersion_1391,0
+31,ocl.cpp_preferredVectorWidthDouble_1597,0
+31,system.cpp_error_938,0
+31,matop.cpp_makeExpr_1468,NaN
+31,copy.cpp_ushort>_125,NaN
+31,rand.cpp_fill_513,0
+31,rand.cpp_randf_64f_299,NaN
+31,rand.cpp_randf_32f_219,NaN
+31,rand.cpp_randi__155,NaN
+31,rand.cpp_randBits__89,NaN
+31,matrix.cpp_setTo_2995,NaN
+31,matrix.cpp_create_2429,NaN
+31,matrix.cpp_copySize_452,0
+31,copy.cpp_getCopyMaskFunc_532,NaN
+31,copy.cpp_setTo_515,NaN
+31,copy.cpp_it_495,NaN
+31,copy.cpp_CV_INSTRUMENT_FUN_IPP_491,NaN
+31,copy.cpp_ipp_Mat_setTo_Mat_467,0
+31,copy.cpp_copyTo_370,NaN
+31,copy.cpp_ipp_copyTo_335,0
+31,copy.cpp_if_323,NaN
+31,copy.cpp_copyTo_254,NaN
+31,rand.cpp_CV_Error_692,0
+31,test_arithm.cpp_for _1535,NaN
+31,test_arithm.cpp_for _1548,NaN
+31,mat.inl__Tp>_3276,NaN
+31,matop.cpp_makeExpr_1365,NaN
+31,matop.cpp_assign_1251,NaN
+31,matop.cpp_type_1219,NaN
+31,matop.cpp_ _754,NaN
+31,matop.cpp_type_612,NaN
+31,matop.cpp_getGlobalMatOpInitializer_207,0
+31,mat.inl_Mat_3362,NaN
+31,mat.inl_sliceEnd_2563,NaN
+31,test_arithm.cpp_PARAM_TEST_CASE_1561,NaN
+31,mat.inl_ _1643,NaN
+31,mat.inl_Mat_1556,NaN
+31,mat.inl_ _697,NaN
+31,arithm_core.hpp_mul__446,0
+31,arithm.cpp_mul64f_2903,NaN
+31,arithm.cpp_multiply_1044,0
+31,test_arithm.cpp_SetUp_1571,NaN
+31,copy.cpp_copyMaskGeneric_168,NaN
+31,copy.cpp_uchar>_85,NaN
+31,matrix.cpp_create_2387,NaN
+31,copy.cpp_copyMask__58,NaN
+31,arithm.cpp_add16s_2225,NaN
+31,arithm.cpp_add16u_2216,NaN
+31,arithm.cpp_add8s_2208,NaN
+31,arithm.cpp_add8u_2199,NaN
+31,arithm.cpp_add_923,0
+31,arithm.cpp_bitwise_xor_387,0
+31,arithm.cpp_bitwise_or_379,0
+31,arithm.cpp_bitwise_and_371,0
+31,arithm.cpp_if_272,NaN
+31,arithm.cpp_binary_op_168,0
+31,private.hpp_ippiGetDataType_323,NaN
+31,mat.inl_size_1339,NaN
+31,mat.inl_empty_895,NaN
+31,mat.inl_if_783,NaN
+31,mat.inl_create_779,NaN
+31,test_opencl.cpp_TEST_87,NaN
+31,system.cpp_throw_247,NaN
+31,arithm.cpp_add32s_2234,NaN
+31,arithm.cpp_add32f_2242,NaN
+31,arithm.cpp_add64f_2251,NaN
+31,arithm_core.hpp_vBinOp_152,NaN
+31,convert.sse4_1_Cvt_SIMD_f64u16_SSE41_217,NaN
+31,convert.cpp_func_4185,NaN
+31,convert.cpp_getConvertScaleFunc_4173,0
+31,convert.cpp_catch _4133,NaN
+31,convert.cpp_ _3184,NaN
+31,arithm_core.hpp_vBinOp64_324,NaN
+31,arithm_core.hpp_vBinOp32_229,NaN
+31,arithm.cpp_xor8u_2582,NaN
+31,arithm.cpp_sub8s_2272,NaN
+31,arithm.cpp_or8u_2573,NaN
+31,arithm.cpp_and8u_2564,NaN
+31,arithm.cpp_sub64f_2315,NaN
+31,arithm.cpp_sub32f_2306,NaN
+31,arithm.cpp_sub32s_2298,NaN
+31,arithm.cpp_sub16s_2289,NaN
+31,arithm.cpp_sub16u_2280,NaN
+31,matrix.cpp_size_474,NaN
+31,stat.cpp_countNonZero__482,0
+31,stat.cpp_countNonZero64f_706,NaN
+31,stat.cpp_ipp_countNonZero_1294,0
+31,conjugate_gradient.cpp_for_158,NaN
+31,conjugate_gradient.cpp_copyTo_146,NaN
+31,conjugate_gradient.cpp_if_141,NaN
+31,conjugate_gradient.cpp_if_132,NaN
+31,conjugate_gradient.cpp_minimize_123,0
+31,conjugate_gradient.cpp_if_110,NaN
+31,conjugate_gradient.cpp_for_101,NaN
+31,conjugate_gradient.cpp_minimizeOnTheLine_90,0
+31,conjugate_gradient.cpp_getGradient_51,0
+31,conjugate_gradient.cpp_getGradientEps_49,0
+31,algorithm.cpp_Algorithm_54,NaN
+31,algorithm.cpp_Algorithm_49,NaN
+31,ptr.inl_makePtr_342,NaN
+31,ptr.inl_ _161,NaN
+31,cvstd.inl_ _182,NaN
+31,cvstd.inl_ _173,NaN
+31,base.hpp_normL2Sqr_513,0
+31,conjugate_gradient.cpp_if_164,NaN
+31,conjugate_gradient.cpp_if_174,NaN
+31,conjugate_gradient.cpp_ConjGradSolverImpl_180,NaN
+31,matop.cpp_ _726,NaN
+31,stat.cpp_normL2__2835,NaN
+31,out.cpp_format_288,NaN
+31,out.cpp_format_287,NaN
+31,out.cpp_FormattedImpl_85,NaN
+31,out.cpp_valueToStr64f_79,0
+31,matop.cpp_assign_1233,NaN
+31,matop.cpp_ _838,NaN
+31,matop.cpp_s_621,NaN
+31,conjugate_gradient.cpp_setFunction_186,0
+31,matop.cpp_add_335,NaN
+31,matmul.cpp_dot_3289,0
+31,matmul.cpp_dotProd_64f_3263,NaN
+31,matmul.cpp_scaleAdd_2411,NaN
+31,matmul.cpp_scaleAdd_64f_2334,NaN
+31,conjugate_gradient.cpp_create_198,NaN
+31,conjugate_gradient.cpp_setTermCriteria_192,0
+31,matrix.cpp_CV_INSTRUMENT_REGION_3227,NaN
+31,matrix.cpp_vconcat_3224,NaN
+31,matrix.cpp_vconcat_3196,0
+31,mat.inl_step_411,NaN
+31,stat.cpp_minMaxIdx_32f_2044,NaN
+31,stat.cpp_minMaxLoc_2772,0
+31,stat.cpp_minMaxIdx_32s_2040,NaN
+31,test_arithm.cpp_for _1861,NaN
+31,stat.cpp_mean_1484,0
+31,stat.cpp_if_1402,NaN
+31,stat.cpp_ipp_mean_1391,0
+31,stat.cpp_findNonZero_4127,NaN
+31,test_arithm.cpp_OCL_TEST_1953,NaN
+31,matrix.cpp_release_2837,NaN
+31,matrix.cpp_create_2424,NaN
+31,test_arithm.cpp_for _1607,NaN
+31,system.cpp_getIppTopFeatures_2086,NaN
+31,stat.cpp_CV_Assert_1376,NaN
+31,stat.cpp_countNonZero_1354,0
+31,stat.cpp_if_1309,NaN
+31,stat.cpp_minMaxIdx_8u_2024,NaN
+31,test_arithm.cpp_OCL_TEST_1954,NaN
+31,test_concatenation.cpp_areEqual_135,0
+31,matrix.cpp_CV_INSTRUMENT_REGION_3182,NaN
+31,test_concatenation.cpp_validate_test_results_112,NaN
+31,test_concatenation.cpp_run_func_98,NaN
+31,test_concatenation.cpp_prepare_test_case_92,NaN
+31,test_concatenation.cpp_secondEmpty_79,NaN
+31,system.cpp_cvSetErrStatus_1102,NaN
+31,system.cpp_cvGetTickCount_1003,NaN
+31,system.cpp_getTickFrequency_702,0
+31,matrix.cpp_hconcat_3179,NaN
+31,mat.inl_)_829,NaN
+31,matrix.cpp_hconcat_3151,0
+31,matrix.cpp_size_531,NaN
+31,matop.cpp_ones_1728,0
+31,matop.cpp_makeExpr_1655,NaN
+31,matop.cpp_assign_1627,NaN
+31,matop.cpp_makeExpr_1463,NaN
+31,matop.cpp_ _999,NaN
+31,system.cpp_Exception_234,0
+31,test_opencl.cpp_TEST_31,NaN
+31,test_opencl.cpp_ _17,NaN
+31,ocl.cpp_sourceSignatureSize__601,NaN
+31,test_image2d.cpp_TEST_67,NaN
+31,umatrix.cpp_handle_784,0
+31,ocl.cpp_Image2D_6472,NaN
+31,ocl.cpp_CV_OCL_DBG_CHECK_RESULT_6378,NaN
+31,ocl.cpp_create_2677,NaN
+31,ocl.cpp_Impl_2574,NaN
+31,ocl.cpp_setUseOpenCL_903,NaN
+31,test_image2d.cpp_TEST_39,NaN
+31,umatrix.cpp_create_333,NaN
+31,umatrix.cpp_updateContinuityFlag_234,NaN
+31,umatrix.cpp_setSize_181,NaN
+31,ocl.cpp_isFormatSupported_6445,NaN
+31,ocl.cpp_isFormatSupported_6299,0
+31,ocl.cpp_getOpenCLAllocator_5649,0
+31,ocl.cpp_getOpenCLAllocator__5643,0
+31,ocl.cpp_flushCleanupQueue_5618,0
+31,ocl.cpp_deallocate__4736,0
+31,cvstd.hpp_find_785,NaN
+31,cvstd.hpp_ _970,NaN
+31,cvstd.inl_ _125,NaN
+31,matrix.cpp_step_2274,NaN
+31,ocl.cpp_seekReadAbsolute_574,0
+31,ocl.cpp_readUInt32_560,0
+31,ocl.cpp_getFileSize_552,0
+31,ocl.cpp_getSingletonInstance_506,NaN
+31,ocl.cpp_prepareCacheDirectoryForContext_413,0
+31,ocl.cpp_OpenCLBinaryCacheConfigurator_312,0
+31,ocl.cpp_crc64_277,0
+31,matrix.cpp_offset_2209,NaN
+31,mat.inl_empty_3805,NaN
+31,glob.cpp_glob_relative_319,NaN
+31,glob.cpp_glob_rec_228,0
+31,glob.cpp_isDirectory_173,0
+31,glob.cpp_isDir_141,0
+31,glob.cpp_opendir_78,0
+31,ptr.inl_makePtr_306,NaN
+31,ptr.inl_ _266,NaN
+31,ocl.cpp_deallocate_4719,NaN
+31,ocl.cpp_allocate_4523,NaN
+31,ocl.cpp_bufferPoolHostPtr_4482,NaN
+31,mat.inl_step_405,NaN
+31,stat.cpp_minMaxIdx_64f_2048,NaN
+31,stat.cpp_minMaxIdx__1977,0
+31,precomp.hpp_getContinuousSize_165,0
+31,matrix.cpp_idx_4827,NaN
+31,convert.cpp_normalize_4698,NaN
+31,convert.cpp_convertTo_4146,0
+31,convert.cpp_ipp_convertTo_4083,0
+31,system.cpp_cvErrorStr_1043,NaN
+31,stat.cpp_ipp_minMax_wrap_2430,NaN
+31,system.cpp_error_968,NaN
+31,stat.cpp_ipp_norm_3052,NaN
+31,system.cpp_formatMessage_250,NaN
+31,system.cpp_throw_242,NaN
+31,matrix.cpp_seek_5106,NaN
+31,trace.hpp_Region_80,NaN
+31,cvstd.hpp_String_647,NaN
+31,stat.cpp_ipp_minMaxIndex_wrap_2406,0
+31,stat.cpp_ipp_minMaxIdx_2536,0
+31,ocl.cpp__releaseBufferEntry_4284,0
+31,ocl.cpp_deviceVersionMajor_1385,0
+31,ocl.cpp__allocateBufferEntry_4267,0
+31,ocl.cpp_setMaxReservedSize_4210,0
+31,ocl.cpp_release_4191,NaN
+31,ocl.cpp_allocate_4176,NaN
+31,ocl.cpp_maxReservedSize_4166,NaN
+31,ocl.cpp_ptr_2340,NaN
+31,ocl.cpp_deviceVersionMinor_1388,0
+31,test_image2d.cpp_TEST_28,NaN
+31,stat.cpp_ippiGetDataType_2558,NaN
+31,ocl.cpp_Image2D_6419,NaN
+31,ocl.cpp_init_6326,NaN
+31,test_image2d.cpp_TEST_17,NaN
+31,umatrix.cpp_UMat_409,0
+31,ocl.cpp_canCreateAlias_6424,0
+31,ocl.cpp_imageFromBufferSupport_1459,0
+31,stat.cpp_minMaxIdx_2704,0
+31,ocl.cpp_seekReadRelative_579,0
+31,ocl.cpp_read_653,NaN
+31,test_opencl.cpp_dst_16,0
+31,ocl.cpp_Device_1325,NaN
+31,ocl.cpp_ptr_5145,NaN
+31,ocl.cpp_download_5131,0
+31,ocl.cpp_getProg_3998,NaN
+31,ocl.cpp_getBinary_3986,0
+31,ocl.cpp_ptr_3934,NaN
+31,ocl.cpp_create_3914,NaN
+31,ocl.cpp_Program_3907,NaN
+31,ocl.cpp_Program_3883,0
+31,ocl.cpp_createFromBinary_3751,0
+31,ocl.cpp_getProgramBinary_3736,0
+31,ocl.cpp_buildFromSources_3670,0
+31,ocl.cpp_compileWithCache_3519,0
+31,ocl.cpp_compile_3505,0
+31,ocl.cpp_buildflags_3484,NaN
+31,ocl.cpp_joinBuildOptions_3465,0
+31,ocl.cpp_ProgramSource&_3443,NaN
+31,ocl.cpp_fromBinary_3426,NaN
+31,ocl.cpp_ptr_5146,NaN
+31,ocl.cpp_ptr_5147,NaN
+31,ocl.cpp_memopTypeToStr_5958,NaN
+31,filesystem.cpp_join_59,NaN
+31,test_opencl.cpp_testOpenCLKernel_12,0
+31,filesystem.cpp_getCacheDirectory_393,NaN
+31,filesystem.cpp_unlock_shared_388,0
+31,filesystem.cpp_lock_shared_387,0
+31,filesystem.cpp_pImpl_376,NaN
+31,filesystem.cpp_createDirectories_207,NaN
+31,filesystem.cpp_exists_84,NaN
+31,umatrix.cpp_ _1033,NaN
+31,ocl.cpp_predictOptimalVectorWidth_6185,0
+31,umatrix.cpp_args_1018,0
+31,umatrix.cpp_setTo_974,0
+31,umatrix.cpp_release_831,NaN
+31,umatrix.cpp_unlock_136,NaN
+31,umatrix.cpp_lock_131,NaN
+31,ocl.cpp_checkOptimalVectorWidth_6210,0
+31,ocl.cpp_getDefault_6188,NaN
+31,ocl.cpp_ProgramSource_3387,NaN
+31,ocl.cpp_ProgramSource_3372,0
+31,ocl.cpp_fromBinary_3331,NaN
+31,ocl.cpp_Queue_2671,NaN
+31,ocl.cpp_addUMat_2775,0
+31,ocl.cpp_cleanupUMats_2759,0
+31,ocl.cpp_nu_2744,NaN
+31,ocl.cpp_iwscale_2728,NaN
+31,ocl.cpp_getQueue_2712,0
+31,ocl.cpp_getDefault_2704,NaN
+31,ocl.cpp_finish_2685,0
+31,ocl.cpp_getProfilingQueue_2609,0
+31,ocl.cpp_oclCleanupCallback_2826,NaN
+31,ocl.cpp_getProg_2378,0
+31,ocl.cpp_Context_2322,NaN
+31,ocl.cpp_getPrefixBase_2095,NaN
+31,ocl.cpp_getPrefixString_2072,NaN
+31,ocl.cpp_compilerAvailable_1403,0
+31,ocl.cpp_vendorID_1376,NaN
+31,ocl.cpp_vendorName_1373,0
+31,ocl.cpp_Impl_2802,NaN
+31,ocl.cpp_Kernel_2835,NaN
+31,ocl.cpp_fromSourceWithStaticLifetime_3320,NaN
+31,ocl.cpp_if _3047,NaN
+31,ocl.cpp_Impl_3308,NaN
+31,ocl.cpp_updateHash_3270,0
+31,ocl.cpp_initFromSource_3256,0
+31,ocl.cpp_init_3244,NaN
+31,ocl.cpp_Impl_3237,NaN
+31,ocl.cpp_runProfiling_3160,0
+31,ocl.cpp_run_3068,NaN
+31,ocl.cpp_run_3043,0
+31,ocl.cpp_Kernel_2840,NaN
+31,ocl.cpp_set_2945,NaN
+31,ocl.cpp_set_2917,NaN
+31,ocl.cpp_empty_2912,NaN
+31,ocl.cpp_create_2894,NaN
+31,ocl.cpp_create_2877,NaN
+31,ocl.cpp_Kernel_2871,NaN
+31,ocl.cpp_Kernel_2847,NaN
+31,persistence.cpp_-_7154,NaN
+31,persistence.cpp_ _7177,NaN
+31,test_utils.cpp_TEST_245,NaN
+31,softfloat.cpp_if _1884,NaN
+31,softfloat.cpp_f64_sqrt_1854,0
+31,softfloat.cpp_if _1836,NaN
+31,softfloat.cpp_if _1834,NaN
+31,softfloat.cpp_if _1822,NaN
+31,softfloat.cpp_switch _1805,NaN
+31,softfloat.cpp_if _1801,NaN
+31,softfloat.cpp_f64_roundToInt_1790,0
+31,softfloat.cpp_if _1541,NaN
+31,softfloat.cpp_f64_lt_1534,0
+31,softfloat.cpp_if _1263,NaN
+31,softfloat.cpp_if _1262,NaN
+31,softfloat.cpp_if _1251,NaN
+31,softfloat.cpp_f32_to_f64_1234,0
+31,softfloat.cpp_f32_lt_846,0
+31,softfloat.cpp_f32_le_827,0
+31,softfloat.cpp_pow_298,NaN
+31,softfloat.cpp_exp_291,NaN
+31,softfloat.cpp_if _1874,NaN
+31,softfloat.cpp_if _1890,NaN
+31,softfloat.cpp_ _274,NaN
+31,softfloat.cpp_if _1907,NaN
+31,softfloat.cpp_if _2337,NaN
+31,softfloat.cpp_if _2331,NaN
+31,softfloat.cpp_if _2330,NaN
+31,softfloat.cpp_UINT64_C_2325,0.0698430295769578
+31,softfloat.cpp_if _2317,NaN
+31,softfloat.cpp_if _2313,NaN
+31,softfloat.cpp_if _2310,NaN
+31,softfloat.cpp_softfloat_addMagsF64_2291,NaN
+31,softfloat.cpp_if _2014,NaN
+31,softfloat.cpp_f64_to_i32_1998,0
+31,softfloat.cpp_if _1986,NaN
+31,softfloat.cpp_if _1974,NaN
+31,softfloat.cpp_f64_to_f32_1958,0
+31,softfloat.cpp_if _1924,NaN
+31,softfloat.cpp_if _1922,NaN
+31,softfloat.cpp_if _1918,NaN
+31,softfloat.cpp_if _1910,NaN
+31,softfloat.cpp_sqrt_289,0
+31,softfloat.cpp_ _268,NaN
+31,softfloat.cpp_softfloat_shiftRightJam64_2343,0
+31,kmeans.cpp_)_76,NaN
+31,mathfuncs_core.simd_fastAtan64f_192,NaN
+31,mathfuncs_core.dispatch_fastAtan64f_25,NaN
+31,test_math.cpp_run_2475,NaN
+31,mathfuncs_core.simd_fastAtan32f_186,NaN
+31,mathfuncs_core.simd_atanImpl_167,NaN
+31,mathfuncs_core.simd_atanImpl_143,NaN
+31,mathfuncs_core.simd_)_63,NaN
+31,mathfuncs_core.dispatch_fastAtan32f_15,NaN
+31,mathfuncs.cpp_getMat_195,NaN
+31,mathfuncs.cpp_phase_182,0
+31,arithm.cpp_cmp32f_2798,NaN
+31,test_math.cpp_prepare_to_validation_457,NaN
+31,test_math.cpp_run_func_451,NaN
+31,stat.cpp_sum32f_459,NaN
+31,stat.cpp_sum32s_456,NaN
+31,stat.cpp_sum16s_453,NaN
+31,stat.cpp_sum16u_450,NaN
+31,base.hpp_normL2Sqr_578,NaN
+31,kmeans.cpp_generateCentersPP_104,0
+31,softfloat.cpp_softfloat_266,NaN
+31,kmeans.cpp_)_181,NaN
+31,softfloat.cpp_softdouble_246,NaN
+31,softfloat.cpp_ _241,NaN
+31,softfloat.cpp_ _240,NaN
+31,softfloat.cpp_ _238,NaN
+31,softfloat.cpp_softdouble_230,NaN
+31,test_math.cpp_TEST_3086,NaN
+31,matrix_decomp.cpp_QR64f_342,NaN
+31,matrix_decomp.cpp_QRImpl_239,0
+31,test_math.cpp_TEST_3066,NaN
+31,stat.cpp_normDiffL2__2901,NaN
+31,lapack.cpp_Cholesky_81,0
+31,base.hpp_normL2Sqr_559,NaN
+31,test_math.cpp_TEST_2979,NaN
+31,test_math.cpp_TEST_2948,NaN
+31,test_math.cpp_TEST_2917,NaN
+31,test_math.cpp_run_2806,NaN
+31,kmeans.cpp_kmeans_232,0
+31,softfloat.cpp_UINT64_C_2339,NaN
+31,softfloat.cpp_if _2344,NaN
+31,mathfuncs.cpp_cvSolvePoly_2017,0
+31,softfloat.cpp_if _3242,NaN
+31,softfloat.cpp_ _278,NaN
+31,test_math.cpp_TEST_3245,NaN
+31,softfloat.cpp_f32_log_3864,0
+31,softfloat.cpp_if _3276,NaN
+31,softfloat.cpp_ _3273,NaN
+31,softfloat.cpp_if _3264,NaN
+31,softfloat.cpp_if _3260,NaN
+31,softfloat.cpp_if _3248,NaN
+31,softfloat.cpp_if _2878,NaN
+31,softfloat.cpp_if _1638,NaN
+31,softfloat.cpp_softfloat_normRoundPackToF32_2873,NaN
+31,softfloat.cpp_log_294,NaN
+31,softfloat.cpp_cvRound_253,0.107832773203438
+31,softfloat.cpp_ _242,NaN
+31,test_math.cpp_TEST_3202,NaN
+31,softfloat.cpp_f64_exp_3564,0
+31,softfloat.cpp_if _1523,NaN
+31,softfloat.cpp_f64_le_1516,0
+31,softfloat.cpp_log_295,NaN
+31,softfloat.cpp_f64_log_3888,0
+31,softfloat.cpp_ _279,NaN
+31,softfloat.cpp_f32_cbrt_3926,0
+31,softfloat.cpp_if _1094,NaN
+31,softfloat.cpp_f32_roundToInt_1083,0
+31,softfloat.cpp_if _947,NaN
+31,softfloat.cpp_if _757,NaN
+31,softfloat.cpp_pow_297,NaN
+31,softfloat.cpp_ _239,NaN
+31,test_math.cpp_TEST_3346,NaN
+31,softfloat.cpp_if _934,NaN
+31,test_math.cpp_TEST_3295,NaN
+31,softfloat.cpp_if _922,NaN
+31,softfloat.cpp_if _916,NaN
+31,softfloat.cpp_if _909,NaN
+31,softfloat.cpp_if _904,NaN
+31,softfloat.cpp_f32_mul_876,0
+31,softfloat.cpp_cbrt_300,0
+31,softfloat.cpp_ _234,NaN
+31,softfloat.cpp_exp_292,NaN
+31,softfloat.cpp_ _277,NaN
+31,softfloat.cpp_if _2350,NaN
+31,softfloat.cpp_if _3227,NaN
+31,softfloat.cpp_softfloat_subMagsF32_3202,NaN
+31,softfloat.cpp_if _3109,NaN
+31,softfloat.cpp_softfloat_roundToI32_3098,0
+31,softfloat.cpp_if _3050,NaN
+31,softfloat.cpp_if _2996,NaN
+31,softfloat.cpp_if _2984,NaN
+31,softfloat.cpp_softfloat_normSubnormalF64Sig_2911,0
+31,softfloat.cpp_softfloat_normSubnormalF32Sig_2900,0
+31,softfloat.cpp_if _2892,NaN
+31,softfloat.cpp_softfloat_normRoundPackToF64_2887,0
+31,softfloat.cpp_if _2436,NaN
+31,softfloat.cpp_if _2432,NaN
+31,softfloat.cpp_if _2425,NaN
+31,softfloat.cpp_softfloat_countLeadingZeros64_2419,0
+31,softfloat.cpp_softfloat_approxRecipSqrt32_1_2373,0
+31,softfloat.cpp_if _2358,NaN
+31,softfloat.cpp_UINT64_C_2352,NaN
+31,softfloat.cpp_if _3224,NaN
+31,softfloat.cpp_if _3234,NaN
+31,softfloat.cpp_ _276,NaN
+31,softfloat.cpp_softfloat_subMagsF64_3300,NaN
+31,softfloat.cpp_ _270,NaN
+31,softfloat.cpp_ _269,NaN
+31,test_math.cpp_TEST_3160,NaN
+31,test_math.cpp_getFrac_3136,0
+31,test_math.cpp_naiveExp_3130,0
+31,softfloat.cpp_f64_powi_4045,0
+31,softfloat.cpp_f64_pow_3990,0
+31,softfloat.cpp_f32_exp_3536,0
+31,softfloat.cpp_if _3372,NaN
+31,softfloat.cpp_UINT64_C_3369,NaN
+31,softfloat.cpp_if _3359,NaN
+31,softfloat.cpp_if _3355,NaN
+31,softfloat.cpp_if _3344,NaN
+31,softfloat.cpp_if _3338,NaN
+31,softfloat.cpp_if _3331,NaN
+31,softfloat.cpp_if _3324,NaN
+31,softfloat.cpp_if _3321,NaN
+31,stat.cpp_ _151,NaN
+31,stat.cpp_ _123,NaN
+31,matrix.cpp_cvTrace_4589,0
+31,matmul.cpp_dotProd_32s_3219,NaN
+31,matmul.cpp_dotProd_16u_3201,NaN
+31,matmul.cpp_dotProd_8u_3022,NaN
+31,test_math.cpp_prepare_to_validation_1535,NaN
+31,test_math.cpp_cvTsLU_1449,0
+31,test_math.cpp_run_func_1442,NaN
+31,test_math.cpp_prepare_test_case_1432,NaN
+31,test_math.cpp_get_success_error_level_1426,NaN
+31,test_math.cpp_get_minmax_bounds_1419,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_1409,NaN
+31,test_math.cpp_Core_MatrixTest_1401,NaN
+31,lapack.cpp_cvDet_1613,0
+31,lapack.cpp_determinant_754,0
+31,test_math.cpp_prepare_to_validation_546,NaN
+31,test_math.cpp_run_func_540,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_520,NaN
+31,matrix.cpp_cvCrossProduct_4611,0
+31,matrix.cpp_cross_3685,0
+31,matmul.cpp_dotProd_16s_3210,NaN
+31,matmul.cpp_dotProd_32f_3228,NaN
+31,array.cpp_cvSet1D_2163,0
+31,matmul.cpp_func_3304,NaN
+31,test_math.cpp_prepare_to_validation_702,NaN
+31,test_math.cpp_run_func_695,NaN
+31,test_math.cpp_get_minmax_bounds_688,NaN
+31,test_math.cpp_prepare_test_case_676,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_625,NaN
+31,matmul.cpp_cvGEMM_3324,0
+31,matmul.cpp_gemm64fc_1535,NaN
+31,matmul.cpp_gemm32fc_1527,NaN
+31,matmul.cpp_GEMMStore_64fc_694,NaN
+31,matmul.cpp_GEMMStore_64f_676,NaN
+31,matmul.cpp_GEMMBlockMul_64fc_658,NaN
+31,matmul.cpp_GEMMBlockMul_64f_640,NaN
+31,matmul.cpp_GEMMSingleMul_64fc_621,NaN
+31,matmul.cpp_GEMMSingleMul_32fc_609,NaN
+31,test_math.cpp_prepare_to_validation_492,NaN
+31,test_math.cpp_run_func_486,NaN
+31,matmul.cpp_cvDotProduct_3431,0
+31,array.cpp_cvSetReal1D_2255,0
+31,array.cpp_cvGetReal2D_2071,0
+31,matrix.cpp_trace_3331,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_1572,NaN
+31,matrix_decomp.cpp_Cholesky64f_220,NaN
+31,matrix_decomp.cpp_Cholesky32f_211,NaN
+31,matrix_decomp.cpp_CholImpl_133,0
+31,matrix_decomp.cpp_LU64f_122,NaN
+31,lapack.cpp_cvInvert_1647,0
+31,lapack.cpp_SVBkSb_733,NaN
+31,test_math.cpp_TEST_2723,NaN
+31,lapack.cpp_backSubst_1555,NaN
+31,lapack.cpp_MatrAXPY_624,0
+31,test_math.cpp_TEST_2704,NaN
+31,test_math.cpp_TEST_2690,NaN
+31,test_math.cpp_TEST_2676,NaN
+31,test_math.cpp_TEST_2575,NaN
+31,test_math.cpp_TEST_2568,NaN
+31,test_math.cpp_TEST_2562,NaN
+31,mathfuncs.cpp_checkRange_1441,0
+31,mathfuncs.cpp_checkIntegerRange_1400,NaN
+31,test_math.cpp_result_1563,0
+31,test_math.cpp_get_success_error_level_1604,NaN
+31,array.cpp_cvGetReal1D_2032,0
+31,test_math.cpp_prepare_test_case_1609,NaN
+31,array.cpp_cvGet1D_1921,0
+31,array.cpp_cvPtr1D_1646,0
+31,test_math.cpp_prepare_to_validation_1322,NaN
+31,test_math.cpp_run_func_1315,NaN
+31,test_math.cpp_prepare_test_case_1272,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_1224,NaN
+31,test_math.cpp_are_images_1214,NaN
+31,test_math.cpp_get_success_error_level_425,NaN
+31,matrix.cpp__IplImage_6032,NaN
+31,matmul.cpp_cvCalcCovarMatrix_3382,0
+31,matmul.cpp_MulTransposedR_2686,NaN
+31,matmul.cpp_calcCovarMatrix_2458,NaN
+31,array.cpp_cvSetData_892,0
+31,test_math.cpp_prepare_to_validation_1668,NaN
+31,test_math.cpp_cvTsSVDet_1642,0
+31,test_math.cpp_run_func_1636,NaN
+31,test_math.cpp_get_minmax_bounds_1629,NaN
+31,matmul.cpp_Mahalanobis_2589,NaN
+31,matmul.cpp_cvMahalanobis_3413,NaN
+31,test_math.cpp_Core_MatrixTest_1135,NaN
+31,mathfuncs.cpp_iPow64f_1119,NaN
+31,mathfuncs.cpp_iPow_f_1063,NaN
+31,mathfuncs.cpp_ _979,NaN
+31,mathfuncs.cpp_ _936,NaN
+31,test_math.cpp_prepare_to_validation_215,NaN
+31,test_math.cpp_run_func_155,NaN
+31,test_math.cpp_get_minmax_bounds_139,NaN
+31,test_math.cpp_get_success_error_level_129,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_100,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_55,NaN
+31,test_math.cpp_Core_MathTest_35,NaN
+31,mathfuncs.cpp_cvPow_1697,0.707106781186547
+31,mathfuncs.cpp_iPow8u_1089,NaN
+31,mathfuncs.cpp_iPow_i_1023,NaN
+31,test_math.cpp_prepare_to_validation_1114,NaN
+31,test_math.cpp_cvTsPerspectiveTransform_1014,0
+31,test_math.cpp_run_func_1007,NaN
+31,test_math.cpp_get_success_error_level_999,NaN
+31,mathfuncs.cpp_iPow32f_1114,NaN
+31,test_math.cpp_TEST_3014,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_1144,NaN
+31,lapack.cpp_cvSolve_1659,0
+31,test_math.cpp_prepare_to_validation_2201,NaN
+31,test_math.cpp_run_func_2194,NaN
+31,test_math.cpp_get_success_error_level_2188,NaN
+31,test_math.cpp_get_minmax_bounds_2181,NaN
+31,test_math.cpp_prepare_test_case_2158,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_2098,NaN
+31,test_math.cpp_vector_w_2088,NaN
+31,stat.cpp_CV_Assert_1201,NaN
+31,stat.cpp_sum64f_462,NaN
+31,lapack.cpp_cvSVBkSb_1780,0
+31,test_math.cpp_prepare_to_validation_1798,NaN
+31,test_math.cpp_run_func_1793,NaN
+31,test_math.cpp_get_success_error_level_1787,NaN
+31,test_math.cpp_get_minmax_bounds_1780,NaN
+31,test_math.cpp_prepare_test_case_1765,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_1727,NaN
+31,test_math.cpp_result_1718,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_982,NaN
+31,matmul.cpp_cvPerspectiveTransform_3361,0
+31,matmul.cpp_CV_Assert_2293,NaN
+31,matmul.cpp_perspectiveTransform_2263,NaN
+31,matmul.cpp_transform_64f_1960,NaN
+31,matmul.cpp_transform_32s_1954,NaN
+31,matmul.cpp_transform_16s_1948,NaN
+31,matmul.cpp_transform_32f_1886,NaN
+31,matmul.cpp_transform_16u_1818,NaN
+31,matmul.cpp_transform_8u_1737,NaN
+31,matmul.cpp_transform__1643,0
+31,saturate.hpp_short>_134,NaN
+31,test_math.cpp_prepare_to_validation_783,NaN
+31,test_math.cpp_run_func_776,NaN
+31,test_math.cpp_get_minmax_bounds_769,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_733,NaN
+31,test_math.cpp_Core_MatrixTest_725,NaN
+31,matmul.cpp_cvMulTransposed_3421,0
+31,test_math.cpp_prepare_to_validation_1180,NaN
+31,test_math.cpp_run_func_1174,NaN
+31,test_math.cpp_prepare_test_case_1160,NaN
+31,matmul.cpp_diagtransform__1966,0
+31,matmul.cpp_diagtransform_8u_2013,NaN
+31,matmul.cpp_diagtransform_16u_2025,NaN
+31,test_math.cpp_prepare_test_case_869,NaN
+31,matmul.cpp_perspectiveTransform_64f_2256,NaN
+31,matmul.cpp_perspectiveTransform_32f_2250,NaN
+31,matmul.cpp_perspectiveTransform__2164,0
+31,test_math.cpp_get_test_array_types_and_sizes_916,NaN
+31,test_math.cpp_prepare_to_validation_900,NaN
+31,test_math.cpp_run_func_893,NaN
+31,test_math.cpp_get_success_error_level_887,NaN
+31,test_math.cpp_get_test_array_types_and_sizes_830,NaN
+31,matmul.cpp_diagtransform_16s_2031,NaN
+31,matop.cpp_multiply_1647,NaN
+31,matmul.cpp_cvTransform_3342,0
+31,matmul.cpp_CV_Assert_2146,NaN
+31,matmul.cpp_transform_2083,NaN
+31,matmul.cpp_diagtransform_64f_2049,NaN
+31,matmul.cpp_diagtransform_32f_2043,NaN
+31,matmul.cpp_diagtransform_32s_2037,NaN
+31,softfloat.cpp_switch _1098,NaN
+31,softfloat.cpp_if _1115,NaN
+31,softfloat.cpp_if _1116,NaN
+31,ocl.cpp_getBufferPoolController_5594,0
+31,ocl.cpp_getMaxReservedSize_4208,0
+31,ocl.cpp__checkSizeOfReservedEntries_4139,0
+31,ocl.cpp__findAndRemoveEntryFromReservedList_4102,0
+31,test_umat.cpp_TEST_500,NaN
+31,umatrix.cpp_adjustROI_601,NaN
+31,umatrix.cpp_locateROI_579,NaN
+31,test_umat.cpp_ASSERT_ANY_THROW_419,NaN
+31,test_umat.cpp_check_ndim_shape_415,NaN
+31,test_umat.cpp_EXPECT_EQ_410,NaN
+31,test_umat.cpp_EXPECT_EQ_409,NaN
+31,test_umat.cpp_A_402,NaN
+31,test_umat.cpp_A_401,NaN
+31,test_umat.cpp_TEST_395,NaN
+31,umatrix.cpp_copySize_398,NaN
+31,test_umat.cpp_check_ndim_shape_381,NaN
+31,test_umat.cpp_TEST_370,NaN
+31,test_umat.cpp_check_ndim_shape_358,NaN
+31,ocl.cpp_freeAllReservedBuffers_4234,0
+31,test_umat.cpp_TEST_710,NaN
+31,umatrix.cpp_reshape_625,NaN
+31,test_umat.cpp_TEST_924,NaN
+31,test_umat.cpp_TEST_974,NaN
+31,stat.cpp_ocl_countNonZero_1251,NaN
+31,ocl.cpp_typeToStr_5941,0
+31,matrix.cpp_dst_89,NaN
+31,matrix.cpp_download_71,NaN
+31,matrix.cpp_map_56,NaN
+31,test_umat.cpp_TEST_956,NaN
+31,umatrix.cpp_ndoffset_802,0
+31,ocl.cpp_CV_Assert_5263,NaN
+31,ocl.cpp_CV_Assert_5262,NaN
+31,ocl.cpp_CV_Assert_5261,NaN
+31,ocl.cpp_upload_5254,NaN
+31,matrix.cpp_getUMat_1330,NaN
+31,matrix.cpp_dst_120,NaN
+31,matrix.cpp_upload_102,0
+31,copy.cpp_CV_Assert_275,NaN
+31,test_umat.cpp_TEST_938,NaN
+31,umatrix.cpp_reshape_704,NaN
+31,umatrix.cpp_size_425,NaN
+31,matrix.cpp_adjustROI_1014,0
+31,test_rand.cpp_chi2_p95_22,0
+31,test_ptr.cpp_TEST_389,NaN
+31,test_ptr.cpp_TEST_358,NaN
+31,test_ptr.cpp_TEST_345,NaN
+31,test_ptr.cpp_TEST_293,NaN
+31,ptr.inl_dynamicCast_251,NaN
+31,ptr.inl_constCast_244,NaN
+31,ptr.inl_staticCast_237,NaN
+31,test_ptr.cpp_TEST_259,NaN
+31,test_ptr.cpp_TEST_224,NaN
+31,test_ptr.cpp_TEST_200,NaN
+31,test_ptr.cpp_TEST_190,NaN
+31,test_ptr.cpp_TEST_153,NaN
+31,test_ptr.cpp_TEST_118,NaN
+31,test_ptr.cpp_TEST_91,NaN
+31,test_ptr.cpp_TEST_85,NaN
+31,test_operations.cpp_TEST_1367,NaN
+31,out.cpp_valueToStr32s_77,0.707106781186547
+31,test_ptr.cpp_TEST_392,NaN
+31,test_rand.cpp_check_pdf_38,0
+31,mat.inl_ _3848,NaN
+31,test_rand.cpp_run_86,NaN
+31,mat.inl_)_3733,NaN
+31,mat.inl_release_3723,NaN
+31,mat.inl_ _3621,NaN
+31,test_rotatedrect.cpp_validate_test_results_90,NaN
+31,test_rotatedrect.cpp_run_func_85,NaN
+31,test_rotatedrect.cpp_prepare_test_case_67,NaN
+31,matrix.cpp_points_5980,0
+31,matrix.cpp_RotatedRect_5956,0
+31,test_rand.cpp_TEST_344,NaN
+31,rand.cpp_next_941,NaN
+31,rand.cpp_RNG_MT19937_928,0
+31,test_rand.cpp_TEST_408,NaN
+31,test_rand.cpp_)_394,NaN
+31,arithm.cpp_cmp8s_2696,NaN
+31,test_rand.cpp_TEST_371,NaN
+31,test_rand.cpp_run_315,NaN
+31,test_rand.cpp_if _119,NaN
+31,mat.inl_colRange_3672,NaN
+31,ocl.cpp_AlignedDataPtr2D_4440,NaN
+31,test_umat.cpp_TEST_1019,NaN
+31,test_utils.cpp_TEST_119,NaN
+31,test_utils.cpp_TEST_106,NaN
+31,test_utils.cpp_TEST_105,NaN
+31,test_utils.cpp_TEST_87,NaN
+31,test_utils.cpp_TEST_86,NaN
+31,test_utils.cpp_TEST_69,NaN
+31,test_utils.cpp_TEST_68,NaN
+31,test_utils.cpp_TEST_51,NaN
+31,test_utils.cpp_TEST_50,NaN
+31,command_line_parser.cpp_if_259,NaN
+31,test_utils.cpp_TEST_33,NaN
+31,test_utils.cpp_TEST_32,NaN
+31,test_utils.cpp_TEST_20,NaN
+31,test_utils.cpp_TEST_19,NaN
+31,command_line_parser.cpp_check_365,0
+31,command_line_parser.cpp_has_347,0
+31,command_line_parser.cpp_apply_params_305,0
+31,command_line_parser.cpp_getByIndex_154,0
+31,test_utils.cpp_TEST_118,NaN
+31,test_utils.cpp_TEST_131,NaN
+31,mat.inl_size_3550,NaN
+31,test_utils.cpp_TEST_132,NaN
+31,test_utils.cpp_TEST_240,NaN
+31,test_utils.cpp_TEST_227,NaN
+31,test_utils.cpp_TEST_222,NaN
+31,test_utils.cpp_TEST_210,NaN
+31,test_utils.cpp_TEST_209,NaN
+31,test_utils.cpp_TEST_197,NaN
+31,test_utils.cpp_TEST_196,NaN
+31,test_utils.cpp_TEST_184,NaN
+31,test_utils.cpp_TEST_183,NaN
+31,command_line_parser.cpp_apply_params_320,NaN
+31,test_utils.cpp_TEST_170,NaN
+31,test_utils.cpp_TEST_169,NaN
+31,command_line_parser.cpp_if_165,NaN
+31,utility.hpp_get_898,NaN
+31,utility.hpp_get_866,NaN
+31,test_utils.cpp_TEST_147,NaN
+31,test_utils.cpp_TEST_146,NaN
+31,test_umat.cpp_TEST_889,NaN
+31,test_umat.cpp_TEST_887,NaN
+31,test_umat.cpp_run_873,NaN
+31,test_umat.cpp_TestUMat_773,0
+31,umatrix.cpp_deallocate_416,NaN
+31,test_umat.cpp_TEST_1309,NaN
+31,test_umat.cpp_TEST_1296,NaN
+31,arithm.cpp_args_1221,NaN
+31,arithm.cpp_if _1152,NaN
+31,arithm.cpp_ocl_compare_1134,NaN
+31,mat.inl_create_3711,NaN
+31,test_umat.cpp_TEST_1137,NaN
+31,test_umat.cpp_getResult_1112,0
+31,test_umat.cpp_processData_1101,0
+31,test_umat.cpp_TEST_1095,NaN
+31,test_umat.cpp_TEST_1068,NaN
+31,ocl.cpp_convertTypeStr_5992,NaN
+31,arithm.cpp_args_592,NaN
+31,arithm.cpp_ocl_arithm_op_481,NaN
+31,test_umat.cpp_ _1037,NaN
+31,test_umat.cpp_TEST_1030,NaN
+31,test_umat.cpp_TEST_1322,NaN
+31,test_umat.cpp_1)_1326,NaN
+31,test_umat.cpp_TEST_1337,NaN
+31,ocl.cpp_step__4419,NaN
+31,test_umat.cpp_checkDiff_754,NaN
+31,umatrix.cpp_size_470,NaN
+31,ocl.cpp_if_5412,NaN
+31,ocl.cpp_if_5411,NaN
+31,ocl.cpp_if_5410,NaN
+31,ocl.cpp_copy_5406,0
+31,ocl.cpp_checkContinuous_5060,0
+31,arithm.cpp_max_433,NaN
+31,test_umat.cpp_TEST_1347,NaN
+31,arithm.cpp_args_159,NaN
+31,arithm.cpp_ocl_binary_op_91,NaN
+31,mat.inl_)_3739,NaN
+31,test_umat.cpp_TEST_1370,NaN
+31,umatrix.cpp_args_958,NaN
+31,matrix.cpp_if _4008,NaN
+31,matrix.cpp_ocl_reduce_3989,NaN
+31,test_operations.cpp_TEST_1238,NaN
+31,matrix.cpp_locateROI_993,0
+31,softfloat.cpp_if _1127,NaN
+31,test_math.cpp_Fct174_3760,NaN
+31,test_math.cpp_TEST_3758,NaN
+31,test_math.cpp_TEST_3757,NaN
+31,test_math.cpp_TEST_3756,NaN
+31,test_math.cpp_TEST_3755,NaN
+31,test_math.cpp_TEST_3754,NaN
+31,test_math.cpp_TEST_3753,NaN
+31,test_math.cpp_TEST_3752,NaN
+31,test_math.cpp_TEST_3751,NaN
+31,test_math.cpp_TEST_3750,NaN
+31,test_math.cpp_TEST_3749,NaN
+31,test_math.cpp_TEST_3748,NaN
+31,test_math.cpp_TEST_3740,NaN
+31,softfloat.cpp_softfloat_roundToI64_3139,NaN
+31,softfloat.cpp_if _2065,NaN
+31,softfloat.cpp_if _2050,NaN
+31,softfloat.cpp_f64_to_i64_2034,NaN
+31,softfloat.cpp_cvRound64_262,0
+31,test_math.cpp_Fct173_3759,NaN
+31,test_math.cpp_Fct175_3761,NaN
+31,softfloat.cpp_f64_cos_4311,0
+31,test_math.cpp_Fct176_3762,NaN
+31,test_math.cpp_Fct193_3779,NaN
+31,test_math.cpp_Fct192_3778,NaN
+31,test_math.cpp_Fct191_3777,NaN
+31,test_math.cpp_Fct190_3776,NaN
+31,test_math.cpp_Fct189_3775,NaN
+31,test_math.cpp_Fct188_3774,NaN
+31,test_math.cpp_Fct187_3773,NaN
+31,test_math.cpp_Fct186_3772,NaN
+31,test_math.cpp_Fct185_3771,NaN
+31,test_math.cpp_Fct184_3770,NaN
+31,test_math.cpp_Fct183_3769,NaN
+31,test_math.cpp_Fct182_3768,NaN
+31,test_math.cpp_Fct181_3767,NaN
+31,test_math.cpp_Fct180_3766,NaN
+31,test_math.cpp_Fct179_3765,NaN
+31,test_math.cpp_Fct178_3764,NaN
+31,test_math.cpp_Fct177_3763,NaN
+31,test_math.cpp_TEST_3646,NaN
+31,softfloat.cpp_f64_sin_4266,0
+31,test_misc.cpp_4_153,NaN
+31,softfloat.cpp_if _1712,NaN
+31,softfloat.cpp_if _1695,NaN
+31,softfloat.cpp_if _1686,NaN
+31,softfloat.cpp_if _1682,NaN
+31,softfloat.cpp_f64_rem_1654,0
+31,softfloat.cpp_softfloat_shiftRightJam64_525,NaN
+31,softfloat.cpp_cos_303,0
+31,softfloat.cpp_sin_302,NaN
+31,test_math.cpp_TEST_3508,NaN
+31,softfloat.cpp_if _1823,NaN
+31,softfloat.cpp_ _275,NaN
+31,softfloat.cpp_cvRound_258,NaN
+31,test_math.cpp_TEST_3379,NaN
+31,softfloat.cpp_f32_powi_4019,0
+31,softfloat.cpp_f32_pow_3963,0
+31,softfloat.cpp_if _1296,NaN
+31,softfloat.cpp_f32_to_i32_1279,0
+31,softfloat.cpp_if _1129,NaN
+31,softfloat.cpp_if _1701,NaN
+31,softfloat.cpp_if _1715,NaN
+31,softfloat.cpp_f64_sincos_reduce_4206,0
+31,softfloat.cpp_if _1723,NaN
+31,softfloat.cpp_f64_cos_kernel_4193,0
+31,softfloat.cpp_f64_sin_kernel_4126,0
+31,softfloat.cpp_if _2827,NaN
+31,softfloat.cpp_if _2820,NaN
+31,softfloat.cpp_if _2803,NaN
+31,softfloat.cpp_if _2785,NaN
+31,softfloat.cpp_if _2774,NaN
+31,softfloat.cpp_if _2772,NaN
+31,softfloat.cpp_if _2756,NaN
+31,softfloat.cpp_if _2750,NaN
+31,softfloat.cpp_if _2738,NaN
+31,softfloat.cpp_if _2722,NaN
+31,softfloat.cpp_if _2717,NaN
+31,softfloat.cpp_if _2712,NaN
+31,softfloat.cpp_softfloat_mulAddF64_2678,NaN
+31,softfloat.cpp_if _1771,NaN
+31,softfloat.cpp_if _1751,NaN
+31,test_math.cpp_Fct194_3780,NaN
+31,test_math.cpp_Fct195_3782,NaN
+31,test_math.cpp_Fct196_3783,NaN
+31,test_misc.cpp_maxAbsDiff_32,0
+31,mat.inl_step_628,NaN
+31,test_misc.cpp_TEST_23,NaN
+31,test_misc.cpp_TEST_7,NaN
+31,test_math.cpp_Fct252_3845,NaN
+31,test_math.cpp_Fct251_3844,NaN
+31,test_math.cpp_Fct250_3842,NaN
+31,test_math.cpp_Fct249_3841,NaN
+31,test_math.cpp_Fct248_3840,NaN
+31,test_math.cpp_Fct247_3839,NaN
+31,test_math.cpp_Fct246_3837,NaN
+31,test_math.cpp_Fct245_3836,NaN
+31,test_math.cpp_Fct244_3835,NaN
+31,test_math.cpp_Fct243_3834,NaN
+31,test_math.cpp_Fct242_3833,NaN
+31,test_math.cpp_Fct241_3832,NaN
+31,test_math.cpp_Fct240_3830,NaN
+31,test_math.cpp_Fct239_3829,NaN
+31,matrix.cpp_assign_3041,NaN
+31,test_misc.cpp_TEST_41,NaN
+31,test_math.cpp_Fct197_3784,NaN
+31,test_misc.cpp_TEST_56,NaN
+31,test_misc.cpp_TEST_150,NaN
+31,test_misc.cpp_TEST_143,NaN
+31,test_misc.cpp_TEST_135,NaN
+31,test_misc.cpp_TEST_118,NaN
+31,test_misc.cpp_TEST_102,NaN
+31,umatrix.cpp_convertTo_909,NaN
+31,umatrix.cpp_getMat_757,NaN
+31,ocl.cpp_unmap_4986,NaN
+31,ocl.cpp_map_4903,0
+31,mat.inl_size_3589,NaN
+31,test_misc.cpp_TEST_86,NaN
+31,umatrix.cpp_getUMat_266,0
+31,umatrix.cpp_getStdAllocator_142,NaN
+31,ocl.cpp_allocate_4587,NaN
+31,matrix.cpp_assign_3019,NaN
+31,mat.inl_size_3826,NaN
+31,test_misc.cpp_TEST_71,NaN
+31,test_math.cpp_Fct238_3828,NaN
+31,test_math.cpp_Fct237_3827,NaN
+31,test_math.cpp_Fct236_3826,NaN
+31,test_math.cpp_Fct235_3825,NaN
+31,test_math.cpp_Fct214_3802,NaN
+31,test_math.cpp_Fct213_3801,NaN
+31,test_math.cpp_Fct212_3800,NaN
+31,test_math.cpp_Fct211_3799,NaN
+31,test_math.cpp_Fct210_3798,NaN
+31,test_math.cpp_Fct209_3797,NaN
+31,test_math.cpp_Fct208_3796,NaN
+31,test_math.cpp_Fct207_3795,NaN
+31,test_math.cpp_Fct206_3793,NaN
+31,test_math.cpp_Fct205_3792,NaN
+31,test_math.cpp_Fct204_3791,NaN
+31,test_math.cpp_Fct203_3790,NaN
+31,test_math.cpp_Fct202_3789,NaN
+31,test_math.cpp_Fct201_3788,NaN
+31,test_math.cpp_Fct200_3787,NaN
+31,test_math.cpp_Fct199_3786,NaN
+31,test_math.cpp_Fct198_3785,NaN
+31,test_math.cpp_Fct215_3803,NaN
+31,test_math.cpp_Fct216_3804,NaN
+31,test_math.cpp_Fct217_3805,NaN
+31,test_math.cpp_Fct227_3816,NaN
+31,test_math.cpp_Fct234_3824,NaN
+31,test_math.cpp_Fct233_3823,NaN
+31,test_math.cpp_Fct232_3822,NaN
+31,test_math.cpp_Fct231_3821,NaN
+31,test_math.cpp_Fct230_3819,NaN
+31,test_math.cpp_Fct229_3818,NaN
+31,test_math.cpp_Fct228_3817,NaN
+31,test_math.cpp_Fct226_3815,NaN
+31,test_math.cpp_Fct218_3806,NaN
+31,test_math.cpp_Fct225_3814,NaN
+31,test_math.cpp_Fct224_3813,NaN
+31,test_math.cpp_Fct223_3812,NaN
+31,test_math.cpp_Fct222_3811,NaN
+31,test_math.cpp_Fct221_3810,NaN
+31,test_math.cpp_Fct220_3808,NaN
+31,test_math.cpp_Fct219_3807,NaN
+31,test_math.cpp_run_2281,NaN
+31,mathfuncs.cpp_solveCubic_1737,NaN
+31,persistence.cpp_ _7194,NaN
+31,lpsolver.cpp_if_199,NaN
+31,mat.inl_Mat_2018,NaN
+31,mat.inl_clone_1733,NaN
+31,mat.inl_row_1715,NaN
+31,lpsolver.cpp_b_343,NaN
+31,lpsolver.cpp_if_341,NaN
+31,lpsolver.cpp_for_340,NaN
+31,lpsolver.cpp_b_331,NaN
+31,lpsolver.cpp_if_329,NaN
+31,lpsolver.cpp_for_328,NaN
+31,lpsolver.cpp_if_326,NaN
+31,lpsolver.cpp_for_325,NaN
+31,lpsolver.cpp_b_320,NaN
+31,lpsolver.cpp_if_318,NaN
+31,lpsolver.cpp_for_317,NaN
+31,lpsolver.cpp_pivot_315,0
+31,lpsolver.cpp_if_296,NaN
+31,lpsolver.cpp_if_288,NaN
+31,lpsolver.cpp_for_182,NaN
+31,lpsolver.cpp_for_223,NaN
+31,lpsolver.cpp_for_283,NaN
+31,lpsolver.cpp_if_224,NaN
+31,matmul.cpp_cvProjectPCA_3486,0
+31,matmul.cpp_cvCalcPCA_3438,0
+31,matmul.cpp_calcCovarMatrix_2500,0
+31,matmul.cpp_GEMMStore_32f_667,NaN
+31,matmul.cpp_GEMMBlockMul_32f_631,NaN
+31,matmul.cpp_GEMMStore_497,0
+31,matmul.cpp_GEMMBlockMul_387,0
+31,matmul.cpp_GEMM_TransposeBlock_92,0
+31,matmul.cpp_GEMM_CopyBlock_62,0
+31,copy.cpp_repeat_891,NaN
+31,copy.cpp_repeat_859,0
+31,arithm.cpp_absdiff32f_2527,NaN
+31,arithm.cpp_absdiff_991,0
+31,mat.inl_rowRange_738,0
+31,matop.cpp_augAssignSubtract_287,NaN
+31,lpsolver.cpp_for _242,NaN
+31,lpsolver.cpp_print_matrix_229,NaN
+31,lpsolver.cpp_if_286,NaN
+31,lpsolver.cpp_if_271,NaN
+31,matop.cpp_abs_536,0.176776695296637
+31,lpsolver.cpp_if_105,NaN
+31,mat.inl_ _3284,NaN
+31,mat.inl_ _3267,NaN
+31,mat.inl_colRange_750,0
+31,test_io.cpp_TEST_554,NaN
+31,glob.cpp_glob_272,NaN
+31,test_io.cpp_catch _1612,NaN
+31,test_io.cpp_TEST_1596,NaN
+31,system.cpp_cvError_1109,NaN
+31,persistence.cpp_icvJSONParse_4527,NaN
+31,test_io.cpp_TEST_1571,NaN
+31,test_io.cpp_TEST_1569,NaN
+31,cvstd.inl_string_147,NaN
+31,test_io.cpp_TEST_1545,NaN
+31,test_io.cpp_TEST_1543,NaN
+31,persistence.cpp_isNamed_7433,0
+31,persistence.cpp_name_7070,NaN
+31,test_io.cpp_TEST_1536,NaN
+31,lpsolver.cpp_solveLP_93,0
+31,lpsolver.cpp_convertTo_107,NaN
+31,lpsolver.cpp_if_268,NaN
+31,lpsolver.cpp_if_116,NaN
+31,lpsolver.cpp_if_262,NaN
+31,lpsolver.cpp_if_261,NaN
+31,lpsolver.cpp_if_258,NaN
+31,lpsolver.cpp_for_257,NaN
+31,lpsolver.cpp_inner_simplex_248,0
+31,lpsolver.cpp_for _173,NaN
+31,lpsolver.cpp_if_171,NaN
+31,lpsolver.cpp_if_164,NaN
+31,lpsolver.cpp_for_163,NaN
+31,lpsolver.cpp_for _155,NaN
+31,lpsolver.cpp_for _150,NaN
+31,lpsolver.cpp_for _145,NaN
+31,lpsolver.cpp_initialize_simplex_142,0
+31,lpsolver.cpp_if_134,NaN
+31,lpsolver.cpp_if_132,NaN
+31,lpsolver.cpp_for_131,NaN
+31,lpsolver.cpp_if_123,NaN
+31,matmul.cpp_cvBackProjectPCA_3517,0
+31,matop.cpp_ _810,NaN
+31,test_io.cpp_TEST_1522,NaN
+31,array.cpp_cvGet3D_1990,0
+31,array.cpp_cvClearND_2363,NaN
+31,mat.inl_min_3379,0.0698430295769578
+32,array.cpp_cvSetRealND_2344,0
+32,array.cpp_cvSetReal3D_2323,0
+32,array.cpp_cvSetND_2241,0
+32,array.cpp_cvSet3D_2223,0
+32,array.cpp_cvGetRealND_2138,NaN
+32,array.cpp_cvGetReal3D_2110,NaN
+32,array.cpp_cvGetND_2012,NaN
+32,array.cpp_cvPtr3D_1849,0
+32,utility.hpp_for _571,NaN
+32,array.cpp_icvSetReal_1605,0
+32,array.cpp_icvGetReal_1581,0
+32,array.cpp_cvRawDataToScalar_1533,0
+32,array.cpp_cvScalarToRawData_1459,0
+32,array.cpp_icvDeleteNode_739,0
+32,array.cpp_cvCloneMatND_300,0
+32,utility.hpp_if _574,NaN
+32,array.cpp_)_3206,NaN
+32,matop.cpp_makeExpr_1660,NaN
+32,matop.cpp_zeros_1719,NaN
+32,matrix.cpp_size_559,NaN
+32,stat.cpp_if_2631,NaN
+32,matrix.cpp_minMaxLoc_5871,NaN
+32,matrix.cpp_norm_5806,NaN
+32,matrix.cpp_+_5778,NaN
+32,matrix.cpp_erase_5641,NaN
+32,matrix.cpp_erase_5621,NaN
+32,matrix.cpp_erase_5602,0
+32,matrix.cpp_if _5571,NaN
+32,matrix.cpp_ptr_5555,NaN
+32,matrix.cpp_if _5548,NaN
+32,matrix.cpp_ptr_5533,NaN
+32,matrix.cpp_convertTo_5425,NaN
+32,matrix.cpp_copyTo_5407,NaN
+32,matrix.cpp_create_5328,NaN
+32,matrix.cpp_hdr_5325,NaN
+32,matrix.cpp_getConvertScaleElem_5212,0
+32,matrix.cpp_convertScaleData__5137,NaN
+32,utility.hpp_for _573,NaN
+32,utility.hpp_rowCall2_567,0
+32,matop.cpp_ _887,NaN
+32,utility.hpp_for _564,NaN
+32,pca.cpp_project_315,NaN
+32,pca.cpp_project_292,0
+32,pca.cpp_)_202,NaN
+32,pca.cpp_computeCumulativeEnergy_173,NaN
+32,pca.cpp_read_162,NaN
+32,pca.cpp_write_152,NaN
+32,pca.cpp_)_66,NaN
+32,pca.cpp_PCA_56,NaN
+32,pca.cpp_PCA_53,0
+32,matrix.cpp_reduce_4092,0
+32,matrix.cpp_reduceC__3771,NaN
+32,matrix.cpp_reduceR__3726,NaN
+32,matop.cpp_makeExpr_1443,NaN
+32,matop.cpp_makeExpr_1438,NaN
+32,matop.cpp_assign_1372,NaN
+32,matop.cpp_abs_1195,NaN
+32,matop.cpp_abs_1186,NaN
+32,pca.cpp_backProject_322,0
+32,pca.cpp_backProject_343,NaN
+32,persistence.cpp_cvGetRootFileNode_923,0
+32,test_mat.cpp_checkOp_86,0
+32,utility.hpp_if _563,NaN
+32,utility.hpp_)_560,NaN
+32,utility.hpp_forEach_impl_540,NaN
+32,mat.inl_ _2080,NaN
+32,test_mat.cpp_run_268,NaN
+32,test_mat.cpp_checkDim_210,NaN
+32,test_mat.cpp_checkCase_166,0
+32,test_mat.cpp_testReduce_23,NaN
+32,persistence.cpp_root_6934,0
+32,matrix.cpp_reduceSumC_8u16u16s32f_64f_3891,NaN
+32,matrix.cpp_depth_3843,NaN
+32,matrix.cpp_ipp_reduceSumC_8u16u16s32f_64f_3839,0
+32,matop.cpp_ _1041,NaN
+32,matop.cpp_ _831,NaN
+32,arithm.cpp_absdiff64f_2536,NaN
+32,test_mat.cpp_TEST_290,NaN
+32,test_io.cpp_TEST_1529,NaN
+32,test_io.cpp_TEST_1515,NaN
+32,persistence.cpp_push_back_7284,0.0698430295769578
+33,test_mat.cpp_idx2string_488,0
+33,arithm_core.hpp_cmp__385,0
+33,mat.inl_)_835,NaN
+33,test_io.cpp_for _601,NaN
+33,test_io.cpp_for _596,NaN
+33,test_io.cpp_f_595,NaN
+33,test_io.cpp_TEST_592,NaN
+33,persistence.cpp_read_7468,NaN
+33,persistence.cpp_]_7044,NaN
+33,cvstd.inl_ _161,NaN
+33,test_io.cpp_TEST_581,NaN
+33,test_io.cpp_TEST_571,NaN
+33,test_io.cpp_m_450,NaN
+33,test_io.cpp_run_433,NaN
+33,matrix.cpp_reserve_821,0.0698430295769578
+33,test_io.cpp_write_408,NaN
+33,test_io.cpp_write_407,NaN
+33,persistence.cpp_read_7449,NaN
+33,persistence.cpp_WriteStructContext_7292,NaN
+33,test_mat.cpp_EXPECT_EQ_1259,0.0839181358296689
+33,arithm.cpp_cmp64f_2806,NaN
+33,persistence.cpp_make_write_struct_delayed_1251,0
+33,matrix.cpp_size_581,NaN
+33,persistence.cpp_icvYMLParseBase64_1353,0
+33,persistence.cpp_make_base64_header_7781,0
+33,persistence.cpp_binary_to_7772,NaN
+33,persistence.cpp_to_binary_7740,NaN
+33,persistence.cpp_if _7661,NaN
+33,persistence.cpp_base64_valid_7645,0
+33,persistence.cpp_while _7610,NaN
+33,persistence.cpp_base64_decode_7594,0
+33,persistence.cpp_if _7559,NaN
+33,persistence.cpp_if _7555,NaN
+33,persistence.cpp_while _7543,NaN
+33,persistence.cpp_base64_encode_7530,0
+33,persistence.cpp_if _2395,NaN
+33,persistence.cpp_icvXMLParseBase64_2335,0
+33,persistence.cpp_if_1525,NaN
+33,persistence.cpp_if _1413,NaN
+33,persistence.cpp_WriteStructContext_7289,NaN
+33,persistence.cpp_fs_7272,0
+33,persistence.cpp_read_7827,NaN
+33,test_io.cpp_multiply_180,NaN
+33,test_io.cpp_run_89,NaN
+33,test_io.cpp_cvTsCheckSparse_39,0
+33,test_io.cpp_cvTsGetRandomSparseMat_8,0
+33,system.cpp_cvGetErrStatus_1097,0
+33,system.cpp_tempfile_821,0
+33,persistence.cpp_read_7463,NaN
+33,persistence.cpp_read_7456,NaN
+33,persistence.cpp_read_7443,NaN
+33,persistence.cpp_size_7436,NaN
+33,persistence.cpp_type_7432,NaN
+33,persistence.cpp_read_7325,NaN
+33,persistence.cpp_read_7300,NaN
+33,persistence.cpp_write_7264,NaN
+33,persistence.cpp_write_7249,NaN
+33,persistence.cpp_write_7233,NaN
+33,persistence.cpp_write_7230,NaN
+33,persistence.cpp_write_7224,0
+33,test_io.cpp_storage_96,0
+33,test_io.cpp_cvTsGetRandomSparseMat_182,NaN
+33,persistence.cpp_writeScalar_7242,NaN
+33,persistence.hpp_read_731,NaN
+33,persistence.cpp_writeScalar_7239,NaN
+33,persistence.cpp_writeScalar_7236,NaN
+33,persistence.cpp_write_7227,NaN
+33,persistence.cpp_readRaw_7200,0
+33,persistence.cpp_if_2074,NaN
+33,persistence.hpp_ _1177,NaN
+33,persistence.hpp_write_966,NaN
+33,persistence.hpp_)_835,NaN
+33,persistence.hpp_)_823,NaN
+33,persistence.hpp_)_821,NaN
+33,persistence.hpp_)_807,NaN
+33,persistence.hpp_read_769,NaN
+33,persistence.hpp_read_763,NaN
+33,persistence.hpp_read_756,NaN
+33,persistence.hpp_read_750,NaN
+33,persistence.hpp_read_744,NaN
+33,persistence.hpp_read_737,NaN
+33,persistence.cpp_read_base64_header_7795,NaN
+33,persistence.cpp_while _7831,NaN
+33,test_io.cpp_TEST_1508,NaN
+33,test_io.cpp_TEST_1088,NaN
+33,persistence.hpp_ _1255,NaN
+33,persistence.hpp_write_1029,NaN
+33,test_io.cpp_TEST_1071,NaN
+33,test_io.cpp_TEST_1025,NaN
+33,matrix.cpp_diag_752,0
+33,persistence.hpp_write_1059,NaN
+33,test_io.cpp_TEST_1003,NaN
+33,test_io.cpp_TEST_980,NaN
+33,test_io.cpp_TEST_978,NaN
+33,persistence.cpp_if _3311,NaN
+33,test_io.cpp_vec_960,0
+33,test_io.cpp_TEST_953,NaN
+33,persistence.hpp_write_1008,NaN
+33,test_io.cpp_}_941,NaN
+33,test_io.cpp_+_935,NaN
+33,test_io.cpp_TEST_917,NaN
+33,test_io.cpp_TEST_823,NaN
+33,persistence.cpp_read_7365,NaN
+33,persistence.hpp_ _1278,NaN
+33,test_io.cpp_for _704,NaN
+33,test_io.cpp_TEST_1125,NaN
+33,test_io.cpp_TEST_1501,NaN
+33,test_io.cpp_TEST_1494,NaN
+33,test_io.cpp_TEST_1487,NaN
+33,persistence.cpp_getFormat_6939,0
+33,persistence.cpp_FileStorage_6872,NaN
+33,test_io.cpp_TEST_1449,NaN
+33,test_io.cpp_TEST_1414,NaN
+33,test_io.cpp_TEST_1346,NaN
+33,test_io.cpp_TEST_1302,NaN
+33,persistence.cpp_write_7358,NaN
+33,test_io.cpp_TEST_1273,NaN
+33,test_io.cpp_TEST_1199,NaN
+33,test_io.cpp_TEST_1150,NaN
+33,persistence.cpp_read_7402,NaN
+33,persistence.cpp_write_7395,NaN
+33,persistence.hpp_write_1079,NaN
+33,persistence.hpp_write_1042,NaN
+33,cvstd.inl_len__79,NaN
+33,test_io.cpp_ _691,NaN
+33,persistence.cpp_if _7838,NaN
+33,persistence.cpp_double>_8195,NaN
+33,persistence.cpp_switch _8189,NaN
+33,persistence.cpp_ _8168,NaN
+33,persistence.cpp_end_8154,NaN
+33,persistence.cpp_if _8086,NaN
+33,persistence.cpp_while _8085,NaN
+33,persistence.cpp_make_to_binary_funcs_8079,0
+33,persistence.cpp_end_8035,NaN
+33,persistence.cpp_flush_7980,NaN
+33,persistence.cpp_while _7970,NaN
+33,persistence.cpp_write_7963,NaN
+33,persistence.cpp_if _7946,NaN
+33,persistence.cpp_while _7939,NaN
+33,persistence.cpp_write_7935,NaN
+33,persistence.cpp_Base64ContextEmitter_7918,0
+33,persistence.cpp_src_end_7895,NaN
+33,persistence.cpp_if _7867,NaN
+33,persistence.cpp_flush_7850,0
+33,persistence.cpp_ _8193,NaN
+33,persistence.cpp_switch _8206,NaN
+33,test_io.cpp_TEST_655,NaN
+33,persistence.cpp_switch _8208,NaN
+33,stat.cpp_CV_Assert_1499,NaN
+33,stat.cpp_sum8u_444,NaN
+33,stat.cpp_sum__327,0
+33,persistence.cpp_cvWriteRawDataBase64_8409,NaN
+33,persistence.cpp_cvWriteRawDataBase64_8386,0
+33,persistence.cpp_while _8379,NaN
+33,persistence.cpp_make_seq_8375,NaN
+33,persistence.cpp_check_dt_8357,0
+33,persistence.cpp_write_8338,NaN
+33,persistence.cpp_data_type_string_8333,0
+33,persistence.cpp_switch _8299,NaN
+33,persistence.cpp_switch _8297,NaN
+33,persistence.cpp_switch _8293,NaN
+33,persistence.cpp_if _8244,NaN
+33,persistence.cpp_while _8243,NaN
+33,persistence.cpp_make_funcs_8237,0
+33,persistence.cpp_if _8213,NaN
+33,stat.cpp_empty_2632,NaN
+33,test_mat.cpp_eraseValue_537,0
+33,test_mat.cpp_getValue_513,0
+33,test_operations.cpp_run_1106,NaN
+33,test_operations.cpp_TestExp_1045,0
+33,test_operations.cpp_transpose_993,NaN
+33,test_operations.cpp_for _983,NaN
+33,test_operations.cpp_operations1_941,0
+33,test_operations.cpp_TestVec_912,0
+33,test_operations.cpp_TestMatxElementwiseDivison_889,0
+33,test_operations.cpp_TestMatxMultiplication_847,0
+33,test_operations.cpp_TestSparseMat_827,NaN
+33,test_operations.cpp_TestSparseMat_824,0
+33,test_operations.cpp_TestMatND_817,NaN
+33,test_operations.cpp_TestMatND_816,0
+33,test_operations.cpp_catch_790,NaN
+33,test_operations.cpp_Fct18_717,NaN
+33,test_operations.cpp_test_excep_683,0
+33,test_operations.cpp_all_504,NaN
+33,test_operations.cpp_TestTemplateMat_496,0
+33,test_operations.cpp_TestSubMatAccess_461,0
+33,test_operations.cpp_TestSVD_1056,0
+33,convert.cpp_mixChannels16u_533,NaN
+33,test_operations.cpp_SomeMatFunctions_431,0
+33,convert.cpp_mixChannels32s_540,NaN
+33,test_mat.cpp_TEST_1220,NaN
+33,test_mat.cpp_check_ndim_shape_1208,0
+33,test_mat.cpp_TEST_1197,NaN
+33,matrix.cpp_reshape_4756,NaN
+33,test_mat.cpp_TEST_1192,NaN
+33,test_mat.cpp_TEST_1184,NaN
+33,test_mat.cpp_OutputArray_create2_1181,0
+33,test_mat.cpp_OutputArray_create1_1180,0
+33,test_mat.cpp_TEST_1168,NaN
+33,test_mat.cpp_run_case_1110,NaN
+33,split.cpp_split64s_423,NaN
+33,split.cpp_split16u_411,NaN
+33,split.cpp_split8u_405,NaN
+33,test_mat.cpp_run_case_1052,0
+33,test_mat.cpp_run_1007,NaN
+33,test_mat.cpp_calcDiffElemCountImpl_952,NaN
+33,convert.cpp_mixChannels64s_547,NaN
+33,test_operations.cpp_alpha_437,0
+33,test_operations.cpp_CHECK_DIFF_340,0
+33,copy.cpp_cvFlip_1332,0
+33,matop.cpp_inv_1676,0
+33,matop.cpp_assign_1611,NaN
+33,matop.cpp_makeExpr_1604,NaN
+33,matop.cpp_matmul_1594,NaN
+33,matop.cpp_assign_1585,NaN
+33,matop.cpp_transpose_1566,NaN
+33,matop.cpp_multiply_1557,NaN
+33,matop.cpp_subtract_1538,NaN
+33,matop.cpp_add_1519,NaN
+33,matop.cpp_transpose_1493,NaN
+33,matop.cpp_divide_1428,NaN
+33,matop.cpp_multiply_1415,NaN
+33,matop.cpp_abs_1353,NaN
+33,matop.cpp_divide_1332,NaN
+33,matop.cpp_multiply_1322,NaN
+33,matop.cpp_subtract_1312,NaN
+33,matop.cpp_add_1303,NaN
+33,matop.cpp_makeExpr_1244,NaN
+33,matop.cpp_makeExpr_1620,NaN
+33,matop.cpp_mul_1686,0
+33,test_operations.cpp_all_130,NaN
+33,matop.cpp_ones_1737,NaN
+33,test_operations.cpp_TestMat_122,0
+33,test_operations.cpp_TestType_106,NaN
+33,test_operations.cpp_checkDiffF_82,NaN
+33,test_operations.cpp_checkDiff_78,NaN
+33,stat.cpp_sum_1181,0
+33,stat.cpp_if_1136,NaN
+33,stat.cpp_ipp_sum_1125,0
+33,split.cpp_split32s_417,NaN
+33,split.cpp_split__268,0
+33,matrix_decomp.cpp_LU32f_111,NaN
+33,matrix_decomp.cpp_LUImpl_53,0
+33,matrix.cpp_copyTo_5386,NaN
+33,matrix.cpp_getMatVector_1362,0
+33,matrix.cpp_checkVector_1149,0
+33,matrix.cpp_diag_1136,NaN
+33,matrix.cpp_swap_251,0
+33,matop.cpp_eye_1764,NaN
+33,test_mat.cpp_check_ndim_shape_1231,NaN
+33,utility.hpp_AutoBuffer_991,NaN
+33,test_mat.cpp_TEST_1245,NaN
+33,test_mat.cpp_TEST_1720,NaN
+33,test_mat.cpp_TEST_1696,NaN
+33,test_mat.cpp_TEST_1579,NaN
+33,matrix.cpp_size_607,NaN
+33,matrix.cpp_create_447,NaN
+33,mat.inl_)_841,NaN
+33,test_mat.cpp_TEST_1571,NaN
+33,test_mat.cpp_TEST_1553,NaN
+33,mat.inl_push_back_1328,NaN
+33,test_mat.cpp_TEST_1506,NaN
+33,test_mat.cpp_TEST_1505,NaN
+33,test_mat.cpp_TEST_1475,NaN
+33,test_mat.cpp_TEST_1443,NaN
+33,out.cpp_valueToStr8u_73,0
+33,test_operations.cpp_run_1155,NaN
+33,matrix.cpp_ptr_5759,NaN
+33,matrix.cpp_if _5526,NaN
+33,matrix.cpp_ptr_5511,NaN
+33,mat.inl_step_582,NaN
+33,test_mat.cpp_from_initializer_list_1721,NaN
+33,test_mat.cpp_A_1251,NaN
+33,test_mat.cpp_TEST_1738,NaN
+33,copy.cpp_flip_739,NaN
+33,copy.cpp_catch_725,NaN
+33,copy.cpp_ipp_flip_705,0
+33,copy.cpp_flipVert_586,0
+33,array.cpp_cvInitMatHeader_145,0
+33,private.hpp_ippiGetImage_400,NaN
+33,private.hpp_ippiGetImage_382,0
+33,test_math.cpp_TEST_2434,NaN
+33,test_math.cpp_checkRoot_2420,NaN
+33,mathfuncs.cpp_if_1969,NaN
+33,mathfuncs.cpp_solvePoly_1884,NaN
+33,test_mat.cpp_TEST_1748,NaN
+33,test_mat.cpp_TEST_1730,NaN
+33,test_mat.cpp_TEST_1729,NaN
+33,test_mat.cpp_TEST_1706,NaN
+33,test_mat.cpp_TEST_1542,NaN
+33,test_mat.cpp_ _1740,NaN
+33,matrix.cpp_clear_5505,NaN
+33,test_mat.cpp_TEST_1402,NaN
+33,test_mat.cpp_TEST_1400,NaN
+33,test_math.cpp_TEST_2760,NaN
+33,test_mat.cpp_TEST_1351,NaN
+33,test_mat.cpp_TEST_1342,NaN
+33,mat.inl_n>_1953,NaN
+33,mat.inl_n>_1282,NaN
+33,test_mat.cpp_zeros_1360,NaN
+33,test_mat.cpp_TEST_1358,NaN
+33,test_mat.cpp_TEST_1321,NaN
+33,mat.inl_ _1447,NaN
+33,test_mat.cpp_for_1313,NaN
+33,test_mat.cpp_for_1311,NaN
+33,test_mat.cpp_TEST_1275,NaN
+33,matrix.cpp_push_back_909,NaN
+33,mat.inl_push_back_1321,NaN
+33,test_mat.cpp_ASSERT_ANY_THROW_1269,0
+33,test_mat.cpp_check_ndim_shape_1265,NaN
+33,test_mat.cpp_EXPECT_EQ_1260,NaN
+33,test_mat.cpp_A_1252,NaN
+33,test_mat.cpp_ _1353,NaN
+33,test_mat.cpp_TEST_1367,NaN
+33,test_mat.cpp_TEST_1373,NaN
+33,test_math.cpp_get_test_array_types_and_sizes_1870,NaN
+33,lapack.cpp_SVBkSb_718,0
+33,lapack.cpp_SVBkSbImpl__654,0
+33,test_math.cpp_prepare_to_validation_1989,NaN
+33,test_math.cpp_run_func_1980,NaN
+33,test_math.cpp_get_success_error_level_1972,NaN
+33,test_math.cpp_get_minmax_bounds_1966,NaN
+33,test_math.cpp_prepare_test_case_1943,NaN
+33,test_math.cpp_vector_w_1859,NaN
+33,lapack.cpp_compute_1540,NaN
+33,test_math.cpp_cvTsFloodWithZeros_1365,0
+33,test_math.cpp_get_test_array_types_and_sizes_395,NaN
+33,test_math.cpp_max_cn_377,NaN
+33,lapack.cpp_cvSVD_1706,0
+33,array.cpp_cvSetReal2D_2289,0
+33,array.cpp_cvPtr2D_1753,0
+33,test_mat.cpp_TEST_1385,NaN
+33,matop.cpp_size_1205,NaN
+33,matop.cpp_~_1179,NaN
+33,matop.cpp_ _1172,NaN
+33,arithm.cpp_min_425,NaN
+33,arithm.cpp_bitwise_not_395,0
+33,arithm.cpp_ _308,NaN
+33,types.hpp_ _2300,NaN
+33,operations.hpp_solveZ_292,NaN
+33,operations.hpp_SVD_290,NaN
+33,operations.hpp_SVD_289,0
+33,matx.hpp_ _1291,NaN
+33,matx.hpp_n>_737,NaN
+33,matx.hpp_Matx_653,NaN
+33,matx.hpp_)_483,NaN
+33,mat.inl_abs_3415,NaN
+33,mat.inl_max_3397,NaN
+33,mat.inl__Tp>_3370,NaN
+33,mat.inl_eye_3345,NaN
+33,mat.inl_eye_3339,0
+33,mat.inl_ones_3333,NaN
+33,mat.inl_ones_3327,0
+33,arithm.cpp_max_417,NaN
+33,arithm.cpp_divide_1053,0
+33,arithm_core.hpp_recip_i_549,0
+33,arithm.cpp_divide_1061,NaN
+33,arithm.cpp_addWeighted32f_3120,NaN
+33,arithm.cpp_addWeighted16s_3106,NaN
+33,arithm.cpp_recip16s_2991,NaN
+33,arithm.cpp_recip8u_2970,NaN
+33,arithm.cpp_div16s_2938,NaN
+33,arithm.cpp_div8u_2914,NaN
+33,arithm.cpp_mul16s_2878,NaN
+33,arithm.cpp_mul8u_2853,NaN
+33,arithm.cpp_cmp32s_2791,NaN
+33,arithm.cpp_not8u_2591,NaN
+33,arithm.cpp_absdiff32s_2519,NaN
+33,arithm.cpp_min16s_2447,NaN
+33,arithm.cpp_min8u_2421,NaN
+33,arithm.cpp_max16s_2383,NaN
+33,arithm.cpp_max8u_2357,NaN
+33,arithm.cpp_CV_INSTRUMENT_REGION_1093,NaN
+33,arithm.cpp_addWeighted_1090,0
+33,mat.inl_zeros_3321,NaN
+33,mat.inl_zeros_3315,0
+33,mat.inl_+_2977,NaN
+33,mat.inl_+_2823,NaN
+33,test_mat.cpp_for _707,NaN
+33,test_mat.cpp_for _706,NaN
+33,test_mat.cpp_for _705,NaN
+33,test_mat.cpp_for _704,NaN
+33,test_mat.cpp_for _703,NaN
+33,test_mat.cpp_for _702,NaN
+33,test_mat.cpp_printf_692,NaN
+33,test_mat.cpp_if _682,NaN
+33,test_mat.cpp_if _664,NaN
+33,test_mat.cpp_for _662,NaN
+33,test_mat.cpp_for _661,NaN
+33,test_mat.cpp_for _660,NaN
+33,test_mat.cpp_printf_650,0
+33,test_mat.cpp_fill_624,NaN
+33,test_mat.cpp_run_617,NaN
+33,test_mat.cpp_run_612,NaN
+33,test_mat.cpp_setValue_561,0
+33,test_mat.cpp_if _709,NaN
+33,test_mat.cpp_if _733,NaN
+33,test_mat.cpp_ _757,NaN
+33,mat.inl_col_1721,NaN
+33,mat.inl_clone_2100,NaN
+33,mat.inl_Mat_2044,NaN
+33,mat.inl_ _2025,NaN
+33,mat.inl_)_1898,NaN
+33,mat.inl_)_1798,NaN
+33,mat.inl_)_1792,NaN
+33,mat.inl_diag_1727,0
+33,mat.inl_Mat_1569,NaN
+33,mat.inl_step_419,NaN
+33,mat.inl_Mat_1512,NaN
+33,mat.inl_Mat_1499,NaN
+33,mat.inl_end_1214,NaN
+33,mat.inl_at_1135,NaN
+33,mat.inl_)_823,NaN
+33,mat.inl_step_612,NaN
+33,mat.inl_step_436,NaN
+33,arithm_core.hpp_div_i_505,0
+33,arithm_core.hpp_addWeighted__591,NaN
+33,matop.cpp_ _1165,NaN
+33,matop.cpp_ _964,NaN
+33,matop.cpp_ _950,NaN
+33,matop.cpp_ _943,NaN
+33,matop.cpp_ _936,NaN
+33,matop.cpp_ _929,NaN
+33,matop.cpp_ _922,NaN
+33,matop.cpp_ _915,NaN
+33,matop.cpp_ _908,NaN
+33,matop.cpp_ _901,NaN
+33,matop.cpp_ _894,NaN
+33,matop.cpp_ _880,NaN
+33,matop.cpp_ _873,NaN
+33,matop.cpp_ _859,NaN
+33,matop.cpp_ _845,NaN
+33,matop.cpp_ _817,NaN
+33,matop.cpp_ _803,NaN
+33,matop.cpp_ _796,NaN
+33,matop.cpp_ _789,NaN
+33,matop.cpp_ _957,NaN
+33,matop.cpp_ _971,NaN
+33,arithm_simd.hpp_ _726,NaN
+33,matop.cpp_ _978,NaN
+33,matop.cpp_ _1158,NaN
+33,matop.cpp_ _1151,NaN
+33,matop.cpp_ _1144,NaN
+33,matop.cpp_ _1137,NaN
+33,matop.cpp_ _1130,NaN
+33,matop.cpp_ _1123,NaN
+33,matop.cpp_ _1116,NaN
+33,matop.cpp_max_1089,NaN
+33,matop.cpp_min_1062,NaN
+33,matop.cpp_ _1055,NaN
+33,matop.cpp_ _1034,NaN
+33,matop.cpp_ _1027,NaN
+33,matop.cpp_ _1020,NaN
+33,matop.cpp_ _1013,NaN
+33,matop.cpp_ _1006,NaN
+33,matop.cpp_ _992,NaN
+33,matop.cpp_ _985,NaN
+33,matop.cpp_ _782,NaN
+33,matop.cpp_ _775,NaN
+33,matop.cpp_ _768,NaN
+33,matop.cpp_ _761,NaN
+33,lapack.cpp__SVDcompute_1466,0
+33,lapack.cpp_solve_1092,0
+33,lapack.cpp_invert_832,NaN
+33,lapack.cpp_JacobiSVDImpl__401,NaN
+33,lapack.cpp_LU_60,0
+33,convert.cpp_mixChannels_569,0
+33,convert.cpp_mixChannels8u_526,NaN
+33,convert.cpp_mixChannels__495,0
+33,convert.cpp_merge_473,NaN
+33,convert.cpp_split_244,NaN
+33,convert.cpp_split_144,0
+33,convert.cpp_ipp_split_93,0
+33,arithm_simd.hpp_ _1845,NaN
+33,arithm_simd.hpp_ _1469,NaN
+33,arithm_simd.hpp_ _1340,NaN
+33,arithm_simd.hpp_ _1203,NaN
+33,arithm_simd.hpp_ _1138,NaN
+33,lapack.cpp_)_1582,NaN
+33,matmul.cpp_scaleAdd_32f_2311,NaN
+33,matop.cpp_augAssignAdd_279,NaN
+33,matop.cpp_t_670,NaN
+33,matop.cpp_ _747,NaN
+33,matop.cpp_ _740,NaN
+33,matop.cpp_ _733,NaN
+33,matop.cpp_ _719,NaN
+33,matop.cpp_ _712,NaN
+33,matop.cpp_ _705,NaN
+33,matop.cpp_ _698,NaN
+33,matop.cpp_divide_526,NaN
+33,matop.cpp_augAssignMultiply_295,NaN
+33,matop.cpp_divide_484,0
+33,matop.cpp_multiply_474,NaN
+33,matop.cpp_multiply_421,NaN
+33,matop.cpp_subtract_411,NaN
+33,matop.cpp_subtract_378,NaN
+33,matop.cpp_add_368,NaN
+33,matop.cpp_augAssignDivide_303,NaN
+33,cvstd.hpp_len__581,NaN
